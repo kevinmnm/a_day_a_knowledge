@@ -14,14 +14,22 @@
     <div class='year'>{{ year }}</div>
 
     <div class='calendar'>
-        <div class='months'>{{ month }}</div>
+        <div class='months' 
+        @click='monthTxt = !monthTxt'>
+        {{ (monthTxt) ? (currentValue+1) : (all_2020[currentValue].mmt()) }}
+        </div>
+
         <div class='flex-indicator'>
             
         </div>
         <div class='flex-days'>
-            <div class='days' v-for='all in prevDays'>{{ all.day }}</div>
+            <div class='days' v-for='all in JulyPrevDays'>{{ all.day }}</div>
         </div>
     </div>
+</div>
+
+<div class='learnSection'>
+    <div></div>
 </div>
 
 <script type='text/javascript' src='ADAK.js'></script>
