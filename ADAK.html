@@ -28,8 +28,15 @@
             
         </div>
         <div class='flex-days'>
-            <div class='days' v-for='all in daysList'>{{ all.day }}</div>
+            <div class='days' v-for='all in daysList'>
+                <div class='noContCover' v-show='coverUp'>N/A</div>
+            {{ all.day }}
+            </div>
         </div>
+    </div>
+
+    <div>
+        
     </div>
 </div>
 

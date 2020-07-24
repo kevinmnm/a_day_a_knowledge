@@ -6,7 +6,8 @@ new Vue({
         all_2020: [],
         daysList: [],
         currentValue: new Date().getMonth() + 1,
-        monthTxt: false
+        monthTxt: false,
+        coverUp: false
     },
     methods: {
         nextM: function(e){
@@ -21,6 +22,15 @@ new Vue({
             this.currentValue--;
             if (this.currentValue === 0){
                 this.currentValue = 12;
+            }
+        }
+    },
+    watch:{
+        currentValue: function(){
+            if (this.currentValue < 7) {
+                this.coverUp = true;
+            } else {
+                this.coverUp = false;
             }
         }
     },
@@ -58,5 +68,5 @@ new Vue({
 
 //alert(moment().max('2020'));
 //alert(moment().min('2020'));
-alert(moment().endOf('month').week());
-alert(moment().month());
+//alert(moment().endOf('month').week());
+//alert(moment().month());

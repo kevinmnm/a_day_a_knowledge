@@ -38,6 +38,7 @@ body{
 }
 
 .flex-days{
+    position: relative;
 	display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -76,4 +77,14 @@ body{
 .prevM:hover,
 .nextM:hover{
     opacity: 1;
+}
+
+.noContCover{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
 }
