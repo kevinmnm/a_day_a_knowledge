@@ -6,7 +6,10 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
-<link rel='stylesheet' href='ADAK.css'>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment-with-locales.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link rel='stylesheet' href='ADAK.css'/>
 </head>
 <body>
 
@@ -16,14 +19,16 @@
     <div class='calendar'>
         <div class='months' 
         @click='monthTxt = !monthTxt'>
-        {{ (monthTxt) ? (currentValue+1) : (all_2020[currentValue].mmt()) }}
-        </div>
+        {{ (monthTxt) ? (currentValue) : (all_2020[currentValue-1].mmt()) }}
+            <div class="fa fa-arrow-right nextM" @click='nextM($event)' aria-hidden="true"></div>
+            <div class="fa fa-arrow-left prevM" @click='prevM($event)' aria-hidden="true"></div>
+        </div> 
 
         <div class='flex-indicator'>
             
         </div>
         <div class='flex-days'>
-            <div class='days' v-for='all in JulyPrevDays'>{{ all.day }}</div>
+            <div class='days' v-for='all in daysList'>{{ all.day }}</div>
         </div>
     </div>
 </div>

@@ -56,3 +56,24 @@ body{
     line-height: 1.5;
     cursor: default;
 }
+
+.prevM{left:0;}
+.nextM{right:0;}
+.prevM,
+.nextM{
+    position: absolute;
+    top: 0;
+    background-color: brown;
+    height: 100%;
+    font-size: calc(2vw + 2vh);
+    line-height: 1.6;
+    padding: 4px;
+    box-sizing: border-box;
+    opacity: 0;
+    cursor: pointer;
+    z-index: 1;
+}
+.prevM:hover,
+.nextM:hover{
+    opacity: 1;
+}
