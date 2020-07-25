@@ -7,9 +7,24 @@ new Vue({
         daysList: [],
         currentValue: new Date().getMonth() + 1,
         monthTxt: false,
-        coverUp: false
+        coverUp: false,
+        akad: AKAD,
+        renderClass: '',
+        renderIndex: null
     },
     methods: {
+        rendClass: function(e){
+            e.stopPropagation();
+            //this.renderClass = all[indd].uniqueId;
+            this.renderClass = e.target.classList[1];
+            document.getElementsByClassName(this.renderClass)[0].style.backgroundColor = 'red';
+            let endMonth = new Date(2020, this.currentValue, 0).getDate();
+            for (let i=0; i<endMonth; i++){
+                if (this.akad[i].uniqueIdMatch == this.renderClass){
+                    this.renderIndex = i;
+                }
+            }
+        },
         nextM: function(e){
             e.stopPropagation();
             this.currentValue++;
@@ -33,7 +48,7 @@ new Vue({
                 this.daysList.push({
                     month: this.currentValue,
                     day: i,
-                    topic: ''
+                    uniqueId: 'z' + this.currentValue + i
                 });
             }
             if (this.currentValue < 7) {
@@ -42,6 +57,14 @@ new Vue({
                 this.coverUp = false;
             }
         }
+        // renderClass: function(){
+        //     let endMonth = new Date(2020, this.currentValue, 0).getDate();
+        //     for (let i=0; i<endMonth-1; i++){
+        //         //console.log(this.akad[i].uniqueIdMatch);
+        //         //onsole.log(endMonth);
+        //         if (this.akad[i].uniqueIdMatch
+        //     }
+        // }
     },
     mounted() {
         let currentMonthLastDay = new Date(2020, this.currentValue, 0).getDate();
@@ -49,10 +72,10 @@ new Vue({
             this.daysList.push({
                 month: this.currentValue,
                 day: i,
-                topic: ''
+                uniqueId: 'z' + this.currentValue + i
             });
         }
-        
+
         //This creates all months in months section for 2020;
         for (let i=0; i<12; i++){
         	this.all_2020.push({
