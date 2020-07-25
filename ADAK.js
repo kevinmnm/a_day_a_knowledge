@@ -14,7 +14,7 @@ new Vue({
     },
     methods: {
         rendClass: function(e){
-            e.stopPropagation();
+            //e.stopPropagation();
             //this.renderClass = all[indd].uniqueId;
             this.renderClass = e.target.classList[1];
             document.getElementsByClassName(this.renderClass)[0].style.backgroundColor = 'red';
@@ -22,6 +22,7 @@ new Vue({
             for (let i=0; i<endMonth; i++){
                 if (this.akad[i].uniqueIdMatch == this.renderClass){
                     this.renderIndex = i;
+                    document.querySelector('#test').innerHTML = this.akad[i].uniqueIdMatch;
                 }
             }
         },
