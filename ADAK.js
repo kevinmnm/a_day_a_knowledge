@@ -27,6 +27,15 @@ new Vue({
     },
     watch:{
         currentValue: function(){
+            let endMonth = new Date(2020, this.currentValue, 0).getDate();
+            this.daysList = [];
+            for (let i=1; i<endMonth+1; i++){
+                this.daysList.push({
+                    month: this.currentValue,
+                    day: i,
+                    topic: ''
+                });
+            }
             if (this.currentValue < 7) {
                 this.coverUp = true;
             } else {
@@ -35,16 +44,7 @@ new Vue({
         }
     },
     mounted() {
-    	//This creates July,2020 missing days of 1-23;
-    	// for (let i=1; i<24; i++){
-        // 	this.JulyPrevDays.push({
-        //     	month: this.currentValue,
-        //     	day: i,
-        //         topic: ''
-        //     });
-        // }
-
-        let currentMonthLastDay = moment().endOf('month').week();
+        let currentMonthLastDay = new Date(2020, this.currentValue, 0).getDate();
         for (let i=1; i<currentMonthLastDay+1; i++){
             this.daysList.push({
                 month: this.currentValue,

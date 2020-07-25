@@ -28,7 +28,7 @@
             
         </div>
         <div class='flex-days'>
-            <div class='days' v-for='all in daysList'>
+            <div class='days' v-for='all in daysList' :key='Math.random()'>
                 <div class='noContCover' v-show='coverUp'>N/A</div>
             {{ all.day }}
             </div>
@@ -44,6 +44,7 @@
     <div></div>
 </div>
 
+<script type='text/javascript' src='ADAKNotes.js'></script>
 <script type='text/javascript' src='ADAK.js'></script>
 </body>
 </html>

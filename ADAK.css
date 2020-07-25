@@ -52,10 +52,11 @@ body{
     height: 25px;
     text-align: center;
     box-sizing: border-box;
-    color: white;
-    border: 1px solid white;
+    color: lightGrey;
+    border: 1px solid lightGrey;
     line-height: 1.5;
     cursor: default;
+    user-select: none;
 }
 
 .prevM{left:0;}
