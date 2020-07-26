@@ -4,11 +4,16 @@ let AKAD = [
     {
         uniqueIdMatch: 'z71',
         date: '07/01/2020',
-        topic: 'Example Topic',
-        description: 'Example Description',
+        topic: 'JavaScript\'s True/False Behavior',
+        description: 'There are some importantJavaScript boolean behaviors to be aware of.',
         referenceLink1: 'www.google.com',
         referenceLink2: 'sdsd',
-        codepenEmbed: 'sdsdfsssss'
+        codepenEmbed: `<p class="codepen" data-height="318" data-theme-id="light" data-default-tab="html,result" data-user="kevinmnm" data-slug-hash="WNrWJWz" style="height: 318px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="&amp;lt;JS&amp;gt; True/False Behavior">
+        <span>See the Pen <a href="https://codepen.io/kevinmnm/pen/WNrWJWz">
+        &lt;JS&gt; True/False Behavior</a> by kevin (<a href="https://codepen.io/kevinmnm">@kevinmnm</a>)
+        on <a href="https://codepen.io">CodePen</a>.</span>
+      </p>
+      <script async src="https://static.codepen.io/assets/embed/ei.js"></script>`
     },
     {
         uniqueIdMatch: 'z72',

@@ -20,20 +20,24 @@ new Vue({
     },
     methods: {
         rendClass: function(e){
-            //e.stopPropagation();
+            e.stopPropagation();
             //this.renderClass = all[indd].uniqueId;
             this.renderClass = e.target.classList[1];
-            document.getElementsByClassName(this.renderClass)[0].style.backgroundColor = 'red';
+            //document.getElementsByClassName(this.renderClass)[0].classList.add('sel');
+            // if (document.querySelector('.sel')){
+            //     document.querySelector('.sel').classList.remove('sel');
+            // }
+            // e.target.classList.add('sel');
             let endMonth = new Date(2020, this.currentValue, 0).getDate();
             for (let i=0; i<endMonth; i++){
-                if (this.akad[i].uniqueIdMatch == this.renderClass){
+                if (this.akad[i].uniqueIdMatch === this.renderClass){
                     this.renderIndex = i;
-                    document.querySelector('#test').innerHTML = this.akad[i].uniqueIdMatch;
+                    //document.querySelector('#test').innerHTML = this.akad[i].uniqueIdMatch;
                     this.date = this.akad[i].date;
                     this.topic = this.akad[i].topic;
                     this.description = this.akad[i].description;
-                    this.referenceLink1 = this.akad[i].referenceLink1;
-                    this.referenceLink2 = this.akad[i].referenceLink2;
+                    this.referenceLink1 ? this.referenceLink1 = this.akad[i].referenceLink1 : null;
+                    this.referenceLink2 ? this.referenceLink2 = this.akad[i].referenceLink2 : null;
                     this.codepenEmbed = this.akad[i].codepenEmbed;
                 }
             }
@@ -69,6 +73,12 @@ new Vue({
             } else {
                 this.coverUp = false;
             }
+        },
+        renderClass: function(){
+            if (document.querySelector('.sel')){
+                document.querySelector('.sel').classList.remove('sel');
+            }
+            document.getElementsByClassName(this.renderClass)[0].classList.add('sel');
         }
         // renderClass: function(){
         //     let endMonth = new Date(2020, this.currentValue, 0).getDate();
@@ -94,8 +104,8 @@ new Vue({
         	this.all_2020.push({
             	yy: 2020,
                 mm: i + 1,
-                mmt: function(){
-                	return moment.months()[i];
+                mmt: ()=>{
+                	return moment.months()[i]
                 }
             });
         }

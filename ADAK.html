@@ -31,7 +31,7 @@
         <div class='flex-days'>
             <div class='days' 
             :class='all.uniqueId' 
-            @click='rendClass($event, all, indd)' 
+            @click='rendClass($event)' 
             v-for='(all, indd) in daysList' 
             :key='Math.random()'>
                 <div class='noContCover' v-show='coverUp'>N/A</div>
@@ -47,7 +47,7 @@
         <div class='description'>{{ description }}</div>
         <div class='referenceLink'>{{ referenceLink1 }}</div>
         <div class='referenceLink'>{{ referenceLink2 }}</div>
-        <div class='codepenEmbed'>{{ codepenEmbed }}</div>
+        <div class='embed' v-html='codepenEmbed'></div>
     </div>
 </div>
 
