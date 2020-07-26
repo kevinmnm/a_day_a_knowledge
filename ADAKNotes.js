@@ -4,24 +4,26 @@ let AKAD = [
     {
         uniqueIdMatch: 'z71',
         date: '07/01/2020',
-        topic: 'JavaScript\'s True/False Behavior',
+        topic: 'JavaScript True/False Behavior',
         description: 'There are some importantJavaScript boolean behaviors to be aware of.',
         referenceLink1: 'www.google.com',
         referenceLink2: 'sdsd',
-        codepenEmbed: `<p class="codepen" data-height="318" data-theme-id="light" data-default-tab="html,result" data-user="kevinmnm" data-slug-hash="WNrWJWz" style="height: 318px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="&amp;lt;JS&amp;gt; True/False Behavior">
-        <span>See the Pen <a href="https://codepen.io/kevinmnm/pen/WNrWJWz">
-        &lt;JS&gt; True/False Behavior</a> by kevin (<a href="https://codepen.io/kevinmnm">@kevinmnm</a>)
-        on <a href="https://codepen.io">CodePen</a>.</span>
-      </p>
-      <script async src="https://static.codepen.io/assets/embed/ei.js"></script>`
+        codepenEmbed: `<iframe height="600" style="width: 100%;" scrolling="no" title="&lt;JS&gt; True/False Behavior" src="https://codepen.io/kevinmnm/embed/WNrWJWz?height=332&theme-id=dark&default-tab=result" frameborder="no" allowtransparency="true" allowfullscreen="true">
+        See the Pen <a href='https://codepen.io/kevinmnm/pen/WNrWJWz'>&lt;JS&gt; True/False Behavior</a> by kevin
+        (<a href='https://codepen.io/kevinmnm'>@kevinmnm</a>) on <a href='https://codepen.io'>CodePen</a>.
+      </iframe>`
     },
     {
         uniqueIdMatch: 'z72',
         date: '07/02/2020',
-        topic: 'Example Topic',
-        description: 'Example Description',
-        referenceLink: 'www.google.com',
-        codepenEmbed: ''
+        topic: 'Mouse Events',
+        description: 'Mouse events overview',
+        referenceLink1: 'www.google.com',
+        referenceLink2: '',
+        codepenEmbed: `<iframe height="600" style="width: 100%;" scrolling="no" title="Mouse Events" src="https://codepen.io/kevinmnm/embed/VweNdjm?height=265&theme-id=dark&default-tab=result" frameborder="no" allowtransparency="true" allowfullscreen="true">
+        See the Pen <a href='https://codepen.io/kevinmnm/pen/VweNdjm'>Mouse Events</a> by kevin
+        (<a href='https://codepen.io/kevinmnm'>@kevinmnm</a>) on <a href='https://codepen.io'>CodePen</a>.
+      </iframe>`
     }
 ];
 

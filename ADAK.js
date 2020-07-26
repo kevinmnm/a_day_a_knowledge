@@ -36,8 +36,8 @@ new Vue({
                     this.date = this.akad[i].date;
                     this.topic = this.akad[i].topic;
                     this.description = this.akad[i].description;
-                    this.referenceLink1 ? this.referenceLink1 = this.akad[i].referenceLink1 : null;
-                    this.referenceLink2 ? this.referenceLink2 = this.akad[i].referenceLink2 : null;
+                    this.referenceLink1 = this.referenceLink1 = this.akad[i].referenceLink1;
+                    this.referenceLink2 = this.akad[i].referenceLink2;
                     this.codepenEmbed = this.akad[i].codepenEmbed;
                 }
             }
