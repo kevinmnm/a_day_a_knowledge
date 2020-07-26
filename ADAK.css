@@ -93,3 +93,22 @@ body{
 .days:hover{
     background-color: white;
 }
+
+.learnSection{
+    position: relative;
+    margin: auto;
+    width: 75%;
+    border: 1px solid white;
+    padding: 5px;
+    text-align: center;
+}
+.topic{
+    font-size: calc(2vw + 2vh);
+}
+.date{
+    font-size: 14px;
+}
+.description{
+    text-align: left;
+    text-indent: 20px;
+}

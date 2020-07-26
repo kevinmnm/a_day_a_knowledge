@@ -10,7 +10,13 @@ new Vue({
         coverUp: false,
         akad: AKAD,
         renderClass: '',
-        renderIndex: null
+        renderIndex: null,
+        date: '',
+        topic: '',
+        description: '',
+        referenceLink1: '',
+        referenceLink2: '',
+        codepenEmbed: ''
     },
     methods: {
         rendClass: function(e){
@@ -23,6 +29,12 @@ new Vue({
                 if (this.akad[i].uniqueIdMatch == this.renderClass){
                     this.renderIndex = i;
                     document.querySelector('#test').innerHTML = this.akad[i].uniqueIdMatch;
+                    this.date = this.akad[i].date;
+                    this.topic = this.akad[i].topic;
+                    this.description = this.akad[i].description;
+                    this.referenceLink1 = this.akad[i].referenceLink1;
+                    this.referenceLink2 = this.akad[i].referenceLink2;
+                    this.codepenEmbed = this.akad[i].codepenEmbed;
                 }
             }
         },
