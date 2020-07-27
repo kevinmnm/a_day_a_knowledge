@@ -1,3 +1,18 @@
+
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background-color: black; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background-color: darkGrey;
+  }
+
 body{
 	position: absolute;
     top: 0;
@@ -29,7 +44,7 @@ body{
 .months{
 	position: relative;
     margin: auto;
-    background-color: blue;
+    background-color: violet;
     font-size: calc(2vw + 2vh);
     text-align: center;
     padding: 10px;
@@ -43,7 +58,8 @@ body{
     flex-direction: row;
     flex-wrap: wrap;
     margin: auto;
-
+    border: 1px white solid;
+    border-top: none;
 }
 .days{
 	margin: 10px;
@@ -65,10 +81,9 @@ body{
 .nextM{
     position: absolute;
     top: 0;
-    background-color: brown;
     height: 100%;
     font-size: calc(2vw + 2vh);
-    line-height: 1.6;
+    line-height: 1.4;
     padding: 4px;
     box-sizing: border-box;
     opacity: 0;
@@ -98,17 +113,17 @@ body{
     position: relative;
     margin: auto;
     width: 75%;
-    border: 1px solid white;
-    padding: 5px;
+    box-shadow: 0 0 5px white;
+    padding: 30px;
     text-align: center;
     opacity: 0;
+    margin-top: 75px;
 }
-.learnSection div{
-    margin: 10px;
-}
+
 .topic{
     font-size: calc(2vw + 2vh);
     text-underline-position: under;
+    margin: 5px;
 }
 .date{
     font-size: 14px;
@@ -117,9 +132,24 @@ body{
 .description{
     text-align: left;
     text-indent: 20px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    color: lightGrey;
 }
+.description:hover{color:white;}
+
+.referenceLink{
+    color: grey;
+    margin: 20px;
+}
+.referenceLink:hover{
+    color: skyBlue;
+}
+
 .embed{
     background-color: grey;
+    margin-top: 20px;
+    box-shadow: 0 0 10px #9ADED6;
 }
 
 .sel{
@@ -137,6 +167,7 @@ body{
     z-index: 1;
     font-size: calc(2vh + 2vw);
     opacity: 0;
+    border-radius: 5px;
 }
 .learnNext{
     position: absolute;
@@ -150,6 +181,7 @@ body{
     font-size: calc(2vh + 2vw);
     text-align: right;
     opacity: 0;
+    border-radius: 5px;
 }
 .learnPrev:hover,
 .learnNext:hover{
@@ -196,4 +228,17 @@ body{
 
 .opaciOne{
     opacity: 1;
+}
+
+.hoverShowDiv{
+    position: absolute;
+    display: none;
+    width: auto;
+    font-size: 14px;
+    background-color: black;
+    color: white;
+    padding: 3px;
+    border-radius: 5px;
+    display: none;
+    z-index: 5;
 }

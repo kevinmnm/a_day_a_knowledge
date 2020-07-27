@@ -78,6 +78,24 @@ new Vue({
             let extractedNumber = Number(this.renderClass.substring(1));
             this.renderClass = 'z' + (extractedNumber + 1);
             document.getElementsByClassName(this.renderClass)[0].click();
+        },
+        hoverTS: function(e){
+            let el = document.querySelector('.hoverShowDiv');
+            let et = e.target;
+
+            if (et === document.querySelector('.prevM')){
+                el.style.top = e.pageY + 20 + 'px';
+                el.style.left = e.pageX + 20 + 'px';
+                el.style.display = 'block';
+                el.innerHTML = 'Previous Month';
+            } else if (et === document.querySelector('.nextM')){
+                el.style.top = e.pageY + 20 + 'px';
+                el.style.left = e.pageX + 20 + 'px';
+                el.style.display = 'block';
+                el.innerHTML = 'Next Month';
+            } else {
+                el.style.display = 'none';
+            } 
         }
     },
     watch:{

@@ -14,7 +14,7 @@
 </head>
 <body>
 
-<div id='calendarApp'>
+<div id='calendarApp' @mousemove='hoverTS($event)'>
     <div class='year'>{{ year }}</div>
 
     <div class='calendar'>
@@ -42,8 +42,8 @@
 
     <div class='learnSection' :class='{opaciOne: learnSectionShow}'>
         <div class='content' v-html='content'></div>
-        <div class='topic'><u>{{ topic }}</u></div>
         <div class='date'><code>{{ date }}</code></div>
+        <div class='topic'><u>{{ topic }}</u></div>
         <div class='description'>{{ description }}</div>
         <a :href='referenceLink1' class='referenceLink' v-show='ref1show' target='_blank'>Reference 1</a>
         <a :href='referenceLink2' class='referenceLink' v-show='ref2show' target='_blank'>Reference 2</a>
@@ -55,6 +55,7 @@
     <div class='learnNext' v-show='learnNextShow' @click='learnNext()'>
         <div class='fa fa-arrow-right learnArrow'></div>
     </div>
+    <div class='hoverShowDiv'></div>
 </div>
 
 
