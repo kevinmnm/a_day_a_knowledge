@@ -28,11 +28,11 @@ new Vue({
     methods: {
         rendClass: function(e){
             e.stopPropagation();
-            this.learnSectionShow = true;
             this.renderClass = e.target.classList[1];
             let endMonth = new Date(2020, this.currentValue, 0).getDate();
             for (let i=0; i<endMonth; i++){
                 if (this.akad[i].uniqueIdMatch === this.renderClass){
+                    this.learnSectionShow = true;
                     this.renderIndex = i;
                     this.date = this.akad[i].date;
                     this.topic = this.akad[i].topic;
@@ -60,6 +60,9 @@ new Vue({
             if (this.currentValue === 13){
                 this.currentValue = 1;
             }
+            this.learnSectionShow = false;
+            this.learnNextShow = false;
+            this.learnPrevShow = false;
         },
         prevM: function(e){
             e.stopPropagation();
@@ -67,6 +70,9 @@ new Vue({
             if (this.currentValue === 0){
                 this.currentValue = 12;
             }
+            this.learnSectionShow = false;
+            this.learnNextShow = false;
+            this.learnPrevShow = false;
         },
         learnPrev: function(){
             let learnSection = document.querySelector('.learnSection');
@@ -116,9 +122,11 @@ new Vue({
     },
     watch:{
         currentValue: function(){
+            let days = document.querySelectorAll('.days');
             let endMonth = new Date(2020, this.currentValue, 0).getDate();
             this.endMonth = endMonth; //Storing for renderIndex watch();
             this.daysList = [];
+            let delay = 0;
             for (let i=1; i<endMonth+1; i++){
                 this.daysList.push({
                     month: this.currentValue,
@@ -133,19 +141,22 @@ new Vue({
             }
         },
         renderIndex: function(){
-            if (this.renderIndex !== null){
-                let learnPrev = document.querySelector('.learnPrev');
-                let learnNext = document.querySelector('.learnNext');
-                let learnSection = document.querySelector('.learnSection');
-                let calendar = document.querySelector('.calendar');
-                let year = document.querySelector('.year');
-                
+            let learnPrev = document.querySelector('.learnPrev');
+            let learnNext = document.querySelector('.learnNext');
+            let learnSection = document.querySelector('.learnSection');
+            let calendar = document.querySelector('.calendar');
+            let year = document.querySelector('.year');
+
+            if (this.renderIndex !== null){ 
                 this.renderIndex === this.endMonth-1 ? this.learnNextShow = false : this.learnNextShow = true;
                 this.renderIndex === 0 ? this.learnPrevShow = false : this.learnPrevShow = true;
                 learnNext.style.top = learnSection.offsetTop + 'px';
                 learnPrev.style.top = learnSection.offsetTop + 'px';
                 learnPrev.style.height = document.body.offsetHeight - calendar.offsetHeight - year.offsetHeight + 'px';
                 learnNext.style.height = document.body.offsetHeight - calendar.offsetHeight - year.offsetHeight + 'px';
+            } else {
+                this.learnNextShow = false;
+                this.learnPrevShow = false;
             }
             
 
@@ -170,7 +181,13 @@ new Vue({
                 	return moment.months()[i]
                 }
             });
-        }   
+        }
+        
+        for (let i=0; i<this.akad.length; i++){
+            if (this.akad[i].topic === ''){
+                this.akad[i].topic = 'Empty';
+            }
+        }
     }
 });
 

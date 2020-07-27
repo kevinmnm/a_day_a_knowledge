@@ -42,7 +42,7 @@ let AKAD = [
     },
     {
         uniqueIdMatch: 'z74',
-        date: '',
+        date: '07/04/2020',
         content: '',
         topic: '',
         description: '',
@@ -52,7 +52,7 @@ let AKAD = [
     },
     {
         uniqueIdMatch: 'z75',
-        date: '',
+        date: '07/05/2020',
         content: '',
         topic: '',
         description: '',
@@ -62,7 +62,7 @@ let AKAD = [
     },
     {
         uniqueIdMatch: 'z76',
-        date: '',
+        date: '07/06/2020',
         content: '',
         topic: '',
         description: '',
@@ -72,7 +72,7 @@ let AKAD = [
     },
     {
         uniqueIdMatch: 'z77',
-        date: '',
+        date: '07/07/2020',
         content: '',
         topic: '',
         description: '',
@@ -82,7 +82,7 @@ let AKAD = [
     },
     {
         uniqueIdMatch: 'z78',
-        date: '',
+        date: '07/08/2020',
         content: '',
         topic: '',
         description: '',
@@ -92,7 +92,7 @@ let AKAD = [
     },
     {
         uniqueIdMatch: 'z79',
-        date: '',
+        date: '07/09/2020',
         content: '',
         topic: '',
         description: '',
@@ -102,7 +102,7 @@ let AKAD = [
     },
     {
         uniqueIdMatch: 'z710',
-        date: '',
+        date: '07/10/2020',
         content: '',
         topic: '',
         description: '',
@@ -112,7 +112,7 @@ let AKAD = [
     },
     {
         uniqueIdMatch: 'z711',
-        date: '',
+        date: '07/11/2020',
         content: '',
         topic: '',
         description: '',
@@ -122,7 +122,7 @@ let AKAD = [
     },
     {
         uniqueIdMatch: 'z712',
-        date: '',
+        date: '07/12/2020',
         content: '',
         topic: '',
         description: '',
@@ -331,14 +331,3 @@ let AKAD = [
         codepenEmbed: ``
     }
 ];
-
-// let AKAD = {
-//     z71: {
-//         topic: 'sdfsf',
-//         description: 'ssss'
-//     },
-//     z72: {
-//         topic: '22222',
-//         description: '222'
-//     }
-// }
