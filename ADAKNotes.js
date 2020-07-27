@@ -26,6 +26,19 @@ let AKAD = [
         See the Pen <a href='https://codepen.io/kevinmnm/pen/VweNdjm'>Mouse Events</a> by kevin
         (<a href='https://codepen.io/kevinmnm'>@kevinmnm</a>) on <a href='https://codepen.io'>CodePen</a>.
       </iframe>`
+    },
+    {
+        uniqueIdMatch: 'z73',
+        date: '07/03/2020',
+        content: 'JS',
+        topic: 'Arrow Functions Syntax',
+        description: 'There are many ways to write same function syntax. With arrow function, you can write less code and do the same work. It it a good idea to review arrow syntax for future learning as not all documentation is written in traditional syntax.',
+        referenceLink1: 'https://www.w3schools.com/js/js_arrow_function.asp',
+        referenceLink2: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions',
+        codepenEmbed: `<iframe height="600" style="width: 100%;" scrolling="no" title="Arrow Functions" src="https://codepen.io/kevinmnm/embed/qBbGWZO?height=265&theme-id=dark&default-tab=result" frameborder="no" allowtransparency="true" allowfullscreen="true">
+        See the Pen <a href='https://codepen.io/kevinmnm/pen/qBbGWZO'>Arrow Functions</a> by kevin
+        (<a href='https://codepen.io/kevinmnm'>@kevinmnm</a>) on <a href='https://codepen.io'>CodePen</a>.
+      </iframe>`
     }
 ];
 
