@@ -101,6 +101,7 @@ body{
     border: 1px solid white;
     padding: 5px;
     text-align: center;
+    opacity: 0;
 }
 .learnSection div{
     margin: 10px;
@@ -133,7 +134,34 @@ body{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    border: 1px solid white;
+    z-index: 1;
+    font-size: calc(2vh + 2vw);
+    opacity: 0;
+}
+.learnNext{
+    position: absolute;
+    right: 0;
+    width: 10%;
+    height: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    z-index: 1;
+    font-size: calc(2vh + 2vw);
+    text-align: right;
+    opacity: 0;
+}
+.learnPrev:hover,
+.learnNext:hover{
+    opacity: 1;
+    cursor: pointer;
+    box-shadow: 0 0 10px grey inset;
+}
+
+.learnArrow{
+    position: relative;
+    top: 45%;
+    margin: 10px;
 }
 
 .content{
@@ -164,4 +192,8 @@ body{
     height: 100%;
     margin: 0;
     color: skyBlue;
+}
+
+.opaciOne{
+    opacity: 1;
 }

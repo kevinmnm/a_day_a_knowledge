@@ -40,7 +40,7 @@
         </div>
     </div>
 
-    <div class='learnSection'>
+    <div class='learnSection' :class='{opaciOne: learnSectionShow}'>
         <div class='content' v-html='content'></div>
         <div class='topic'><u>{{ topic }}</u></div>
         <div class='date'><code>{{ date }}</code></div>
@@ -49,9 +49,12 @@
         <a :href='referenceLink2' class='referenceLink' v-show='ref2show' target='_blank'>Reference 2</a>
         <div class='embed' v-html='codepenEmbed'></div>
     </div>
-
-    <div class='learnPrev fa fa-arrow-left learnArrow'></div>
-    <div class='learnNext fa fa-arrow-right learnArrow'></div>
+    <div class='learnPrev' v-show='learnPrevShow' @click='learnPrev()'>
+        <div class='fa fa-arrow-left learnArrow'></div>
+    </div>
+    <div class='learnNext' v-show='learnNextShow' @click='learnNext()'>
+        <div class='fa fa-arrow-right learnArrow'></div>
+    </div>
 </div>
 
 

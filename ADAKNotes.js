@@ -39,6 +39,226 @@ let AKAD = [
         See the Pen <a href='https://codepen.io/kevinmnm/pen/qBbGWZO'>Arrow Functions</a> by kevin
         (<a href='https://codepen.io/kevinmnm'>@kevinmnm</a>) on <a href='https://codepen.io'>CodePen</a>.
       </iframe>`
+    },
+    {
+        uniqueIdMatch: 'z74',
+        date: '',
+        content: '',
+        topic: '',
+        description: '',
+        referenceLink1: '',
+        referenceLink2: '',
+        codepenEmbed: ``
+    },
+    {
+        uniqueIdMatch: 'z75',
+        date: '',
+        content: '',
+        topic: '',
+        description: '',
+        referenceLink1: '',
+        referenceLink2: '',
+        codepenEmbed: ``
+    },
+    {
+        uniqueIdMatch: 'z76',
+        date: '',
+        content: '',
+        topic: '',
+        description: '',
+        referenceLink1: '',
+        referenceLink2: '',
+        codepenEmbed: ``
+    },
+    {
+        uniqueIdMatch: 'z77',
+        date: '',
+        content: '',
+        topic: '',
+        description: '',
+        referenceLink1: '',
+        referenceLink2: '',
+        codepenEmbed: ``
+    },
+    {
+        uniqueIdMatch: 'z78',
+        date: '',
+        content: '',
+        topic: '',
+        description: '',
+        referenceLink1: '',
+        referenceLink2: '',
+        codepenEmbed: ``
+    },
+    {
+        uniqueIdMatch: 'z79',
+        date: '',
+        content: '',
+        topic: '',
+        description: '',
+        referenceLink1: '',
+        referenceLink2: '',
+        codepenEmbed: ``
+    },
+    {
+        uniqueIdMatch: 'z710',
+        date: '',
+        content: '',
+        topic: '',
+        description: '',
+        referenceLink1: '',
+        referenceLink2: '',
+        codepenEmbed: ``
+    },
+    {
+        uniqueIdMatch: 'z711',
+        date: '',
+        content: '',
+        topic: '',
+        description: '',
+        referenceLink1: '',
+        referenceLink2: '',
+        codepenEmbed: ``
+    },
+    {
+        uniqueIdMatch: 'z712',
+        date: '',
+        content: '',
+        topic: '',
+        description: '',
+        referenceLink1: '',
+        referenceLink2: '',
+        codepenEmbed: ``
+    },
+    {
+        uniqueIdMatch: 'z713',
+        date: '',
+        content: '',
+        topic: '',
+        description: '',
+        referenceLink1: '',
+        referenceLink2: '',
+        codepenEmbed: ``
+    },
+    {
+        uniqueIdMatch: 'z714',
+        date: '',
+        content: '',
+        topic: '',
+        description: '',
+        referenceLink1: '',
+        referenceLink2: '',
+        codepenEmbed: ``
+    },
+    {
+        uniqueIdMatch: 'z715',
+        date: '',
+        content: '',
+        topic: '',
+        description: '',
+        referenceLink1: '',
+        referenceLink2: '',
+        codepenEmbed: ``
+    },
+    {
+        uniqueIdMatch: 'z716',
+        date: '',
+        content: '',
+        topic: '',
+        description: '',
+        referenceLink1: '',
+        referenceLink2: '',
+        codepenEmbed: ``
+    },
+    {
+        uniqueIdMatch: 'z717',
+        date: '',
+        content: '',
+        topic: '',
+        description: '',
+        referenceLink1: '',
+        referenceLink2: '',
+        codepenEmbed: ``
+    },
+    {
+        uniqueIdMatch: 'z718',
+        date: '',
+        content: '',
+        topic: '',
+        description: '',
+        referenceLink1: '',
+        referenceLink2: '',
+        codepenEmbed: ``
+    },
+    {
+        uniqueIdMatch: 'z719',
+        date: '',
+        content: '',
+        topic: '',
+        description: '',
+        referenceLink1: '',
+        referenceLink2: '',
+        codepenEmbed: ``
+    },
+    {
+        uniqueIdMatch: 'z720',
+        date: '',
+        content: '',
+        topic: '',
+        description: '',
+        referenceLink1: '',
+        referenceLink2: '',
+        codepenEmbed: ``
+    },
+    {
+        uniqueIdMatch: 'z721',
+        date: '',
+        content: '',
+        topic: '',
+        description: '',
+        referenceLink1: '',
+        referenceLink2: '',
+        codepenEmbed: ``
+    },
+    {
+        uniqueIdMatch: 'z722',
+        date: '',
+        content: '',
+        topic: '',
+        description: '',
+        referenceLink1: '',
+        referenceLink2: '',
+        codepenEmbed: ``
+    },
+    {
+        uniqueIdMatch: 'z723',
+        date: '',
+        content: '',
+        topic: '',
+        description: '',
+        referenceLink1: '',
+        referenceLink2: '',
+        codepenEmbed: ``
+    },
+    {
+        uniqueIdMatch: 'z724',
+        date: '',
+        content: '',
+        topic: '',
+        description: '',
+        referenceLink1: '',
+        referenceLink2: '',
+        codepenEmbed: ``
+    },
+    {
+        uniqueIdMatch: 'z725',
+        date: '',
+        content: '',
+        topic: '',
+        description: '',
+        referenceLink1: '',
+        referenceLink2: '',
+        codepenEmbed: ``
     }
 ];
 

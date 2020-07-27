@@ -1,5 +1,4 @@
 
-
 new Vue({
 	el: '#calendarApp',
     data: {
@@ -20,13 +19,18 @@ new Vue({
         referenceLink2: '',
         ref2show: false,
         codepenEmbed: '',
-        content: ''
+        content: '',
+        learnNextShow: false,
+        learnPrevShow: false,
+        learnSectionShow: false
     },
     methods: {
         rendClass: function(e){
             e.stopPropagation();
+            this.learnSectionShow = true;
             this.renderClass = e.target.classList[1];
             let endMonth = new Date(2020, this.currentValue, 0).getDate();
+            //this.learnNextShow = true;
             for (let i=0; i<endMonth; i++){
                 if (this.akad[i].uniqueIdMatch === this.renderClass){
                     this.renderIndex = i;
@@ -44,6 +48,8 @@ new Vue({
                         this.content = '<svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="vuejs" class="svg-inline--fa fa-vuejs fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M356.9 64.3H280l-56 88.6-48-88.6H0L224 448 448 64.3h-91.1zm-301.2 32h53.8L224 294.5 338.4 96.3h53.8L224 384.5 55.7 96.3z"></path></svg>';
                     } else if (this.akad[i].content === 'CSS'){
                         this.content = '<svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="css3-alt" class="svg-inline--fa fa-css3-alt fa-w-12" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path fill="currentColor" d="M0 32l34.9 395.8L192 480l157.1-52.2L384 32H0zm313.1 80l-4.8 47.3L193 208.6l-.3.1h111.5l-12.8 146.6-98.2 28.7-98.8-29.2-6.4-73.9h48.9l3.2 38.3 52.6 13.3 54.7-15.4 3.7-61.6-166.3-.5v-.1l-.2.1-3.6-46.3L193.1 162l6.5-2.7H76.7L70.9 112h242.2z"></path></svg>';
+                    } else {
+                        this.content = '';
                     }
                 }
             }
@@ -61,6 +67,16 @@ new Vue({
             if (this.currentValue === 0){
                 this.currentValue = 12;
             }
+        },
+        learnPrev: function(){
+            let extractedNumber = Number(this.renderClass.substring(1));
+            this.renderClass = 'z' + (extractedNumber - 1);
+            document.getElementsByClassName(this.renderClass)[0].click();
+        },
+        learnNext: function(){
+            let extractedNumber = Number(this.renderClass.substring(1));
+            this.renderClass = 'z' + (extractedNumber + 1);
+            document.getElementsByClassName(this.renderClass)[0].click();
         }
     },
     watch:{
@@ -80,11 +96,22 @@ new Vue({
                 this.coverUp = false;
             }
         },
-        renderClass: function(){
-            if (document.querySelector('.sel')){
-                document.querySelector('.sel').classList.remove('sel');
+        renderIndex: function(){
+            if (this.renderIndex !== null){
+                let learnPrev = document.querySelector('.learnPrev');
+                let learnNext = document.querySelector('.learnNext');
+                let learnSection = document.querySelector('.learnSection');
+                let calendar = document.querySelector('.calendar');
+                let year = document.querySelector('.year');
+                this.learnNextShow = true;
+                this.learnPrevShow = true;
+                learnNext.style.top = learnSection.offsetTop + 'px';
+                learnPrev.style.top = learnSection.offsetTop + 'px';
+                learnPrev.style.height = document.body.offsetHeight - calendar.offsetHeight - year.offsetHeight + 'px';
+                learnNext.style.height = document.body.offsetHeight - calendar.offsetHeight - year.offsetHeight + 'px';
             }
-            document.getElementsByClassName(this.renderClass)[0].classList.add('sel');
+            
+
         }
     },
     mounted() {
@@ -105,7 +132,7 @@ new Vue({
                 	return moment.months()[i]
                 }
             });
-        }
+        }   
     }
 });
 
