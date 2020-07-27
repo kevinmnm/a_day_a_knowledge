@@ -41,15 +41,20 @@
     </div>
 
     <div class='learnSection'>
-        <div id='test'></div>
+        <div class='content' v-html='content'></div>
         <div class='topic'><u>{{ topic }}</u></div>
         <div class='date'><code>{{ date }}</code></div>
         <div class='description'>{{ description }}</div>
-        <div class='referenceLink'>{{ referenceLink1 }}</div>
-        <div class='referenceLink'>{{ referenceLink2 }}</div>
+        <a :href='referenceLink1' class='referenceLink' v-show='ref1show' target='_blank'>Reference 1</a>
+        <a :href='referenceLink2' class='referenceLink' v-show='ref2show' target='_blank'>Reference 2</a>
         <div class='embed' v-html='codepenEmbed'></div>
     </div>
+
+    <div class='learnPrev fa fa-arrow-left learnArrow'></div>
+    <div class='learnNext fa fa-arrow-right learnArrow'></div>
 </div>
+
+
 
 <script src='ADAKNotes.js' type='text/javascript'></script>
 <script type='text/javascript' src='ADAK.js'></script>
