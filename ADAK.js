@@ -122,7 +122,7 @@ new Vue({
     },
     watch:{
         currentValue: function(){
-            let days = document.querySelectorAll('.days');
+            //let days = document.querySelectorAll('.days');
             let endMonth = new Date(2020, this.currentValue, 0).getDate();
             this.endMonth = endMonth; //Storing for renderIndex watch();
             this.daysList = [];
