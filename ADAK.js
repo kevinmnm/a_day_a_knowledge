@@ -6,6 +6,7 @@ new Vue({
         all_2020: [],
         daysList: [],
         currentValue: new Date().getMonth() + 1,
+        endMonth: null,
         monthTxt: false,
         coverUp: false,
         akad: AKAD,
@@ -82,6 +83,7 @@ new Vue({
     watch:{
         currentValue: function(){
             let endMonth = new Date(2020, this.currentValue, 0).getDate();
+            this.endMonth = endMonth; //Storing for renderIndex watch();
             this.daysList = [];
             for (let i=1; i<endMonth+1; i++){
                 this.daysList.push({
@@ -103,8 +105,9 @@ new Vue({
                 let learnSection = document.querySelector('.learnSection');
                 let calendar = document.querySelector('.calendar');
                 let year = document.querySelector('.year');
-                this.learnNextShow = true;
-                this.learnPrevShow = true;
+                
+                this.renderIndex === this.endMonth-1 ? this.learnNextShow = false : this.learnNextShow = true;
+                this.renderIndex === 0 ? this.learnPrevShow = false : this.learnPrevShow = true;
                 learnNext.style.top = learnSection.offsetTop + 'px';
                 learnPrev.style.top = learnSection.offsetTop + 'px';
                 learnPrev.style.height = document.body.offsetHeight - calendar.offsetHeight - year.offsetHeight + 'px';
@@ -116,6 +119,7 @@ new Vue({
     },
     mounted() {
         let currentMonthLastDay = new Date(2020, this.currentValue, 0).getDate();
+        this.endMonth = currentMonthLastDay;
         for (let i=1; i<currentMonthLastDay+1; i++){
             this.daysList.push({
                 month: this.currentValue,

@@ -259,6 +259,76 @@ let AKAD = [
         referenceLink1: '',
         referenceLink2: '',
         codepenEmbed: ``
+    },
+    {
+        uniqueIdMatch: 'z726',
+        date: '',
+        content: '',
+        topic: '',
+        description: '',
+        referenceLink1: '',
+        referenceLink2: '',
+        codepenEmbed: ``
+    },
+    {
+        uniqueIdMatch: 'z727',
+        date: '',
+        content: '',
+        topic: '',
+        description: '',
+        referenceLink1: '',
+        referenceLink2: '',
+        codepenEmbed: ``
+    },
+    {
+        uniqueIdMatch: 'z728',
+        date: '',
+        content: '',
+        topic: '',
+        description: '',
+        referenceLink1: '',
+        referenceLink2: '',
+        codepenEmbed: ``
+    },
+    {
+        uniqueIdMatch: 'z729',
+        date: '',
+        content: '',
+        topic: '',
+        description: '',
+        referenceLink1: '',
+        referenceLink2: '',
+        codepenEmbed: ``
+    },
+    {
+        uniqueIdMatch: 'z730',
+        date: '',
+        content: '',
+        topic: '',
+        description: '',
+        referenceLink1: '',
+        referenceLink2: '',
+        codepenEmbed: ``
+    },
+    {
+        uniqueIdMatch: 'z731',
+        date: '',
+        content: '',
+        topic: '',
+        description: '',
+        referenceLink1: '',
+        referenceLink2: '',
+        codepenEmbed: ``
+    },
+    {
+        uniqueIdMatch: 'z81',
+        date: '',
+        content: '',
+        topic: '',
+        description: '',
+        referenceLink1: '',
+        referenceLink2: '',
+        codepenEmbed: ``
     }
 ];
 
