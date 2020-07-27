@@ -31,7 +31,6 @@ new Vue({
             this.learnSectionShow = true;
             this.renderClass = e.target.classList[1];
             let endMonth = new Date(2020, this.currentValue, 0).getDate();
-            //this.learnNextShow = true;
             for (let i=0; i<endMonth; i++){
                 if (this.akad[i].uniqueIdMatch === this.renderClass){
                     this.renderIndex = i;
@@ -70,14 +69,31 @@ new Vue({
             }
         },
         learnPrev: function(){
+            let learnSection = document.querySelector('.learnSection');
             let extractedNumber = Number(this.renderClass.substring(1));
-            this.renderClass = 'z' + (extractedNumber - 1);
-            document.getElementsByClassName(this.renderClass)[0].click();
+
+            learnSection.classList.remove('animate__bounceInRight');
+            learnSection.classList.add('animate__bounceOutRight');
+            setTimeout(()=>{
+                learnSection.classList.remove('animate__bounceOutRight');
+                learnSection.classList.add('animate__bounceInLeft');
+                this.renderClass = 'z' + (extractedNumber - 1);
+                document.getElementsByClassName(this.renderClass)[0].click();
+            },200);
         },
         learnNext: function(){
+            let learnSection = document.querySelector('.learnSection');
             let extractedNumber = Number(this.renderClass.substring(1));
-            this.renderClass = 'z' + (extractedNumber + 1);
-            document.getElementsByClassName(this.renderClass)[0].click();
+
+            learnSection.classList.remove('animate__bounceInLeft');
+            learnSection.classList.add('animate__bounceOutLeft');
+            setTimeout(()=>{
+                learnSection.classList.remove('animate__bounceOutLeft');
+                learnSection.classList.add('animate__bounceInRight');
+                this.renderClass = 'z' + (extractedNumber + 1);
+                document.getElementsByClassName(this.renderClass)[0].click();
+            },200);
+            
         },
         hoverTS: function(e){
             let el = document.querySelector('.hoverShowDiv');
