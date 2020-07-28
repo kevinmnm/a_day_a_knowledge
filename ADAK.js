@@ -206,8 +206,6 @@ new Vue({
                 this.learnNextShow = false;
                 this.learnPrevShow = false;
             }
-            
-
         }
     },
     mounted() {
@@ -238,6 +236,16 @@ new Vue({
         }
     }
 });
+    // created() {
+    //     let uniqueIds = [];
+    //     for (let i=0; i<this.akad.length; i++){
+    //         if (this.akad[i].content === 'JS'){
+    //             uniqueIds.push(this.akad[i].uniqueIdMatch);
+    //             document.querySelector('.z71').style.color = 'yellow';
+    //         }
+    //     }
+    // } 
+
 
 //alert(moment().max('2020'));
 //alert(moment().min('2020'));

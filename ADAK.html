@@ -39,11 +39,13 @@
             :class='all.uniqueId' 
             @click='rendClass($event)' 
             v-for='(all, indd) in daysList' 
-            :key='Math.random()'>
+            :key='Math.random()' 
+            :style='{color: convertCol}'
+            >
                 <div class='noContCover' v-show='coverUp'>N/A</div>
             {{ all.day }}
             </div>
-            <div class='arrowDownIcon' @click='guide()' v-html='arrowDownIcon'></div>
+            <div class='arrowDownIcon' @click='guide();' v-html='arrowDownIcon'></div>
         </div>
         <div class='flex-indicator animate__animated' :class='{visibOne:showGuide, animate__fadeIn:showGuide}'>
             <div class='guide vue'></div>
