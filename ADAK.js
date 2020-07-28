@@ -1,8 +1,20 @@
+// Vue.component('calendar-weeks', {
+//     props: ['render-list'],
+//     data: function(){
+//         return {
+//             weeksList: ['SUN','MON','TUE','WED','THU','FRI','SAT']
+//         }
+//     },
+//     template: `
+//             <div class='weeks'>{{ renderList }}</div>
+//     `
+// });
 
 new Vue({
 	el: '#calendarApp',
     data: {
-    	year: 2020,
+        year: 2020,
+        //weeksList: ['SUN','MON','TUE','WED','THU','FRI','SAT'],
         all_2020: [],
         daysList: [],
         currentValue: new Date().getMonth() + 1,

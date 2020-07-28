@@ -242,3 +242,19 @@ body{
     display: none;
     z-index: 5;
 }
+
+/* .flexWeeks{
+    display: flex;
+    text-align: center;
+    width: 100%;
+    flex-direction: row;
+    box-sizing: border-box;
+}
+.weeks{
+    box-sizing: border-box;
+    padding: 5px;
+    box-shadow: 0 0 3px white inset;
+    flex-grow: 1;
+    font-size: calc(1.2vh + 1.2vh);
+    color: lightGrey;
+} */
