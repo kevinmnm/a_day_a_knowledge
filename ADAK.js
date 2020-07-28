@@ -35,7 +35,9 @@ new Vue({
         content: '',
         learnNextShow: false,
         learnPrevShow: false,
-        learnSectionShow: false
+        learnSectionShow: false,
+        arrowDownIcon: arrowDownSVG,
+        showGuide: false
     },
     methods: {
         rendClass: function(e){
@@ -127,9 +129,43 @@ new Vue({
                 el.style.left = e.pageX + 20 + 'px';
                 el.style.display = 'block';
                 el.innerHTML = 'Next Month';
+            } else if (et === document.querySelector('.monthsToggle')){
+                el.style.top = e.pageY + 20 + 'px';
+                el.style.left = e.pageX + 20 + 'px';
+                el.style.display = 'block';
+                el.innerHTML = 'Months Toggle';
+            } else if (et === document.querySelector('.vue')){
+                el.style.top = e.pageY + 20 + 'px';
+                el.style.left = e.pageX + 20 + 'px';
+                el.style.display = 'block';
+                el.innerHTML = 'Vue';
+            } else if (et === document.querySelector('.js')){
+                el.style.top = e.pageY + 20 + 'px';
+                el.style.left = e.pageX + 20 + 'px';
+                el.style.display = 'block';
+                el.innerHTML = 'JavaScript';
+            } else if (et === document.querySelector('.css')){
+                el.style.top = e.pageY + 20 + 'px';
+                el.style.left = e.pageX + 20 + 'px';
+                el.style.display = 'block';
+                el.innerHTML = 'CSS';
+            } else if (et === document.querySelector('.empty')){
+                el.style.top = e.pageY + 20 + 'px';
+                el.style.left = e.pageX + 20 + 'px';
+                el.style.display = 'block';
+                el.innerHTML = 'Empty';
+            } else if (et === document.querySelector('#arrowDownIcon')){
+                el.style.top = e.pageY + 20 + 'px';
+                el.style.left = e.pageX + 20 + 'px';
+                el.style.display = 'block';
+                el.innerHTML = 'Color Indicator Guide';
             } else {
                 el.style.display = 'none';
             } 
+        },
+        guide: function(){
+            this.showGuide = !this.showGuide;
+            document.querySelector('.flex-indicator').classList.add('animate__flash');
         }
     },
     watch:{

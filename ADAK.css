@@ -31,6 +31,8 @@ body{
     font-size: calc(1.5vw + 1.5vh);
     text-align: center;
     margin-top: 15px;
+    user-select: none;
+    cursor: pointer;
 }
 
 .calendar{
@@ -44,12 +46,18 @@ body{
 .months{
 	position: relative;
     margin: auto;
-    background-color: violet;
+    background-color: #404040;
+    border: 1px solid #404040;
     font-size: calc(2vw + 2vh);
     text-align: center;
     padding: 10px;
     user-select: none;
     cursor: default;
+}
+
+.monthsToggle{
+    width: 50%;
+    margin: auto;
 }
 
 .flex-days{
@@ -58,8 +66,10 @@ body{
     flex-direction: row;
     flex-wrap: wrap;
     margin: auto;
-    border: 1px white solid;
+    border: 2px #404040 solid;
     border-top: none;
+    background-color: #101010;
+    padding-bottom: 25px;
 }
 .days{
 	margin: 10px;
@@ -86,7 +96,7 @@ body{
     line-height: 1.4;
     padding: 4px;
     box-sizing: border-box;
-    opacity: 0;
+    opacity: 0.2;
     cursor: pointer;
     z-index: 1;
 }
@@ -118,6 +128,7 @@ body{
     text-align: center;
     opacity: 0;
     margin-top: 75px;
+    margin-bottom: 20px;
 }
 
 .topic{
@@ -242,6 +253,50 @@ body{
     display: none;
     z-index: 5;
 }
+
+.flex-indicator{
+    display: flex;
+    justify-content: center;
+    border: 2px solid #404040;
+    box-sizing: border-box;
+    border-top: none;
+    background-color: #101010;
+    visibility: hidden;
+}
+
+.guide{
+    margin: 10px;
+    font-size: 18px;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    box-sizing: border-box;
+    color: lightGrey;
+    border: 1px solid lightGrey;
+    line-height: 1.5;
+    cursor: default;
+    user-select: none;
+}
+.vue{background-color:lightGreen;}
+.js{background-color:yellow;}
+.css{background-color:skyBlue;}
+.empty{background-color:none;}
+
+#arrowDownIcon{
+    position: absolute;
+    width: 30px;
+    height: 25px;
+    top: calc(100% - 30px);
+    left: calc(50% - 15px);
+    opacity: 0.5;
+    cursor: pointer;
+    margin-top: 3px;
+}
+#arrowDownIcon:hover{
+    opacity: 1;
+}
+
+.visibOne{visibility:visible !important;}
 
 /* .flexWeeks{
     display: flex;

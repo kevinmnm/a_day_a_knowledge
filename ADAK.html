@@ -15,19 +15,18 @@
 <body>
 
 <div id='calendarApp' @mousemove='hoverTS($event)'>
-    <div class='year'>{{ year }}</div>
+    <div class='year' onclick='location.reload()'>{{ year }}</div>
 
     <div class='calendar'>
-        <div class='months' 
-        @click='monthTxt = !monthTxt'>
-        {{ (monthTxt) ? (currentValue) : (all_2020[currentValue-1].mmt()) }}
+        <div class='months'>
+            <div class='monthsToggle' 
+            @click='monthTxt = !monthTxt'>
+            {{ (monthTxt) ? (currentValue) : (all_2020[currentValue-1].mmt()) }}
+            </div>
             <div class="fa fa-arrow-right nextM" @click='nextM($event)' aria-hidden="true"></div>
             <div class="fa fa-arrow-left prevM" @click='prevM($event)' aria-hidden="true"></div>
         </div> 
 
-        <div class='flex-indicator'>
-            
-        </div>
         <!-- <div class='flexWeeks'>
             <div class='weeks' 
             v-for='all in weeksList' 
@@ -44,6 +43,13 @@
                 <div class='noContCover' v-show='coverUp'>N/A</div>
             {{ all.day }}
             </div>
+            <div class='arrowDownIcon' @click='guide()' v-html='arrowDownIcon'></div>
+        </div>
+        <div class='flex-indicator animate__animated' :class='{visibOne:showGuide, animate__fadeIn:showGuide}'>
+            <div class='guide vue'></div>
+            <div class='guide js'></div>
+            <div class='guide css'></div>
+            <div class='guide empty'></div>
         </div>
     </div>
 
