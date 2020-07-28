@@ -56,12 +56,15 @@ let AKAD = [
     {
         uniqueIdMatch: 'z75',
         date: '07/05/2020',
-        content: '',
-        topic: '',
-        description: '',
-        referenceLink1: '',
-        referenceLink2: '',
-        codepenEmbed: ``
+        content: 'Vue',
+        topic: 'Vue Props Example (Simple)',
+        description: 'Vue props quick and simple example. Props can be used to render different values within components. It is important to follow correct syntax to avoid any erros, which can be very annoying. Below example shows how props can be used to render different value in loops.',
+        referenceLink1: 'https://vuejs.org/v2/guide/components-props.html',
+        referenceLink2: 'https://vueschool.io/lessons/reusable-components-with-props?friend=vuejs',
+        codepenEmbed: `<iframe height="600" style="width: 100%;" scrolling="no" title="Vue Props Example (Simple)" src="https://codepen.io/kevinmnm/embed/WNrBJPE?height=265&theme-id=dark&default-tab=result" frameborder="no" allowtransparency="true" allowfullscreen="true">
+        See the Pen <a href='https://codepen.io/kevinmnm/pen/WNrBJPE'>Vue Props Example (Simple)</a> by kevin
+        (<a href='https://codepen.io/kevinmnm'>@kevinmnm</a>) on <a href='https://codepen.io'>CodePen</a>.
+      </iframe>`
     },
     {
         uniqueIdMatch: 'z76',
