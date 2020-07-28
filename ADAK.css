@@ -78,7 +78,7 @@ body{
     height: 25px;
     text-align: center;
     box-sizing: border-box;
-    color: lightGrey;
+    color: white;
     border: 1px solid lightGrey;
     line-height: 1.5;
     cursor: default;
@@ -211,13 +211,18 @@ body{
     position: absolute;
     top: 0;
     left: 0;
-    width: 50px;
-    height: 50px;
+    width: 75px;
+    height: 75px;
     margin: 3px;
     font-size: none;
     padding: 0;
 }
-
+@media only screen and (max-width: 800px) {
+    .content {
+      width: 50px;
+      height: 50px;
+    }
+  }
 .fa-js-square{
     width: 100%;
     height: 100%;
@@ -297,7 +302,15 @@ body{
 }
 
 .visibOne{visibility:visible !important;}
-
+.JS{background-color: yellow !important;}
+.Vue{background-color: lightGreen !important;}
+.CSS{background-color: skyBlue;}
+.JS,.Vue,.CSS{color:black; border:none;}
+.JS:hover,
+.Vue:hover,
+.CSS:hover{
+    opacity: 0.5;
+}
 /* .flexWeeks{
     display: flex;
     text-align: center;

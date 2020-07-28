@@ -234,6 +234,18 @@ new Vue({
                 this.akad[i].topic = 'Empty';
             }
         }
+
+        // for (let i=0; i<this.akad.length; i++){
+        //     if (this.akad[i].content === 'JS'){
+        //         this.akad[i].col = 'yellow';
+        //     } else if (this.akad[i].content === 'Vue'){
+        //         this.akad[i].col = 'lightGreen';
+        //     } else if (this.akad[i].content === 'CSS'){
+        //         this.akad[i].col = 'skyBlue';
+        //     } else {
+        //         this.akad[i].col = 'none';
+        //     }
+        // }
     }
 });
     // created() {
