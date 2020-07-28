@@ -43,12 +43,15 @@ let AKAD = [
     {
         uniqueIdMatch: 'z74',
         date: '07/04/2020',
-        content: '',
-        topic: '',
-        description: '',
-        referenceLink1: '',
-        referenceLink2: '',
-        codepenEmbed: ``
+        content: 'JS',
+        topic: '"filter()" method for JS array',
+        description: 'filter() is a method to filter out certain value from array. You can filter directly from the array (example below) or create a separate reusable function (refer to reference link).',
+        referenceLink1: 'https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_filter',
+        referenceLink2: 'https://www.w3schools.com/jsref/jsref_filter.asp',
+        codepenEmbed: `<iframe height="600" style="width: 100%;" scrolling="no" title="Array filter() Method" src="https://codepen.io/kevinmnm/embed/rNxgYow?height=265&theme-id=dark&default-tab=result" frameborder="no" allowtransparency="true" allowfullscreen="true">
+        See the Pen <a href='https://codepen.io/kevinmnm/pen/rNxgYow'>Array filter() Method</a> by kevin
+        (<a href='https://codepen.io/kevinmnm'>@kevinmnm</a>) on <a href='https://codepen.io'>CodePen</a>.
+      </iframe>`
     },
     {
         uniqueIdMatch: 'z75',
