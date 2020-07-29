@@ -95,12 +95,15 @@ let AKAD = [
     {
         uniqueIdMatch: 'z78',
         date: '07/08/2020',
-        content: '',
-        topic: '',
-        description: '',
-        referenceLink1: '',
-        referenceLink2: '',
-        codepenEmbed: ``
+        content: 'JS',
+        topic: 'Event Bubbling & Capturing',
+        description: 'Differences between Event Bubbling and Event Capturing.',
+        referenceLink1: 'https://www.w3schools.com/jsref/met_element_addeventlistener.asp',
+        referenceLink2: 'https://developer.mozilla.org/en-US/docs/Web/API/Event/bubbles',
+        codepenEmbed: `<iframe height="600" style="width: 100%;" scrolling="no" title="Event Bubbling &amp; Capturing" src="https://codepen.io/kevinmnm/embed/jOWjyag?height=265&theme-id=dark&default-tab=result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+        See the Pen <a href='https://codepen.io/kevinmnm/pen/jOWjyag'>Event Bubbling &amp; Capturing</a> by kevin
+        (<a href='https://codepen.io/kevinmnm'>@kevinmnm</a>) on <a href='https://codepen.io'>CodePen</a>.
+      </iframe>`
     },
     {
         uniqueIdMatch: 'z79',
