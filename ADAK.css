@@ -78,7 +78,19 @@ body{
     border-top: none;
     background-color: #101010;
     padding-bottom: 25px;
+    flex-wrap: wrap;
 }
+
+@media only screen and (max-width: 500px) {
+    .calendar{
+        width: 100%;
+    }
+
+    .flex-days{
+        height: 300px;
+    }
+}
+
 .days{
 	margin: 10px;
     font-size: 18px;
@@ -190,6 +202,7 @@ body{
     font-size: calc(2vh + 2vw);
     opacity: 0;
     border-radius: 5px;
+    box-sizing: border-box;
 }
 .learnNext{
     position: absolute;
@@ -204,6 +217,7 @@ body{
     text-align: right;
     opacity: 0;
     border-radius: 5px;
+    box-sizing: border-box;
 }
 .learnPrev:hover,
 .learnNext:hover{

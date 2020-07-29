@@ -192,6 +192,15 @@ new Vue({
                     }];
                 }
             }
+        },
+        resizeTrigger: function(e){
+            if (this.learnNextShow === true || this.learnPrevShow === true){
+                let learnNext = document.querySelector('.learnNext');
+                let learnPrev = document.querySelector('.learnPrev');
+                let learnSection = document.querySelector('.learnSection');
+                learnNext.style.top = learnSection.offsetTop + 'px';
+                learnPrev.style.top = learnSection.offsetTop + 'px';
+            }
         }
     },
     watch:{
@@ -306,6 +315,12 @@ new Vue({
         }
 
         this.colorIndicatorFunc();
+    },
+    created() {
+        window.addEventListener('resize', this.resizeTrigger);
+    },
+    destroyed(){
+        window.addEventListener('resize', this.resizeTrigger);
     }
 });
     // created() {
