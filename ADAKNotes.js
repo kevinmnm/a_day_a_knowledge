@@ -82,12 +82,15 @@ let AKAD = [
     {
         uniqueIdMatch: 'z77',
         date: '07/07/2020',
-        content: '',
-        topic: '',
-        description: '',
-        referenceLink1: '',
-        referenceLink2: '',
-        codepenEmbed: ``
+        content: 'CSS',
+        topic: 'New-line (white-space) Property',
+        description: 'When the new-line character "\\n" doesn\'t work, there is a go-around solution in CSS.',
+        referenceLink1: 'https://www.w3schools.com/cssref/pr_text_white-space.asp',
+        referenceLink2: 'https://css-tricks.com/almanac/properties/w/whitespace/',
+        codepenEmbed: `<iframe height="600" style="width: 100%;" scrolling="no" title="CSS White-Space Property" src="https://codepen.io/kevinmnm/embed/xxZogRR?height=265&theme-id=dark&default-tab=result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+        See the Pen <a href='https://codepen.io/kevinmnm/pen/xxZogRR'>CSS White-Space Property</a> by kevin
+        (<a href='https://codepen.io/kevinmnm'>@kevinmnm</a>) on <a href='https://codepen.io'>CodePen</a>.
+      </iframe>`
     },
     {
         uniqueIdMatch: 'z78',
