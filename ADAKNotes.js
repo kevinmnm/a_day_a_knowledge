@@ -120,7 +120,7 @@ let AKAD = [
             `,
         referenceLink1: 'https://vuejs.org/v2/guide/events.html#Event-Modifiers',
         referenceLink2: 'https://www.digitalocean.com/community/tutorials/vuejs-events',
-        codepenEmbed: `No codepen.io example available for this content.`
+        codepenEmbed: `No codepen.io example available for this content. <br><br><img src='img/event_modifiers.png'></img>`
     },
     {
         uniqueIdMatch: 'z710',
