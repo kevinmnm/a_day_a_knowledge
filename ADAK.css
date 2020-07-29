@@ -25,6 +25,12 @@ body{
     font-family: 'Nunito', sans-serif;
 }
 
+#calendarApp{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
 .year{
 	position: relative;
 	margin: auto;
@@ -33,7 +39,9 @@ body{
     margin-top: 15px;
     user-select: none;
     cursor: pointer;
+    width: 25%;
 }
+.year:hover{text-shadow: 0 0 25px white;}
 
 .calendar{
 	position: relative;
@@ -78,12 +86,13 @@ body{
     height: 25px;
     text-align: center;
     box-sizing: border-box;
-    color: white;
+    color: black;
     border: 1px solid lightGrey;
     line-height: 1.5;
     cursor: default;
     user-select: none;
 }
+.days:hover{opacity: 0.5;}
 
 .prevM{left:0;}
 .nextM{right:0;}
@@ -113,6 +122,8 @@ body{
     width: 100%;
     height: 100%;
     background-color: black;
+    color: white;
+    z-index: 1;
 }
 
 .days:hover{
@@ -302,7 +313,9 @@ body{
 }
 
 .visibOne{visibility:visible !important;}
-.JS{background-color: yellow !important;}
+
+
+/* .JS{background-color: yellow !important;}
 .Vue{background-color: lightGreen !important;}
 .CSS{background-color: skyBlue;}
 .JS,.Vue,.CSS{color:black; border:none;}
@@ -310,7 +323,7 @@ body{
 .Vue:hover,
 .CSS:hover{
     opacity: 0.5;
-}
+} */
 /* .flexWeeks{
     display: flex;
     text-align: center;

@@ -69,12 +69,15 @@ let AKAD = [
     {
         uniqueIdMatch: 'z76',
         date: '07/06/2020',
-        content: '',
-        topic: '',
-        description: '',
-        referenceLink1: '',
-        referenceLink2: '',
-        codepenEmbed: ``
+        content: 'JS',
+        topic: 'Pushing Object Into Array',
+        description: 'Using push() method, object (JSON form) can be pushed into array.',
+        referenceLink1: 'https://stackoverflow.com/questions/40250139/push-object-into-array',
+        referenceLink2: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push',
+        codepenEmbed: `<iframe height="265" style="width: 100%;" scrolling="no" title="Pushing object form into array" src="https://codepen.io/kevinmnm/embed/mdVZVKd?height=265&theme-id=dark&default-tab=result" frameborder="no" allowtransparency="true" allowfullscreen="true">
+        See the Pen <a href='https://codepen.io/kevinmnm/pen/mdVZVKd'>Pushing object form into array</a> by kevin
+        (<a href='https://codepen.io/kevinmnm'>@kevinmnm</a>) on <a href='https://codepen.io'>CodePen</a>.
+      </iframe>`
     },
     {
         uniqueIdMatch: 'z77',
@@ -327,7 +330,7 @@ let AKAD = [
         codepenEmbed: ``
     },
     {
-        uniqueIdMatch: 'z81',
+        uniqueIdMatch: '',
         date: '',
         content: '',
         topic: '',

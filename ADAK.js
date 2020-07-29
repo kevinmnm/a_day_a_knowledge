@@ -18,6 +18,7 @@ new Vue({
         all_2020: [],
         daysList: [],
         currentValue: new Date().getMonth() + 1,
+        currentValueId: 'z' + (new Date().getMonth() + 1),
         endMonth: null,
         monthTxt: false,
         coverUp: false,
@@ -166,15 +167,39 @@ new Vue({
         guide: function(){
             this.showGuide = !this.showGuide;
             document.querySelector('.flex-indicator').classList.add('animate__flash');
+        },
+        colorIndicatorFunc: function(){
+            for (let i=0; i<this.akad.length; i++){
+                if (this.akad[i].content === 'JS'){
+                    this.daysList[i].styler = [{
+                        backgroundColor: 'yellow', 
+                        border: 'none'
+                    }];
+                } else if (this.akad[i].content === 'Vue'){
+                    this.daysList[i].styler = [{
+                        backgroundColor: 'lightGreen',
+                        border: 'none'
+                    }];
+                } else if (this.akad[i].content === 'CSS'){
+                    this.daysList[i].styler = [{
+                        backgroundColor: 'skyBlue',
+                        border: 'none'
+                    }];
+                } else {
+                    this.daysList[i].styler = [{
+                        backgroundColor: 'none',
+                        color: 'white'
+                    }];
+                }
+            }
         }
     },
     watch:{
         currentValue: function(){
-            //let days = document.querySelectorAll('.days');
+            let days = document.querySelectorAll('.days');
             let endMonth = new Date(2020, this.currentValue, 0).getDate();
             this.endMonth = endMonth; //Storing for renderIndex watch();
             this.daysList = [];
-            let delay = 0;
             for (let i=1; i<endMonth+1; i++){
                 this.daysList.push({
                     month: this.currentValue,
@@ -182,12 +207,56 @@ new Vue({
                     uniqueId: 'z' + this.currentValue + i
                 });
             }
-            if (this.currentValue < 7) {
-                this.coverUp = true;
-            } else {
-                this.coverUp = false;
+            console.log(this.currentValue);
+            let firstDay = `z${this.currentValue}1`;
+            console.log(firstDay);
+            let uniqueIdMatchArray = [];
+            console.log(uniqueIdMatchArray);
+            for (let i=0; i<this.akad.length; i++){
+                uniqueIdMatchArray.push(this.akad[i].uniqueIdMatch);
             }
+            if (uniqueIdMatchArray.includes(firstDay)) {
+                this.coverUp = false;
+                this.colorIndicatorFunc();
+            } else {
+                this.coverUp = true;
+            }     
         },
+        // currentValueId: function(){
+        //     let days = document.querySelectorAll('.days');
+        //     console.log(days[0].classList[1].substring(0,2));
+        //     console.log(this.currentValueId);
+        //     console.log(this.currentValue);
+        //     console.log('z'+(this.currentValue+1));
+            
+        //     //if (days[0].classList[1].substring(0,2) === 'z'+(this.currentValue+1)){
+        //     if ('z'+currentValue === currentValueId){  
+            
+        //         for (let i=0; i<this.akad.length; i++){
+        //             if (this.akad[i].content === 'JS'){
+        //                 this.daysList[i].styler = [{
+        //                     backgroundColor: 'yellow', 
+        //                     border: 'none'
+        //                 }];
+        //             } else if (this.akad[i].content === 'Vue'){
+        //                 this.daysList[i].styler = [{
+        //                     backgroundColor: 'lightGreen',
+        //                     border: 'none'
+        //                 }];
+        //             } else if (this.akad[i].content === 'CSS'){
+        //                 this.daysList[i].styler = [{
+        //                     backgroundColor: 'skyBlue',
+        //                     border: 'none'
+        //                 }];
+        //             } else {
+        //                 this.daysList[i].styler = [{
+        //                     backgroundColor: 'none',
+        //                     color: 'white'
+        //                 }];
+        //             }
+        //         }
+        //     }
+        // },
         renderIndex: function(){
             let learnPrev = document.querySelector('.learnPrev');
             let learnNext = document.querySelector('.learnNext');
@@ -200,8 +269,9 @@ new Vue({
                 this.renderIndex === 0 ? this.learnPrevShow = false : this.learnPrevShow = true;
                 learnNext.style.top = learnSection.offsetTop + 'px';
                 learnPrev.style.top = learnSection.offsetTop + 'px';
-                learnPrev.style.height = document.body.offsetHeight - calendar.offsetHeight - year.offsetHeight + 'px';
-                learnNext.style.height = document.body.offsetHeight - calendar.offsetHeight - year.offsetHeight + 'px';
+                console.log(learnSection.getBoundingClientRect().height);
+                //learnPrev.style.height = document.body.offsetHeight - calendar.offsetHeight - year.offsetHeight + 'px';
+                //learnNext.style.height = document.body.offsetHeight - calendar.offsetHeight - year.offsetHeight + 'px';
             } else {
                 this.learnNextShow = false;
                 this.learnPrevShow = false;
@@ -235,17 +305,7 @@ new Vue({
             }
         }
 
-        // for (let i=0; i<this.akad.length; i++){
-        //     if (this.akad[i].content === 'JS'){
-        //         this.akad[i].col = 'yellow';
-        //     } else if (this.akad[i].content === 'Vue'){
-        //         this.akad[i].col = 'lightGreen';
-        //     } else if (this.akad[i].content === 'CSS'){
-        //         this.akad[i].col = 'skyBlue';
-        //     } else {
-        //         this.akad[i].col = 'none';
-        //     }
-        // }
+        this.colorIndicatorFunc();
     }
 });
     // created() {

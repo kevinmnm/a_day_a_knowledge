@@ -36,10 +36,11 @@
         </div> -->
         <div class='flex-days'>
             <div class='days' 
-            :class='[all.uniqueId, akad[indd].content]' 
+            :class='all.uniqueId' 
             @click='rendClass($event)' 
             v-for='(all, indd) in daysList' 
-            :key='Math.random()'
+            :key='Math.random()' 
+            :style='all.styler'
             >
                 <div class='noContCover' v-show='coverUp'>N/A</div>
             {{ all.day }}
@@ -69,7 +70,6 @@
     <div class='learnNext' v-show='learnNextShow' @click='learnNext()'>
         <div class='fa fa-arrow-right learnArrow'></div>
     </div>
-    <div class='hoverShowDiv'></div>
 </div>
 
 
