@@ -169,7 +169,7 @@ body{
     margin-top: 35px;
     margin-bottom: 35px;
     color: lightGrey;
-    white-space: pre;
+    white-space: pre-wrap;
 }
 .description:hover{color:white;}
 

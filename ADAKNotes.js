@@ -108,11 +108,18 @@ let AKAD = [
     {
         uniqueIdMatch: 'z79',
         date: '07/09/2020',
-        content: '',
-        topic: '',
-        description: '',
-        referenceLink1: '',
-        referenceLink2: '',
+        content: 'Vue',
+        topic: 'Event Modifiers',
+        description: `There are several (in-line) Event Modifiers in Vue: 
+            - .stop        // stopPropagation().
+            - .prevent     // preventDefault().
+            - .capture     // Event Capturing.
+            - .self        // Trigger event to self (similar to event capture)
+            - .once        // Only trigger once.
+            - .passive     // Used to improve scrolling events.
+            `,
+        referenceLink1: 'https://vuejs.org/v2/guide/events.html#Event-Modifiers',
+        referenceLink2: 'https://www.digitalocean.com/community/tutorials/vuejs-events',
         codepenEmbed: ``
     },
     {
