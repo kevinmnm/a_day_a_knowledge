@@ -152,7 +152,7 @@ let AKAD = [
         topic: 'Draggable & Nested Function',
         description: 'This is a click & drag app written in Vue.js but its concept that I\'m notating today is same for vanilla JS. \n\nWhen creating function for this type of app, I had a major bug where mouse will lose the element when I drag element fast enough. The end solution was "nested function". By using nested function instead of declaring each functions for each event (mousedown, mousemove, and mouseup), the performance was a lot smoother.',
         referenceLink1: 'https://www.w3schools.com/howto/howto_js_draggable.asp',
-        referenceLink2: '',
+        referenceLink2: 'https://www.w3schools.com/code/tryit.asp?filename=GH0MIIQGSGEH',
         codepenEmbed: `<iframe height="600" style="width: 100%;" scrolling="no" title="Draggable Divs &amp; Nested Function" src="https://codepen.io/kevinmnm/embed/MWKMLwV?height=265&theme-id=dark&default-tab=result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
         See the Pen <a href='https://codepen.io/kevinmnm/pen/MWKMLwV'>Draggable Divs &amp; Nested Function</a> by kevin
         (<a href='https://codepen.io/kevinmnm'>@kevinmnm</a>) on <a href='https://codepen.io'>CodePen</a>.
