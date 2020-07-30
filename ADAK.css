@@ -208,7 +208,7 @@ body{
     padding: 0;
     z-index: 1;
     font-size: calc(2vh + 2vw);
-    opacity: 0;
+    opacity: 0.2;
     border-radius: 5px;
     box-sizing: border-box;
 }
@@ -223,7 +223,7 @@ body{
     z-index: 1;
     font-size: calc(2vh + 2vw);
     text-align: right;
-    opacity: 0;
+    opacity: 0.2;
     border-radius: 5px;
     box-sizing: border-box;
 }

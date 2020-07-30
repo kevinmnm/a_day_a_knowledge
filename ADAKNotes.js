@@ -160,10 +160,10 @@ let AKAD = [
     },
     {
         uniqueIdMatch: 'z713',
-        date: '',
-        content: '',
-        topic: '',
-        description: '',
+        date: '07/13/2020',
+        content: 'JS',
+        topic: 'Async Await',
+        description: 'How to use async await method! Very important not only to use it for ajax request, but also for many different functions that needs to be executed in order!',
         referenceLink1: '',
         referenceLink2: '',
         codepenEmbed: ``
