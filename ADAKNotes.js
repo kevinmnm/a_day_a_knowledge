@@ -190,9 +190,12 @@ let AKAD = [
         content: 'Vue',
         topic: 'Slot',
         description: 'Slot "<slot></slot>" can be declared in compoent template if you want to use custom component like regular HTML. See example code below for further clarification.',
-        referenceLink1: '',
-        referenceLink2: '',
-        codepenEmbed: ``
+        referenceLink1: 'https://vuejs.org/v2/guide/components.html#Content-Distribution-with-Slots',
+        referenceLink2: 'https://vuejs.org/v2/guide/components-slots.html',
+        codepenEmbed: `<iframe height="600" style="width: 100%;" scrolling="no" title="Slot in Vue" src="https://codepen.io/kevinmnm/embed/vYLqPLJ?height=265&theme-id=dark&default-tab=result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+        See the Pen <a href='https://codepen.io/kevinmnm/pen/vYLqPLJ'>Slot in Vue</a> by kevin
+        (<a href='https://codepen.io/kevinmnm'>@kevinmnm</a>) on <a href='https://codepen.io'>CodePen</a>.
+      </iframe>`
     },
     {
         uniqueIdMatch: 'z716',
