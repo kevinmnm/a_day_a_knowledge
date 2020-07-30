@@ -38,6 +38,7 @@
             <div class='days' 
             :class='all.uniqueId' 
             @click='rendClass($event)' 
+            @mousemove='hoverTS2($event)' 
             v-for='(all, indd) in daysList' 
             :key='Math.random()' 
             :style='all.styler'
@@ -71,6 +72,7 @@
         <div class='fa fa-arrow-right learnArrow'></div>
     </div>
     <div class='hoverShowDiv'></div>
+    <div class='hoverShowDiv2'></div>
 </div>
 
 

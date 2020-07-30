@@ -292,6 +292,20 @@ body{
     z-index: 5;
 }
 
+.hoverShowDiv2{
+    position: absolute;
+    display: none;
+    width: auto;
+    font-size: 14px;
+    background-color: #1b1f20;
+    background-image: linear-gradient(19deg, #1b1f20 0%, #550087 100%);
+    color: white;
+    padding: 3px;
+    border-radius: 5px;
+    display: none;
+    z-index: 5;
+}
+
 .flex-indicator{
     display: flex;
     justify-content: center;

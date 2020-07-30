@@ -164,6 +164,22 @@ new Vue({
                 el.style.display = 'none';
             } 
         },
+        hoverTS2: function(e){
+            let el = document.querySelector('.hoverShowDiv2');
+            let et = e.target;
+            if (et.classList.contains('days')){
+                for (let i=0; i<this.akad.length; i++){
+                    if (et.classList.contains(this.akad[i].uniqueIdMatch)){
+                        el.style.top = e.pageY + 20 + 'px';
+                        el.style.left = e.pageX + 20 + 'px';
+                        el.style.display = 'block';
+                        el.innerHTML = this.akad[i].topic;
+                    }
+                }
+            } else {
+                el.style.display = 'none';
+            }
+        },
         guide: function(){
             this.showGuide = !this.showGuide;
             document.querySelector('.flex-indicator').classList.add('animate__flash');
@@ -216,11 +232,8 @@ new Vue({
                     uniqueId: 'z' + this.currentValue + i
                 });
             }
-            console.log(this.currentValue);
             let firstDay = `z${this.currentValue}1`;
-            console.log(firstDay);
             let uniqueIdMatchArray = [];
-            console.log(uniqueIdMatchArray);
             for (let i=0; i<this.akad.length; i++){
                 uniqueIdMatchArray.push(this.akad[i].uniqueIdMatch);
             }
