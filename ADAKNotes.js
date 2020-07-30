@@ -129,8 +129,8 @@ let AKAD = [
         topic: 'Key Modifiers',
         description: 'Vue offers key modifiers to easily bind keyboard shorcut with functions.',
         referenceLink1: 'https://vuejs.org/v2/guide/events.html#Key-Modifiers',
-        referenceLink2: '',
-        codepenEmbed: ``
+        referenceLink2: 'https://codingexplained.com/coding/front-end/vue-js/vue-key-modifiers',
+        codepenEmbed: `No codepen.io example available for this content. <br><br><img src='img/key_modifiers.png'></img>`
     },
     {
         uniqueIdMatch: 'z711',
