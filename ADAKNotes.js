@@ -74,7 +74,7 @@ let AKAD = [
         description: 'Using push() method, object (JSON form) can be pushed into array.',
         referenceLink1: 'https://stackoverflow.com/questions/40250139/push-object-into-array',
         referenceLink2: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push',
-        codepenEmbed: `<iframe height="265" style="width: 100%;" scrolling="no" title="Pushing object form into array" src="https://codepen.io/kevinmnm/embed/mdVZVKd?height=265&theme-id=dark&default-tab=result" frameborder="no" allowtransparency="true" allowfullscreen="true">
+        codepenEmbed: `<iframe height="600" style="width: 100%;" scrolling="no" title="Pushing object form into array" src="https://codepen.io/kevinmnm/embed/mdVZVKd?height=265&theme-id=dark&default-tab=result" frameborder="no" allowtransparency="true" allowfullscreen="true">
         See the Pen <a href='https://codepen.io/kevinmnm/pen/mdVZVKd'>Pushing object form into array</a> by kevin
         (<a href='https://codepen.io/kevinmnm'>@kevinmnm</a>) on <a href='https://codepen.io'>CodePen</a>.
       </iframe>`
@@ -135,12 +135,15 @@ let AKAD = [
     {
         uniqueIdMatch: 'z711',
         date: '07/11/2020',
-        content: '',
-        topic: '',
-        description: '',
-        referenceLink1: '',
-        referenceLink2: '',
-        codepenEmbed: ``
+        content: 'Vue',
+        topic: '$emit Method',
+        description: 'To clarify the confusion I had regarding $emit in Vue, $emit is used from component to manipulate data declared in instance. Value that\'s being passed by $emit is called "payload". Payload can be retrieved by parent (instance) with $event parameter.',
+        referenceLink1: 'https://vuejs.org/v2/guide/components.html#Listening-to-Child-Components-Events',
+        referenceLink2: 'https://vuejs.org/v2/guide/components-custom-events.html',
+        codepenEmbed: `<iframe height="600" style="width: 100%;" scrolling="no" title="$emit Method" src="https://codepen.io/kevinmnm/embed/OJMeBZj?height=265&theme-id=dark&default-tab=result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+        See the Pen <a href='https://codepen.io/kevinmnm/pen/OJMeBZj'>$emit Method</a> by kevin
+        (<a href='https://codepen.io/kevinmnm'>@kevinmnm</a>) on <a href='https://codepen.io'>CodePen</a>.
+      </iframe>`
     },
     {
         uniqueIdMatch: 'z712',
