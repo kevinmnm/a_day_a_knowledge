@@ -186,10 +186,10 @@ let AKAD = [
     },
     {
         uniqueIdMatch: 'z715',
-        date: '',
-        content: '',
-        topic: '',
-        description: '',
+        date: '07/15/2020',
+        content: 'Vue',
+        topic: 'Slot',
+        description: 'Slot "<slot></slot>" can be declared in compoent template if you want to use custom component like regular HTML. See example code below for further clarification.',
         referenceLink1: '',
         referenceLink2: '',
         codepenEmbed: ``
