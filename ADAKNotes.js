@@ -120,7 +120,7 @@ let AKAD = [
             `,
         referenceLink1: 'https://vuejs.org/v2/guide/events.html#Event-Modifiers',
         referenceLink2: 'https://www.digitalocean.com/community/tutorials/vuejs-events',
-        codepenEmbed: `No codepen.io example available for this content. <br><br><img src='img/event_modifiers.png'></img>`
+        codepenEmbed: `No codepen.io example available for this content. <br><br><img src='img/event_modifiers.png' alt='screenshot'></img>`
     },
     {
         uniqueIdMatch: 'z710',
@@ -130,7 +130,7 @@ let AKAD = [
         description: 'Vue offers key modifiers to easily bind keyboard shorcut with functions.',
         referenceLink1: 'https://vuejs.org/v2/guide/events.html#Key-Modifiers',
         referenceLink2: 'https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/key/Key_Values',
-        codepenEmbed: `No codepen.io example available for this content. <br><br><img src='img/key_modifiers.png'></img>`
+        codepenEmbed: `No codepen.io example available for this content. <br><br><img src='img/key_modifiers.png' alt='screenshot'></img>`
     },
     {
         uniqueIdMatch: 'z711',
