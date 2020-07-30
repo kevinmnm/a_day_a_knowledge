@@ -304,6 +304,7 @@ body{
     border-radius: 5px;
     display: none;
     z-index: 5;
+    font-weight: bold;
 }
 
 .flex-indicator{

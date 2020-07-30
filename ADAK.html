@@ -34,11 +34,10 @@
             {{ all }}
             </div>
         </div> -->
-        <div class='flex-days'>
+        <div class='flex-days' @mousemove='hoverTS2($event)' >
             <div class='days' 
             :class='all.uniqueId' 
             @click='rendClass($event)' 
-            @mousemove='hoverTS2($event)' 
             v-for='(all, indd) in daysList' 
             :key='Math.random()' 
             :style='all.styler'
