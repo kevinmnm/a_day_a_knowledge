@@ -179,7 +179,10 @@ let AKAD = [
         description: 'Random color picking funciton and responsive design created with JavaScript. This will be a good reference for future projects.',
         referenceLink1: 'https://css-tricks.com/snippets/javascript/random-hex-color/',
         referenceLink2: '',
-        codepenEmbed: ``
+        codepenEmbed: `<iframe height="600" style="width: 100%;" scrolling="no" title="Random Color &amp; Responsive Design" src="https://codepen.io/kevinmnm/embed/rNxEPvR?height=265&theme-id=dark&default-tab=result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+        See the Pen <a href='https://codepen.io/kevinmnm/pen/rNxEPvR'>Random Color &amp; Responsive Design</a> by kevin
+        (<a href='https://codepen.io/kevinmnm'>@kevinmnm</a>) on <a href='https://codepen.io'>CodePen</a>.
+      </iframe>`
     },
     {
         uniqueIdMatch: 'z715',
