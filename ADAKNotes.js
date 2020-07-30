@@ -125,10 +125,10 @@ let AKAD = [
     {
         uniqueIdMatch: 'z710',
         date: '07/10/2020',
-        content: '',
-        topic: '',
-        description: '',
-        referenceLink1: '',
+        content: 'Vue',
+        topic: 'Key Modifiers',
+        description: 'Vue offers key modifiers to easily bind keyboard shorcut with functions.',
+        referenceLink1: 'https://vuejs.org/v2/guide/events.html#Key-Modifiers',
         referenceLink2: '',
         codepenEmbed: ``
     },
