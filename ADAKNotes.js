@@ -164,9 +164,12 @@ let AKAD = [
         content: 'JS',
         topic: 'Async Await',
         description: 'How to use async await method! Very important not only to use it for ajax request, but also for many different functions that needs to be executed in order!',
-        referenceLink1: '',
-        referenceLink2: '',
-        codepenEmbed: ``
+        referenceLink1: 'https://javascript.info/async-await',
+        referenceLink2: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function',
+        codepenEmbed: `<iframe height="600" style="width: 100%;" scrolling="no" title="Async Await" src="https://codepen.io/kevinmnm/embed/MWKMLQP?height=265&theme-id=dark&default-tab=result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+        See the Pen <a href='https://codepen.io/kevinmnm/pen/MWKMLQP'>Async Await</a> by kevin
+        (<a href='https://codepen.io/kevinmnm'>@kevinmnm</a>) on <a href='https://codepen.io'>CodePen</a>.
+      </iframe>`
     },
     {
         uniqueIdMatch: 'z714',
