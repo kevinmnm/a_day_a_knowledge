@@ -173,11 +173,11 @@ let AKAD = [
     },
     {
         uniqueIdMatch: 'z714',
-        date: '',
-        content: '',
-        topic: '',
-        description: '',
-        referenceLink1: '',
+        date: '07/14/2020',
+        content: 'JS',
+        topic: 'Random Color Picker & Responsive Design',
+        description: 'Random color picking funciton and responsive design created with JavaScript. This will be a good reference for future projects.',
+        referenceLink1: 'https://css-tricks.com/snippets/javascript/random-hex-color/',
         referenceLink2: '',
         codepenEmbed: ``
     },
