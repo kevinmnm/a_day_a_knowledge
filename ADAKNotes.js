@@ -209,13 +209,16 @@ let AKAD = [
     },
     {
         uniqueIdMatch: 'z717',
-        date: '',
-        content: '',
-        topic: '',
-        description: '',
-        referenceLink1: '',
-        referenceLink2: '',
-        codepenEmbed: ``
+        date: '07/17/2020',
+        content: 'CSS',
+        topic: 'CSS calc() Function',
+        description: 'CSS calc() is a very useful function when creating responsive website design. This flexible function will help reduce size of JavaScript file to maintain the site responsive',
+        referenceLink1: 'https://css-tricks.com/a-complete-guide-to-calc-in-css/',
+        referenceLink2: 'https://developer.mozilla.org/en-US/docs/Web/CSS/calc',
+        codepenEmbed: `<iframe height="600" style="width: 100%;" scrolling="no" title="CSS calc()" src="https://codepen.io/kevinmnm/embed/wvMVzML?height=265&theme-id=dark&default-tab=css,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+        See the Pen <a href='https://codepen.io/kevinmnm/pen/wvMVzML'>CSS calc()</a> by kevin
+        (<a href='https://codepen.io/kevinmnm'>@kevinmnm</a>) on <a href='https://codepen.io'>CodePen</a>.
+      </iframe>`
     },
     {
         uniqueIdMatch: 'z718',
