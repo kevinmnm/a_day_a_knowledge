@@ -222,13 +222,13 @@ let AKAD = [
     },
     {
         uniqueIdMatch: 'z718',
-        date: '',
-        content: '',
-        topic: '',
-        description: '',
+        date: '07/18/2020',
+        content: 'Vue',
+        topic: 'Vue <keep-alive> Built-In Component',
+        description: 'After destroying component or instance, web memory will be erased and reset the previous status of the element. <keep-alive> can come in handy when you want to archive the element\'s status. \n\nNote: This is not localStorage.',
         referenceLink1: '',
         referenceLink2: '',
-        codepenEmbed: ``
+        codepenEmbed: `No codepen.io example available for this content.`
     },
     {
         uniqueIdMatch: 'z719',
