@@ -199,13 +199,13 @@ let AKAD = [
     },
     {
         uniqueIdMatch: 'z716',
-        date: '',
-        content: '',
-        topic: '',
-        description: '',
-        referenceLink1: '',
-        referenceLink2: '',
-        codepenEmbed: ``
+        date: '07/16/2020',
+        content: 'Vue',
+        topic: 'HTML new "is" attribute',
+        description: '"is" attribute is a new HTML attribute implemented in 2020. This attribute is used in the Custom Element specification.',
+        referenceLink1: 'https://stackoverflow.com/questions/27434431/what-is-html-is-attribute#:~:text=In%202020%3A,documented%20for%20developers%20at%20mdn.',
+        referenceLink2: 'https://www.w3.org/TR/2016/WD-custom-elements-20161013/#attr-is',
+        codepenEmbed: `No codepen.io example available for this content.<br><br><img src='img/is_attribute.png' alt='is attribute image' />`
     },
     {
         uniqueIdMatch: 'z717',
