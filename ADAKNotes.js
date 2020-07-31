@@ -228,7 +228,7 @@ let AKAD = [
         description: 'After destroying component or instance, web memory will be erased and reset the previous status of the element. <keep-alive> can come in handy when you want to archive the element\'s status. \n\nNote: This is not localStorage.',
         referenceLink1: '',
         referenceLink2: '',
-        codepenEmbed: `No codepen.io example available for this content.`
+        codepenEmbed: `No codepen.io example available for this content.<br><br><img src='img/keep_alive.png' alt='keep_alive image 1' /><img src='img/keep_alive2.png' alt='keep_alive image 2' />`
     },
     {
         uniqueIdMatch: 'z719',
