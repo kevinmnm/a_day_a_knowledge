@@ -17,7 +17,7 @@ new Vue({
         //weeksList: ['SUN','MON','TUE','WED','THU','FRI','SAT'],
         all_2020: [],
         daysList: [],
-        currentValue: new Date().getMonth() + 1,
+        currentValue: 7,
         currentValueId: 'z' + (new Date().getMonth() + 1),
         endMonth: null,
         monthTxt: false,
