@@ -245,13 +245,16 @@ let AKAD = [
     },
     {
         uniqueIdMatch: 'z720',
-        date: '',
-        content: '',
-        topic: '',
-        description: '',
-        referenceLink1: '',
-        referenceLink2: '',
-        codepenEmbed: ``
+        date: '08/01/2020',
+        content: 'Vue',
+        topic: 'Vue Async Await!',
+        description: 'Sometimes Vue forces functions to work little differently from JavaScript. Async Await is one of them. This learning content will provide good examples of how I should write async await function in Vue especially within component with props implementation.',
+        referenceLink1: 'https://javascript.info/async-await',
+        referenceLink2: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function',
+        codepenEmbed: `<iframe height="600" style="width: 100%;" scrolling="no" title="Vue Async Await" src="https://codepen.io/kevinmnm/embed/jOWgeyL?height=265&theme-id=dark&default-tab=result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+        See the Pen <a href='https://codepen.io/kevinmnm/pen/jOWgeyL'>Vue Async Await</a> by kevin
+        (<a href='https://codepen.io/kevinmnm'>@kevinmnm</a>) on <a href='https://codepen.io'>CodePen</a>.
+      </iframe>`
     },
     {
         uniqueIdMatch: 'z721',
