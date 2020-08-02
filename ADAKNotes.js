@@ -258,8 +258,8 @@ let AKAD = [
     },
     {
         uniqueIdMatch: 'z721',
-        date: '',
-        content: '',
+        date: '07/21/2020',
+        content: 'Vue',
         topic: '',
         description: '',
         referenceLink1: '',
