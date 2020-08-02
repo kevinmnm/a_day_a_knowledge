@@ -272,7 +272,7 @@ let AKAD = [
     {
         uniqueIdMatch: 'z722',
         date: '07/22/2020',
-        content: 'Vue',
+        content: '',
         topic: '',
         description: '',
         referenceLink1: '',
