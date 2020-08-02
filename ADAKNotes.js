@@ -260,7 +260,7 @@ let AKAD = [
         uniqueIdMatch: 'z721',
         date: '07/21/2020',
         content: 'Vue',
-        topic: '',
+        topic: 'Complicated Component Usage + Array Iterations',
         description: '',
         referenceLink1: '',
         referenceLink2: '',
