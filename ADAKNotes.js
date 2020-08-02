@@ -260,8 +260,8 @@ let AKAD = [
         uniqueIdMatch: 'z721',
         date: '07/21/2020',
         content: 'Vue',
-        topic: 'Complicated Component Usage + Array Iterations',
-        description: '',
+        topic: 'Complicated Component Usage & Array Iterations',
+        description: 'This content took whole day for me ',
         referenceLink1: '',
         referenceLink2: '',
         codepenEmbed: `<iframe height="600" style="width: 100%;" scrolling="no" title="Advanced Component Usage &amp; Array Iterations" src="https://codepen.io/kevinmnm/embed/rNeBVKq?height=265&theme-id=dark&default-tab=result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
