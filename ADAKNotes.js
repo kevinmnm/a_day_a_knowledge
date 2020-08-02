@@ -264,7 +264,10 @@ let AKAD = [
         description: '',
         referenceLink1: '',
         referenceLink2: '',
-        codepenEmbed: ``
+        codepenEmbed: `<iframe height="600" style="width: 100%;" scrolling="no" title="Advanced Component Usage &amp; Array Iterations" src="https://codepen.io/kevinmnm/embed/rNeBVKq?height=265&theme-id=dark&default-tab=result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+        See the Pen <a href='https://codepen.io/kevinmnm/pen/rNeBVKq'>Advanced Component Usage &amp; Array Iterations</a> by kevin
+        (<a href='https://codepen.io/kevinmnm'>@kevinmnm</a>) on <a href='https://codepen.io'>CodePen</a>.
+      </iframe>`
     },
     {
         uniqueIdMatch: 'z722',
