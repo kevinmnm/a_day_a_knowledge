@@ -262,7 +262,7 @@ let AKAD = [
         content: 'Vue',
         topic: 'Complicated Component Usage & Array Iterations',
         description: 'PLEASE LOOK OVER THIS CONTENT MULTIPLE TIME TO GET COMFORTABLE. This content took whole day for me write. Complicated Vue component usage was utilized. Some JavaScript arry iterations are noted as well.',
-        referenceLink1: '',
+        referenceLink1: 'https://www.w3schools.com/js/js_array_iteration.asp',
         referenceLink2: '',
         codepenEmbed: `<iframe height="600" style="width: 100%;" scrolling="no" title="Advanced Component Usage &amp; Array Iterations" src="https://codepen.io/kevinmnm/embed/rNeBVKq?height=265&theme-id=dark&default-tab=result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
         See the Pen <a href='https://codepen.io/kevinmnm/pen/rNeBVKq'>Advanced Component Usage &amp; Array Iterations</a> by kevin
