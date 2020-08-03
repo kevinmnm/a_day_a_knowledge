@@ -287,7 +287,7 @@ let AKAD = [
         description: 'Very simple shortcut function (multiple keys) demonstrated with JS.',
         referenceLink1: 'https://www.w3schools.com/jsref/event_onkeydown.asp',
         referenceLink2: 'https://keycode.info/',
-        codepenEmbed: `<iframe height="265" style="width: 100%;" scrolling="no" title="Simple Shortcut Function" src="https://codepen.io/kevinmnm/embed/QWNLmeo?height=265&theme-id=dark&default-tab=result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+        codepenEmbed: `<iframe height="600" style="width: 100%;" scrolling="no" title="Simple Shortcut Function" src="https://codepen.io/kevinmnm/embed/QWNLmeo?height=265&theme-id=dark&default-tab=result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
         See the Pen <a href='https://codepen.io/kevinmnm/pen/QWNLmeo'>Simple Shortcut Function</a> by kevin
         (<a href='https://codepen.io/kevinmnm'>@kevinmnm</a>) on <a href='https://codepen.io'>CodePen</a>.
       </iframe>`
