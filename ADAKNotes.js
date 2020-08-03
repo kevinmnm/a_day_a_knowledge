@@ -272,12 +272,12 @@ let AKAD = [
     {
         uniqueIdMatch: 'z722',
         date: '07/22/2020',
-        content: '',
-        topic: '',
-        description: '',
-        referenceLink1: '',
-        referenceLink2: '',
-        codepenEmbed: ``
+        content: 'Vue',
+        topic: 'Dynamic Arguments',
+        description: 'Dynamic arugument is a way to bind HTML property as needed. Documentation below will provide clear explanation.',
+        referenceLink1: 'https://vuejs.org/v2/guide/syntax.html#Dynamic-Arguments',
+        referenceLink2: 'https://vuejs.org/v2/guide/custom-directive.html',
+        codepenEmbed: `No codepen.io example available for this content. <br><br><img src='img/dynamic_arguments.png' alt='screenshot'></img>`
     },
     {
         uniqueIdMatch: 'z723',
