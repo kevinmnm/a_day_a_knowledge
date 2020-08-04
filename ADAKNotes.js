@@ -298,7 +298,7 @@ let AKAD = [
         content: 'JS',
         topic: 'Classes',
         description: 'Class is an important method in JavaScript especially for advanced level developers. Class is syntax sugar for _prototype_.',
-        referenceLink1: '',
+        referenceLink1: 'https://www.w3schools.com/js/js_object_classes.asp',
         referenceLink2: '',
         codepenEmbed: ``
     },
