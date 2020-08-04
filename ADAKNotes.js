@@ -307,10 +307,10 @@ let AKAD = [
     },
     {
         uniqueIdMatch: 'z725',
-        date: '',
-        content: '',
-        topic: '',
-        description: '',
+        date: '07/25/2020',
+        content: 'JS',
+        topic: 'Rest Parameter (...args)',
+        description: 'When having long list of array, rest parameter will come in very handy.',
         referenceLink1: '',
         referenceLink2: '',
         codepenEmbed: ``
