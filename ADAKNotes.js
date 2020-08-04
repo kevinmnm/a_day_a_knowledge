@@ -294,9 +294,9 @@ let AKAD = [
     },
     {
         uniqueIdMatch: 'z724',
-        date: '',
-        content: '',
-        topic: '',
+        date: '07/24/2020',
+        content: 'JS',
+        topic: 'Classes',
         description: '',
         referenceLink1: '',
         referenceLink2: '',
