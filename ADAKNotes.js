@@ -311,7 +311,7 @@ let AKAD = [
         content: 'JS',
         topic: 'Rest Parameter (...args)',
         description: 'When having long list of array, rest parameter will come in very handy.',
-        referenceLink1: '',
+        referenceLink1: 'https://www.geeksforgeeks.org/javascript-rest-operator/',
         referenceLink2: '',
         codepenEmbed: ``
     },
