@@ -313,7 +313,10 @@ let AKAD = [
         description: 'When having long list of array, rest parameter will come in very handy.',
         referenceLink1: 'https://www.geeksforgeeks.org/javascript-rest-operator/',
         referenceLink2: 'https://www.javascripttutorial.net/es6/javascript-rest-parameters/',
-        codepenEmbed: ``
+        codepenEmbed: `<iframe height="600" style="width: 100%;" scrolling="no" title="Rest Parameter (...args)" src="https://codepen.io/kevinmnm/embed/ExKxjJG?height=265&theme-id=dark&default-tab=js,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+        See the Pen <a href='https://codepen.io/kevinmnm/pen/ExKxjJG'>Rest Parameter (...args)</a> by kevin
+        (<a href='https://codepen.io/kevinmnm'>@kevinmnm</a>) on <a href='https://codepen.io'>CodePen</a>.
+      </iframe>`
     },
     {
         uniqueIdMatch: 'z726',
