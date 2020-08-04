@@ -300,12 +300,10 @@ let AKAD = [
         description: 'Class is an important method in JavaScript especially for advanced level developers. Class is syntax sugar for _prototype_.',
         referenceLink1: 'https://www.w3schools.com/js/js_object_classes.asp',
         referenceLink2: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes',
-        codepenEmbed: `<p class="codepen" data-height="600" data-theme-id="dark" data-default-tab="result" data-user="kevinmnm" data-slug-hash="xxVxxNV" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="JS Class basic">
-        <span>See the Pen <a href="https://codepen.io/kevinmnm/pen/xxVxxNV">
-        JS Class basic</a> by kevin (<a href="https://codepen.io/kevinmnm">@kevinmnm</a>)
-        on <a href="https://codepen.io">CodePen</a>.</span>
-      </p>
-      <script async src="https://static.codepen.io/assets/embed/ei.js"></script>`
+        codepenEmbed: `<iframe height="265" style="width: 100%;" scrolling="no" title="JS Class basic" src="https://codepen.io/kevinmnm/embed/xxVxxNV?height=265&theme-id=dark&default-tab=result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+        See the Pen <a href='https://codepen.io/kevinmnm/pen/xxVxxNV'>JS Class basic</a> by kevin
+        (<a href='https://codepen.io/kevinmnm'>@kevinmnm</a>) on <a href='https://codepen.io'>CodePen</a>.
+      </iframe>`
     },
     {
         uniqueIdMatch: 'z725',
