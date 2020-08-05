@@ -320,7 +320,7 @@ let AKAD = [
     },
     {
         uniqueIdMatch: 'z726',
-        date: '',
+        date: '07/26/2020',
         content: '',
         topic: '',
         description: '',
