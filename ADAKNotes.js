@@ -324,7 +324,7 @@ let AKAD = [
         content: 'CSS',
         topic: 'Heartbeat Animation Review',
         description: 'This animation content reviews transform, tranform-origin, :before, :after, scale, and rotate.',
-        referenceLink1: '',
+        referenceLink1: 'https://www.w3schools.com/css/css3_animations.asp',
         referenceLink2: '',
         codepenEmbed: ``
     },
