@@ -323,7 +323,7 @@ let AKAD = [
         date: '07/26/2020',
         content: 'CSS',
         topic: 'Heartbeat Animation Review',
-        description: '',
+        description: 'This animation content reviews transform, tranform-origin, :before, :after, scale, and rotate.',
         referenceLink1: '',
         referenceLink2: '',
         codepenEmbed: ``
