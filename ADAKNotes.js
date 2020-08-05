@@ -321,8 +321,8 @@ let AKAD = [
     {
         uniqueIdMatch: 'z726',
         date: '07/26/2020',
-        content: '',
-        topic: '',
+        content: 'CSS',
+        topic: 'Heartbeat Animation Review',
         description: '',
         referenceLink1: '',
         referenceLink2: '',
