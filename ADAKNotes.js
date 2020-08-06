@@ -333,13 +333,13 @@ let AKAD = [
     },
     {
         uniqueIdMatch: 'z727',
-        date: '',
-        content: '',
-        topic: '',
-        description: '',
-        referenceLink1: '',
+        date: '07/27/2020',
+        content: 'Vue',
+        topic: 'Vue',
+        description: 'Vue transition can be combined with Animate.css.',
+        referenceLink1: 'https://vuejs.org/v2/guide/transitions.html#Transition-Classes',
         referenceLink2: '',
-        codepenEmbed: ``
+        codepenEmbed: `No codepen.io example available for this content. <br><br><img src='img/transition_animate.png' alt='screenshot'></img>`
     },
     {
         uniqueIdMatch: 'z728',
