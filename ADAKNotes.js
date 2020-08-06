@@ -338,7 +338,7 @@ let AKAD = [
         topic: 'Vue',
         description: 'Vue transition can be combined with Animate.css.',
         referenceLink1: 'https://vuejs.org/v2/guide/transitions.html#Transition-Classes',
-        referenceLink2: '',
+        referenceLink2: 'https://css-tricks.com/intro-to-vue-5-animations/',
         codepenEmbed: `No codepen.io example available for this content. <br><br><img src='img/transition_animate.png' alt='screenshot'></img>`
     },
     {
