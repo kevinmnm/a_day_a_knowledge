@@ -238,7 +238,7 @@ let AKAD = [
         description: 'Please refer to code and fully comprehend it!',
         referenceLink1: 'https://vuejs.org/v2/guide/components-props.html',
         referenceLink2: 'https://vuejs.org/v2/guide/components-edge-cases.html',
-        codepenEmbed: `<iframe height="265" style="width: 100%;" scrolling="no" title="Advancing Vue" src="https://codepen.io/kevinmnm/embed/yLemXNZ?height=265&theme-id=dark&default-tab=result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+        codepenEmbed: `<iframe height="650" style="width: 100%;" scrolling="no" title="Advancing Vue" src="https://codepen.io/kevinmnm/embed/yLemXNZ?height=265&theme-id=dark&default-tab=result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
         See the Pen <a href='https://codepen.io/kevinmnm/pen/yLemXNZ'>Advancing Vue</a> by kevin
         (<a href='https://codepen.io/kevinmnm'>@kevinmnm</a>) on <a href='https://codepen.io'>CodePen</a>.
       </iframe>`
@@ -343,13 +343,16 @@ let AKAD = [
     },
     {
         uniqueIdMatch: 'z728',
-        date: '',
-        content: '',
-        topic: '',
-        description: '',
-        referenceLink1: '',
-        referenceLink2: '',
-        codepenEmbed: ``
+        date: '07/28/2020',
+        content: 'Vue',
+        topic: 'Transition Basics',
+        description: 'Vue transition implementation quick reference.',
+        referenceLink1: 'https://vuejs.org/v2/guide/transitions.html',
+        referenceLink2: 'https://css-tricks.com/intro-to-vue-5-animations/',
+        codepenEmbed: `<iframe height="600" style="width: 100%;" scrolling="no" title="Vue Transition Basic" src="https://codepen.io/kevinmnm/embed/PoNwmQM?height=265&theme-id=dark&default-tab=result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+        See the Pen <a href='https://codepen.io/kevinmnm/pen/PoNwmQM'>Vue Transition Basic</a> by kevin
+        (<a href='https://codepen.io/kevinmnm'>@kevinmnm</a>) on <a href='https://codepen.io'>CodePen</a>.
+      </iframe>`
     },
     {
         uniqueIdMatch: 'z729',
