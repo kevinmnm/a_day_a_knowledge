@@ -356,13 +356,16 @@ let AKAD = [
     },
     {
         uniqueIdMatch: 'z729',
-        date: '',
-        content: '',
-        topic: '',
-        description: '',
-        referenceLink1: '',
-        referenceLink2: '',
-        codepenEmbed: ``
+        date: '07/29/2020',
+        content: 'JS',
+        topic: 'Clarifying setInterval() Behavior',
+        description: 'Let\'s review on JS return behavior especially with setInterval or setTimeout.',
+        referenceLink1: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/return',
+        referenceLink2: 'https://www.w3schools.com/jsref/jsref_return.asp',
+        codepenEmbed: `<iframe height="600" style="width: 100%;" scrolling="no" title="JS setInterval return Test" src="https://codepen.io/kevinmnm/embed/XWdJyqo?height=265&theme-id=dark&default-tab=result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+        See the Pen <a href='https://codepen.io/kevinmnm/pen/XWdJyqo'>JS setInterval return Test</a> by kevin
+        (<a href='https://codepen.io/kevinmnm'>@kevinmnm</a>) on <a href='https://codepen.io'>CodePen</a>.
+      </iframe>`
     },
     {
         uniqueIdMatch: 'z730',
