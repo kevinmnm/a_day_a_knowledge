@@ -369,13 +369,16 @@ let AKAD = [
     },
     {
         uniqueIdMatch: 'z730',
-        date: '',
-        content: '',
-        topic: '',
-        description: '',
-        referenceLink1: '',
-        referenceLink2: '',
-        codepenEmbed: ``
+        date: '07/30/2020',
+        content: 'JS',
+        topic: 'Debouncing Function!',
+        description: 'Debouncing is an effective method to prevent events to repeat multiple times especially with queued calls.',
+        referenceLink1: 'https://www.w3schools.com/code/tryit.asp?filename=GHIXM13TJSVY',
+        referenceLink2: 'https://javascript.info/task/debounce',
+        codepenEmbed: `<iframe height="500" style="width: 100%;" scrolling="no" title="Debouncing Function!" src="https://codepen.io/kevinmnm/embed/vYGEveJ?height=265&theme-id=dark&default-tab=js,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+        See the Pen <a href='https://codepen.io/kevinmnm/pen/vYGEveJ'>Debouncing Function!</a> by kevin
+        (<a href='https://codepen.io/kevinmnm'>@kevinmnm</a>) on <a href='https://codepen.io'>CodePen</a>.
+      </iframe>`
     },
     {
         uniqueIdMatch: 'z731',
