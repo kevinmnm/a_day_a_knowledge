@@ -382,13 +382,16 @@ let AKAD = [
     },
     {
         uniqueIdMatch: 'z731',
-        date: '',
-        content: '',
-        topic: '',
-        description: '',
-        referenceLink1: '',
-        referenceLink2: '',
-        codepenEmbed: ``
+        date: '07/31/2020',
+        content: 'Vue',
+        topic: '<transition-group>!',
+        description: 'This is a very important topic!',
+        referenceLink1: 'https://vuejs.org/v2/guide/transitions.html#List-Entering-Leaving-Transitions',
+        referenceLink2: 'https://www.w3resource.com/javascript-exercises/javascript-array-exercise-17.php',
+        codepenEmbed: `<iframe height="850" style="width: 100%;" scrolling="no" title="Vue &lt;transition-group&gt; overview!" src="https://codepen.io/kevinmnm/embed/JjXoxoJ?height=265&theme-id=dark&default-tab=result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+        See the Pen <a href='https://codepen.io/kevinmnm/pen/JjXoxoJ'>Vue &lt;transition-group&gt; overview!</a> by kevin
+        (<a href='https://codepen.io/kevinmnm'>@kevinmnm</a>) on <a href='https://codepen.io'>CodePen</a>.
+      </iframe>`
     },
     {
         uniqueIdMatch: '',
