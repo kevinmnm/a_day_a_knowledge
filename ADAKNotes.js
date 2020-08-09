@@ -399,8 +399,8 @@ let AKAD = [
         content: 'JS',
         topic: '[for in] vs [for of]',
         description: 'New for loop methods introduced in ES6: [for in] and [for of]. [for in] returns enumerable properties. [for of] returns iterable properties.',
-        referenceLink1: '',
-        referenceLink2: '',
+        referenceLink1: 'https://www.w3schools.com/jsref/jsref_forin.asp',
+        referenceLink2: 'https://www.w3schools.com/jsref/jsref_forof.asp',
         codepenEmbed: ``
     }
 ];
