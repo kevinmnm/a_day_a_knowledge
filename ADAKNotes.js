@@ -394,10 +394,10 @@ let AKAD = [
       </iframe>`
     },
     {
-        uniqueIdMatch: '',
-        date: '',
-        content: '',
-        topic: '',
+        uniqueIdMatch: 'z81',
+        date: '08/01/2020',
+        content: 'JS',
+        topic: '[for in] vs [for of]',
         description: '',
         referenceLink1: '',
         referenceLink2: '',
