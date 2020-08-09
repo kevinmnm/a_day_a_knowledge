@@ -401,7 +401,10 @@ let AKAD = [
         description: 'New for loop methods introduced in ES6: [for in] and [for of]. [for in] returns enumerable properties. [for of] returns iterable properties.',
         referenceLink1: 'https://www.w3schools.com/jsref/jsref_forin.asp',
         referenceLink2: 'https://www.w3schools.com/jsref/jsref_forof.asp',
-        codepenEmbed: ``
+        codepenEmbed: `<iframe height="650" style="width: 100%;" scrolling="no" title="Enumerables &amp; Iterables" src="https://codepen.io/kevinmnm/embed/wvGaqYx?height=265&theme-id=dark&default-tab=result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+        See the Pen <a href='https://codepen.io/kevinmnm/pen/wvGaqYx'>Enumerables &amp; Iterables</a> by kevin
+        (<a href='https://codepen.io/kevinmnm'>@kevinmnm</a>) on <a href='https://codepen.io'>CodePen</a>.
+      </iframe>`
     }
 ];
 
