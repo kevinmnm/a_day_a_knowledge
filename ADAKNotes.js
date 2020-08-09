@@ -398,7 +398,7 @@ let AKAD = [
         date: '08/01/2020',
         content: 'JS',
         topic: '[for in] vs [for of]',
-        description: '',
+        description: 'New for loop methods introduced in ES6: [for in] and [for of]. [for in] returns enumerable properties. [for of] returns iterable properties.',
         referenceLink1: '',
         referenceLink2: '',
         codepenEmbed: ``
