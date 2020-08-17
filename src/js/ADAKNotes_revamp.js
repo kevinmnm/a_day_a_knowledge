@@ -441,6 +441,17 @@ let AKAD = [
         See the Pen <a href='https://codepen.io/kevinmnm/pen/XWddLxR'>Vue CLI Structure (Router)</a> by kevin
         (<a href='https://codepen.io/kevinmnm'>@kevinmnm</a>) on <a href='https://codepen.io'>CodePen</a>.
       </iframe>`
+    },
+    {
+        uniqueIdMatch: 'z85',
+        date: '08/04/2020',
+        content: 'Vue',
+        topic: 'Vue Dynamic Route Matching',
+        description: 'Params in Vue routing offers further reduction in refreshing content by detecting params change and only re-rendering necessary content instead of reloading whole component. See simple exmaple from github from link below.',
+        referenceLink1: 'https://router.vuejs.org/guide/essentials/dynamic-matching.html',
+        referenceLink2: 'https://github.com/kevinmnm/dynamic_route_match_simple.git',
+        codepenEmbed: `No codepen.io example available for this content. <br><br><img src='img/dynamic_route1.png' alt='screenshot' /><br><img src='img/dynamic_route2.png' alt='screenshot' />`
+
     }
 ];
 
