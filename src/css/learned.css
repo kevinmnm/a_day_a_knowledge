@@ -14,7 +14,6 @@
 .learned_content{
     box-sizing: border-box;
     width: 90%;
-    border: 1px solid pink;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -26,7 +25,6 @@
     position: relative;
     width: 10%;
     box-sizing: border-box;
-    border: 1px solid white;
     background-color: rgb(51, 43, 102);
     opacity: 0.1;
 }
@@ -58,22 +56,24 @@
     }
 }
 .date{
-    border: 1px solid red;
     font-size: 16px;
     color: grey;
-}.date:hover{color:white;}
+    margin: 10px;
+}.date:hover{color:orange;}
 
 .title{
-    border: 1px solid green;
     font-size: calc(2vw + 2vh);
     font-weight: bold;
+    margin-bottom: 20px;
 }
 
 .description{
-    border: 1px solid skyBlue;
     text-align: left;
     text-indent: 50px;
     padding: 10px;
+    margin-bottom: 30px;
+    box-shadow: 0 0 5px red inset;
+    border-radius: 5px;
     color: lightGrey;
 }.description:hover{color:white;}
 
@@ -86,7 +86,6 @@
 
 .example{
     position: relative;
-    border: 1px solid violet;
     height: 100%;
     width: 100%;
     overflow: auto;
