@@ -1,0 +1,80 @@
+#list_wrapper{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    border: 1px solid #909090;
+    margin: 20px auto;
+    width: 65%;
+    user-select: none;
+}
+
+.list_block{
+    box-sizing: border-box;
+    border: 1px solid white;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    margin: 5px;
+    flex-grow: 1;
+    border-radius: 5px;
+}
+.list_block:hover{border:1px solid black; opacity:0.9;}
+
+.list_all{
+    position: relative;
+    color: lightGrey;
+    text-align: center;
+    border: 1px solid red;
+    font-size: 30px;
+    font-weight: bold;
+    width: 100%;
+}.list_all:hover{color:white;}
+
+.fa-sort{
+    position: absolute;
+    right: 5px;
+    opacity: 0.3;
+    cursor: pointer;
+}.fa-sort:hover{opacity:1;}
+
+.sort_by{
+    position: absolute;
+    right: 0;
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 5px white;
+    z-index: 1;
+    justify-content: space-between;
+    color: grey;
+}
+.sort_by div{
+    width: 100%;
+    font-size: 18px;
+    font-weight: lighter;
+    height: 33%;
+    line-height: 1.6;
+    cursor: pointer;
+    box-sizing: border-box;
+    padding: 5px;
+}
+.sort_by div:hover{border: 1px solid grey;}
+
+.js_select{color:yellow;text-shadow:0 0 7px yellow;}
+.vue_select{color:lightGreen;text-shadow: 0 0 7px lightGreen;}
+.css_select{color:skyBlue;text-shadow: 0 0 7px skyBlue;}
+
+#hover_el{
+    position: absolute;
+    z-index: 100;
+    background-color: rgb(53, 2, 53);
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+    display: none;
+}

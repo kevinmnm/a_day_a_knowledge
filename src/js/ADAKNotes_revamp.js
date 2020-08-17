@@ -384,7 +384,7 @@ let AKAD = [
         uniqueIdMatch: 'z731',
         date: '07/31/2020',
         content: 'Vue',
-        topic: '<transition-group>!',
+        topic: '[transition-group]!',
         description: 'This is a very important topic!',
         referenceLink1: 'https://vuejs.org/v2/guide/transitions.html#List-Entering-Leaving-Transitions',
         referenceLink2: 'https://www.w3resource.com/javascript-exercises/javascript-array-exercise-17.php',
@@ -407,17 +407,48 @@ let AKAD = [
       </iframe>`
     },
     {
-        uniqueIdMatch: '',
-        date: '',
-        content: '',
-        topic: '',
-        description: '',
+        uniqueIdMatch: 'z82',
+        date: '08/02/2020',
+        content: 'Vue',
+        topic: 'Saving Props Value to Data!',
+        description: 'There\'s an effective way to save props passed from parent to child\'s data. However, this methods is NOT reactive! However, you ca fix it with computed data.',
+        referenceLink1: 'https://www.w3schools.com/code/tryit.asp?filename=GHNCA53X63A0',
+        referenceLink2: 'https://vuejs.org/v2/api/#props',
+        codepenEmbed: `<iframe height="600" style="width: 100%;" scrolling="no" title="Vue Passing Props Value to Child's Data!" src="https://codepen.io/kevinmnm/embed/ZEWbXqO?height=265&theme-id=dark&default-tab=js,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+        See the Pen <a href='https://codepen.io/kevinmnm/pen/ZEWbXqO'>Vue Passing Props Value to Child's Data!</a> by kevin
+        (<a href='https://codepen.io/kevinmnm'>@kevinmnm</a>) on <a href='https://codepen.io'>CodePen</a>.
+      </iframe>`
+    },
+    {
+        uniqueIdMatch: 'z83',
+        date: '08/03/2020',
+        content: 'Vue',
+        topic: 'Import/Export Function Syntax',
+        description: 'Vue helper function "this" breaks if not following specific syntax.',
         referenceLink1: '',
         referenceLink2: '',
-        codepenEmbed: ``
+        codepenEmbed: `No codepen.io example available for this content. <br><br><img src='img/import_function_2.png' alt='screenshot' /><br><img src='img/import_function_1.png' alt='screenshot' />`
+    },
+    {
+        uniqueIdMatch: 'z84',
+        date: '08/03/2020',
+        content: 'Vue',
+        topic: 'Vue CLI Structure Overview (Router)',
+        description: 'Vue CLI will auto generate boiler plate, but it\'s important to understand connections between files for smooth coding experience. Quick overview below that includes Vue Router.',
+        referenceLink1: 'https://router.vuejs.org/',
+        referenceLink2: 'https://router.vuejs.org/guide/essentials/dynamic-matching.html#reacting-to-params-changes',
+        codepenEmbed: `<iframe height="600" style="width: 100%;" scrolling="no" title="Vue CLI Structure (Router)" src="https://codepen.io/kevinmnm/embed/XWddLxR?height=265&theme-id=dark&default-tab=result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+        See the Pen <a href='https://codepen.io/kevinmnm/pen/XWddLxR'>Vue CLI Structure (Router)</a> by kevin
+        (<a href='https://codepen.io/kevinmnm'>@kevinmnm</a>) on <a href='https://codepen.io'>CodePen</a>.
+      </iframe>`
     }
 ];
 
 
 //SVG
-const arrowDownSVG = '<svg id="arrowDownIcon" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="sort-down" class="svg-inline--fa fa-sort-down fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M41 288h238c21.4 0 32.1 25.9 17 41L177 448c-9.4 9.4-24.6 9.4-33.9 0L24 329c-15.1-15.1-4.4-41 17-41z"></path></svg>'
+// const arrowDownSVG = '<svg id="arrowDownIcon" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="sort-down" class="svg-inline--fa fa-sort-down fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M41 288h238c21.4 0 32.1 25.9 17 41L177 448c-9.4 9.4-24.6 9.4-33.9 0L24 329c-15.1-15.1-4.4-41 17-41z"></path></svg>';
+
+// export const sort = `<svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="sort-amount-down-alt" class="svg-inline--fa fa-sort-amount-down-alt fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M240 96h64a16 16 0 0 0 16-16V48a16 16 0 0 0-16-16h-64a16 16 0 0 0-16 16v32a16 16 0 0 0 16 16zm0 128h128a16 16 0 0 0 16-16v-32a16 16 0 0 0-16-16H240a16 16 0 0 0-16 16v32a16 16 0 0 0 16 16zm256 192H240a16 16 0 0 0-16 16v32a16 16 0 0 0 16 16h256a16 16 0 0 0 16-16v-32a16 16 0 0 0-16-16zm-256-64h192a16 16 0 0 0 16-16v-32a16 16 0 0 0-16-16H240a16 16 0 0 0-16 16v32a16 16 0 0 0 16 16zm-64 0h-48V48a16 16 0 0 0-16-16H80a16 16 0 0 0-16 16v304H16c-14.19 0-21.37 17.24-11.29 27.31l80 96a16 16 0 0 0 22.62 0l80-96C197.35 369.26 190.22 352 176 352z"></path></svg>`;
+
+export default AKAD
+

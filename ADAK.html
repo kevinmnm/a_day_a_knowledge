@@ -1,82 +1,32 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>ADAK</title>
+    <title>ADAK</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
 <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment-with-locales.min.js"></script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+<link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&family=Indie+Flower&family=Nunito+Sans:wght@400;600;700;800;900&display=swap" rel="stylesheet" />
 
-<link rel='stylesheet' href='ADAK.css'/>
-
+<link rel='stylesheet' href='src/css/ADAK_revamp.css'/>
+<script type='module' defer src='src/js/./ADAK_revamp.js'></script>
 </head>
 <body>
+    
+<div id="app">
+    <h2 id='yr' onclick='location.reload()'>2020</h2>
 
-<div id='calendarApp' @mousemove='hoverTS($event)'>
-    <div class='year' onclick='location.reload()'>{{ year }}</div>
+    <calendar-comp v-show='!show_list_comp'></calendar-comp>
+    <list-comp v-show='show_list_comp' @learn-emit='learned_data($event)'></list-comp>
 
-    <div class='calendar'>
-        <div class='months'>
-            <div class='monthsToggle' 
-            @click='monthTxt = !monthTxt'>
-            {{ (monthTxt) ? (currentValue) : (all_2020[currentValue-1].mmt()) }}
-            </div>
-            <div class="fa fa-arrow-right nextM" @click='nextM($event)' aria-hidden="true"></div>
-            <div class="fa fa-arrow-left prevM" @click='prevM($event)' aria-hidden="true"></div>
-        </div> 
+    <learned-comp 
+    v-show='show_learned_comp' 
+    :parent-value='value_passer'>
+    </learned-comp>
 
-        <!-- <div class='flexWeeks'>
-            <div class='weeks' 
-            v-for='all in weeksList' 
-            :key='all'>
-            {{ all }}
-            </div>
-        </div> -->
-        <div class='flex-days' @mousemove='hoverTS2($event)' >
-            <div class='days' 
-            :class='all.uniqueId' 
-            @click='rendClass($event)' 
-            v-for='(all, indd) in daysList' 
-            :key='Math.random()' 
-            :style='all.styler'
-            >
-                <div class='noContCover' v-show='coverUp'>N/A</div>
-            {{ all.day }}
-            </div>
-            <div class='arrowDownIcon' @click='guide();' v-html='arrowDownIcon'></div>
-        </div>
-        <div class='flex-indicator animate__animated' :class='{visibOne:showGuide, animate__fadeIn:showGuide}'>
-            <div class='guide vue'></div>
-            <div class='guide js'></div>
-            <div class='guide css'></div>
-            <div class='guide empty'></div>
-        </div>
-    </div>
-
-    <div class='learnSection animate__animated animate__faster' :class='{opaciOne: learnSectionShow}'>
-        <div class='content' v-html='content'></div>
-        <div class='date'><code>{{ date }}</code></div>
-        <div class='topic'><u>{{ topic }}</u></div>
-        <div class='description'>{{ description }}</div>
-        <a :href='referenceLink1' class='referenceLink' v-show='ref1show' target='_blank'>Reference 1</a>
-        <a :href='referenceLink2' class='referenceLink' v-show='ref2show' target='_blank'>Reference 2</a>
-        <div class='embed' v-html='codepenEmbed'></div>
-    </div>
-    <div class='learnPrev' v-show='learnPrevShow' @click='learnPrev()'>
-        <div class='fa fa-arrow-left learnArrow'></div>
-    </div>
-    <div class='learnNext' v-show='learnNextShow' @click='learnNext()'>
-        <div class='fa fa-arrow-right learnArrow'></div>
-    </div>
-    <div class='hoverShowDiv'></div>
-    <div class='hoverShowDiv2'></div>
 </div>
 
-
-
-<script src='ADAKNotes.js' type='text/javascript'></script>
-<script type='text/javascript' src='ADAK.js'></script>
 </body>
 </html>
