@@ -464,6 +464,19 @@ let AKAD = [
       See the Pen <a href='https://codepen.io/kevinmnm/pen/LYNZKdL'>Vue Watch Properties</a> by kevin
       (<a href='https://codepen.io/kevinmnm'>@kevinmnm</a>) on <a href='https://codepen.io'>CodePen</a>.
     </iframe>`
+    },
+    {
+      uniqueIdMatch: 'z87',
+      date: '08/07/2020',
+      content: 'JS',
+      topic: 'RegExp Quick Guide',
+      description: 'Not used very often but something to be aware of.',
+      referenceLink1: 'https://www.w3schools.com/jsref/jsref_obj_regexp.asp',
+      referenceLink2: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions',
+      codepenEmebed: `<iframe height="500" style="width: 100%;" scrolling="no" title="RegExp" src="https://codepen.io/kevinmnm/embed/yLOaBKx?height=265&theme-id=dark&default-tab=result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+      See the Pen <a href='https://codepen.io/kevinmnm/pen/yLOaBKx'>RegExp</a> by kevin
+      (<a href='https://codepen.io/kevinmnm'>@kevinmnm</a>) on <a href='https://codepen.io'>CodePen</a>.
+    </iframe>`
     }
 ];
 
