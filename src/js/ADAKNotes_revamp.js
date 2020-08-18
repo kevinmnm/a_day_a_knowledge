@@ -451,7 +451,19 @@ let AKAD = [
         referenceLink1: 'https://router.vuejs.org/guide/essentials/dynamic-matching.html',
         referenceLink2: 'https://github.com/kevinmnm/dynamic_route_match_simple.git',
         codepenEmbed: `No codepen.io example available for this content. <br><br><img src='img/dynamic_route1.png' alt='screenshot' /><br><img src='img/dynamic_route2.png' alt='screenshot' />`
-
+    },
+    {
+      uniqueIdMatch: 'z86',
+      date: '08/06/2020',
+      content: 'Vue',
+      topic: 'Vue Watch Properties',
+      description: 'Vue has watch properties that can be declared as an object to alter its defaul behavior. This can be very useful especially to avoid declaring same function in mounted() and watch().',
+      referenceLink1: 'https://vuejs.org/v2/api/#watch',
+      referenceLink2: 'https://stackoverflow.com/questions/52637936/vuejs-skip-watchers-first-change',
+      codependEmbed: `<iframe height="265" style="width: 100%;" scrolling="no" title="Vue Watch Properties" src="https://codepen.io/kevinmnm/embed/LYNZKdL?height=265&theme-id=dark&default-tab=result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+      See the Pen <a href='https://codepen.io/kevinmnm/pen/LYNZKdL'>Vue Watch Properties</a> by kevin
+      (<a href='https://codepen.io/kevinmnm'>@kevinmnm</a>) on <a href='https://codepen.io'>CodePen</a>.
+    </iframe>`
     }
 ];
 
