@@ -335,7 +335,7 @@ let AKAD = [
         uniqueIdMatch: 'z727',
         date: '07/27/2020',
         content: 'Vue',
-        topic: 'Vue',
+        topic: 'Vue & Animate.css',
         description: 'Vue transition can be combined with Animate.css.',
         referenceLink1: 'https://vuejs.org/v2/guide/transitions.html#Transition-Classes',
         referenceLink2: 'https://css-tricks.com/intro-to-vue-5-animations/',
