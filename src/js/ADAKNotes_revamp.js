@@ -137,7 +137,7 @@ let AKAD = [
         date: '07/11/2020',
         content: 'Vue',
         topic: '$emit Method',
-        description: 'To clarify the confusion I had regarding $emit in Vue, $emit is used from component to manipulate data declared in instance. Value that\'s being passed by $emit is called "payload". Payload can be retrieved by parent (instance) with $event parameter.',
+        description: 'To clarify the confusion I had regarding $emit in Vue, $emit is used from component to manipulate data declared in instance. Value that\'s being passed by $emit is called "payload". Payload can be retrieved by parent (instance) with $event parameter. [Prior to Vue 3] In order to pass payload to grand parent component, you must declare "$listeners" in connecting component.',
         referenceLink1: 'https://vuejs.org/v2/guide/components.html#Listening-to-Child-Components-Events',
         referenceLink2: 'https://vuejs.org/v2/guide/components-custom-events.html',
         codepenEmbed: `<iframe height="600" style="width: 100%;" scrolling="no" title="$emit Method" src="https://codepen.io/kevinmnm/embed/OJMeBZj?height=265&theme-id=dark&default-tab=result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
