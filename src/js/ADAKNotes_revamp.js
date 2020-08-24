@@ -477,6 +477,20 @@ let AKAD = [
       See the Pen <a href='https://codepen.io/kevinmnm/pen/yLOaBKx'>RegExp</a> by kevin
       (<a href='https://codepen.io/kevinmnm'>@kevinmnm</a>) on <a href='https://codepen.io'>CodePen</a>.
     </iframe>`
+    },
+    {
+      uniqueIdMatch: 'z88',
+      date: '08/08/2020',
+      content: 'JS',
+      topic: 'Firebase Useful commands',
+      description: 'Most basic Firebase JS commands to remember',
+      referenceLink1: 'https://firebase.google.com/docs/auth/web/password-auth',
+      referenceLink2: 'https://firebase.google.com/docs/reference/js/firebase.auth?authuser=0',
+      codepenEmbed: `<iframe height="650" style="width: 100%;" scrolling="no" title="Firebase Useful Commands" src="https://codepen.io/kevinmnm/embed/mdPRgQG?height=265&theme-id=dark&default-tab=html,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+      See the Pen <a href='https://codepen.io/kevinmnm/pen/mdPRgQG'>Firebase Useful Commands</a> by kevin
+      (<a href='https://codepen.io/kevinmnm'>@kevinmnm</a>) on <a href='https://codepen.io'>CodePen</a>.
+    </iframe>`
+
     }
 ];
 
