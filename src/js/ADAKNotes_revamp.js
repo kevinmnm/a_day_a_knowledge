@@ -490,7 +490,19 @@ let AKAD = [
       See the Pen <a href='https://codepen.io/kevinmnm/pen/mdPRgQG'>Firebase Useful Commands</a> by kevin
       (<a href='https://codepen.io/kevinmnm'>@kevinmnm</a>) on <a href='https://codepen.io'>CodePen</a>.
     </iframe>`
-
+    },
+    {
+      uniqueIdMatch: 'z89',
+      date: '08/09/2020',
+      content: 'JS',
+      topic: 'Firebase Create Display ID On Signup',
+      description: 'Quick note on chaining Firebase methods to simultaneously create credentials and preferred display name.',
+      referenceLink1: 'https://stackoverflow.com/questions/40389946/how-do-i-set-the-displayname-of-firebase-user/40429080',
+      referenceLink2: 'https://firebase.google.com/docs/auth/web/manage-users',
+      codepenEmbed: `<iframe height="650" style="width: 100%;" scrolling="no" title="Firebase Create Display ID On Signup" src="https://codepen.io/kevinmnm/embed/WNwjZRV?height=265&theme-id=dark&default-tab=result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+      See the Pen <a href='https://codepen.io/kevinmnm/pen/WNwjZRV'>Firebase Create Display ID On Signup</a> by kevin
+      (<a href='https://codepen.io/kevinmnm'>@kevinmnm</a>) on <a href='https://codepen.io'>CodePen</a>.
+    </iframe>`
     }
 ];
 
