@@ -516,6 +516,19 @@ let AKAD = [
       See the Pen <a href='https://codepen.io/kevinmnm/pen/OJNgyWP'>Firestore Basic Guide</a> by kevin
       (<a href='https://codepen.io/kevinmnm'>@kevinmnm</a>) on <a href='https://codepen.io'>CodePen</a>.
     </iframe>`
+    },
+    {
+      uniqueIdMatch: 'z811',
+      date: '08/11/2020',
+      content: 'JS',
+      topic: 'Firebase + Vue Router',
+      description: 'Important overview of combining Vue Router with Firebase. Plus method of sending verification email upon signup and Route Guarding depending on if user is logged in or not.',
+      referenceLink1: 'https://github.com/kevinmnm/ini_travel_website',
+      referenceLink2: 'https://firebase.google.com/docs/auth/web/email-link-auth',
+      codepenEmbed: `<iframe height="700" style="width: 100%;" scrolling="no" title="bGpRwaL" src="https://codepen.io/kevinmnm/embed/bGpRwaL?height=265&theme-id=dark&default-tab=result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+      See the Pen <a href='https://codepen.io/kevinmnm/pen/bGpRwaL'>bGpRwaL</a> by kevin
+      (<a href='https://codepen.io/kevinmnm'>@kevinmnm</a>) on <a href='https://codepen.io'>CodePen</a>.
+    </iframe>`
     }
 ];
 
