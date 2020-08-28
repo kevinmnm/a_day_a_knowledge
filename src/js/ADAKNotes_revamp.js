@@ -503,6 +503,19 @@ let AKAD = [
       See the Pen <a href='https://codepen.io/kevinmnm/pen/WNwjZRV'>Firebase Create Display ID On Signup</a> by kevin
       (<a href='https://codepen.io/kevinmnm'>@kevinmnm</a>) on <a href='https://codepen.io'>CodePen</a>.
     </iframe>`
+    },
+    {
+      uniqueIdMatch: 'z810',
+      date: '08/10/2020',
+      content: 'JS',
+      topic: 'Firebase Firestore Quick Guide',
+      description: 'Firestore allows data to be stored in Firebase database.',
+      referenceLink1: 'https://www.youtube.com/watch?v=d0RK2bpRVgo',
+      referenceLink2: 'https://firebase.google.com/docs/firestore',
+      codepenEmbed: `<iframe height="650" style="width: 100%;" scrolling="no" title="Firestore Basic Guide" src="https://codepen.io/kevinmnm/embed/OJNgyWP?height=265&theme-id=dark&default-tab=result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+      See the Pen <a href='https://codepen.io/kevinmnm/pen/OJNgyWP'>Firestore Basic Guide</a> by kevin
+      (<a href='https://codepen.io/kevinmnm'>@kevinmnm</a>) on <a href='https://codepen.io'>CodePen</a>.
+    </iframe>`
     }
 ];
 
