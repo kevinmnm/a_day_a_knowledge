@@ -529,7 +529,51 @@ let AKAD = [
       See the Pen <a href='https://codepen.io/kevinmnm/pen/bGpRwaL'>bGpRwaL</a> by kevin
       (<a href='https://codepen.io/kevinmnm'>@kevinmnm</a>) on <a href='https://codepen.io'>CodePen</a>.
     </iframe>`
+    },
+    {
+      uniqueIdMatch: 'z812',
+      date: '08/12/2020',
+      content: 'JS',
+      topic: 'Firestore Overview',
+      description: 'Imortant Firestore basics to remember!',
+      referenceLink1: 'https://firebase.google.com/docs/firestore/query-data/get-data',
+      referenceLink2: 'https://stackoverflow.com/questions/46590155/firestore-permission-denied-missing-or-insufficient-permissions',
+      codepenEmbed: `<iframe height="750" style="width: 100%;" scrolling="no" title="YzqQmxw" src="https://codepen.io/kevinmnm/embed/YzqQmxw?height=265&theme-id=dark&default-tab=result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+      See the Pen <a href='https://codepen.io/kevinmnm/pen/YzqQmxw'>YzqQmxw</a> by kevin
+      (<a href='https://codepen.io/kevinmnm'>@kevinmnm</a>) on <a href='https://codepen.io'>CodePen</a>.
+    </iframe>`
+    },
+    {
+      uniqueIdMatch: '',
+      date: '',
+      content: '',
+      topic: '',
+      description: '',
+      referenceLink1: '',
+      referenceLink2: '',
+      codepenEmbed: ``
+    },
+    {
+      uniqueIdMatch: '',
+      date: '',
+      content: '',
+      topic: '',
+      description: '',
+      referenceLink1: '',
+      referenceLink2: '',
+      codepenEmbed: ``
+    },
+    {
+      uniqueIdMatch: '',
+      date: '',
+      content: '',
+      topic: '',
+      description: '',
+      referenceLink1: '',
+      referenceLink2: '',
+      codepenEmbed: ``
     }
+    
 ];
 
 
