@@ -544,24 +544,30 @@ let AKAD = [
     </iframe>`
     },
     {
-      uniqueIdMatch: '',
-      date: '',
-      content: '',
-      topic: '',
-      description: '',
-      referenceLink1: '',
-      referenceLink2: '',
-      codepenEmbed: ``
+      uniqueIdMatch: 'z813',
+      date: '08/13/2020',
+      content: 'JS',
+      topic: 'Vue CLI + Github Pages',
+      description: 'Some setup to keep in mind when integrating Vue CLI with Github Pages.',
+      referenceLink1: 'https://cli.vuejs.org/config/#configuration-reference',
+      referenceLink2: 'https://cli.vuejs.org/guide/deployment.html#deployment',
+      codepenEmbed: `<iframe height="600" style="width: 100%;" scrolling="no" title="Vue CLI + Github Pages" src="https://codepen.io/kevinmnm/embed/VwazroO?height=265&theme-id=dark&default-tab=result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+      See the Pen <a href='https://codepen.io/kevinmnm/pen/VwazroO'>Vue CLI + Github Pages</a> by kevin
+      (<a href='https://codepen.io/kevinmnm'>@kevinmnm</a>) on <a href='https://codepen.io'>CodePen</a>.
+    </iframe>`
     },
     {
-      uniqueIdMatch: '',
-      date: '',
-      content: '',
-      topic: '',
-      description: '',
-      referenceLink1: '',
-      referenceLink2: '',
-      codepenEmbed: ``
+      uniqueIdMatch: 'z814',
+      date: '08/14/2020',
+      content: 'Vue',
+      topic: '.htaccess & Vue Router History Mode',
+      description: 'Must add .htaccess file in the root folder when using Vue Router History mode!',
+      referenceLink1: 'https://mediatemple.net/community/products/dv/204643270/using-.htaccess-rewrite-rules',
+      referenceLink2: 'https://help.dreamhost.com/hc/en-us/articles/215747748-How-can-I-redirect-and-rewrite-my-URLs-with-an-htaccess-file-',
+      codepenEmbed: `<iframe height="600" style="width: 100%;" scrolling="no" title=".htaccess &amp; Vue Router History Mode" src="https://codepen.io/kevinmnm/embed/ZEWJdWO?height=265&theme-id=dark&default-tab=result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+      See the Pen <a href='https://codepen.io/kevinmnm/pen/ZEWJdWO'>.htaccess &amp; Vue Router History Mode</a> by kevin
+      (<a href='https://codepen.io/kevinmnm'>@kevinmnm</a>) on <a href='https://codepen.io'>CodePen</a>.
+    </iframe>`
     },
     {
       uniqueIdMatch: '',
