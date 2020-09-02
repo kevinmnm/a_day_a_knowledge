@@ -43,7 +43,7 @@
     position: absolute;
     right: 0;
     width: 100px;
-    height: 100px;
+    height: auto;
     background-color: black;
     border-radius: 3px;
     display: flex;
@@ -52,6 +52,7 @@
     z-index: 1;
     justify-content: space-between;
     color: grey;
+    box-sizing: border-box;
 }
 .sort_by div{
     width: 100%;
@@ -67,7 +68,9 @@
 
 .js_select{color:yellow;text-shadow:0 0 7px yellow;}
 .vue_select{color:lightGreen;text-shadow: 0 0 7px lightGreen;}
-.css_select{color:skyBlue;text-shadow: 0 0 7px skyBlue;}
+.css_select{color:rgb(255, 103, 103);text-shadow: 0 0 7px rgb(255, 103, 103);}
+.react_select{color: skyBlue;text-shadow: 0 0 7px skyBlue;}
+.other_select{color: white;text-shadow: 0 0 7px white;}
 
 #hover_el{
     position: absolute;

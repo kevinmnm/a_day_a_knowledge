@@ -38,6 +38,8 @@ body{
 
 .js{background-color:yellow;}
 .vue{background-color:lightGreen;}
-.css{background-color: skyBlue;}
-.js,.vue,.css{border:none;color:black;font-weight:bold;}
+.css{background-color: rgb(255, 103, 103);}
+.other{background-color: white;}
+.react{background-color: skyBlue;}
+.js,.vue,.css,.react,.other{border:none;color:black;font-weight:bold;}
 

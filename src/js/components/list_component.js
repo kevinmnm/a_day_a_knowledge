@@ -10,6 +10,8 @@ const templater = `
             <div :class='{js_select: js_selected}'>JavaScript</div>
             <div :class='{vue_select: vue_selected}'>Vue</div>
             <div :class='{css_select: css_selected}'>CSS</div>
+            <div :class='{react_select: react_selected}'>React</div>
+            <div :class='{other_select: other_selected}'>Other</div>
         </div>
         </div>
             <div 
@@ -32,7 +34,9 @@ export default {
             sort_icon: false,
             js_selected: true,
             vue_selected: true,
-            css_selected: true
+            css_selected: true,
+            react_selected: true,
+            other_selected: true
         }
     },
     computed: {
@@ -63,6 +67,10 @@ export default {
                 list_block[i].classList.add('vue');
             } else if (this.akad[i].content === 'CSS') {
                 list_block[i].classList.add('css');
+            } else if (this.akad[i].content === 'React') {
+               list_block[i].classList.add('react');
+            } else if (this.akad[i].content === 'Other') {
+               list_block[i].classList.add('other');
             }
         }
     }
