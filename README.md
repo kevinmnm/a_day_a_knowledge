@@ -1,5 +1,5 @@
-# **Initravel Website**
-> A Knowledge A Day
+# **A_Day_A_Knowledge**
+> Personal learning progress tracker.
 
 ## Table of Contents
 - [ Description ](#desc)
