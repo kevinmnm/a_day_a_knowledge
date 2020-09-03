@@ -570,14 +570,17 @@ let AKAD = [
     </iframe>`
     },
     {
-      uniqueIdMatch: '',
-      date: '',
-      content: '',
-      topic: '',
-      description: '',
-      referenceLink1: '',
-      referenceLink2: '',
-      codepenEmbed: ``
+      uniqueIdMatch: 'z815',
+      date: '08/15/2020',
+      content: 'JS',
+      topic: 'JS Conventions: $() and _',
+      description: '$ and _ are some conventional identifier among developers.',
+      referenceLink1: 'https://www.thoughtco.com/and-in-javascript-2037515',
+      referenceLink2: 'https://jaredmcateer.com/2017/09/significance-of-the-underscore-parameter-in-arrow-functions/',
+      codepenEmbed: `<iframe height="265" style="width: 100%;" scrolling="no" title="ExKbVrv" src="https://codepen.io/kevinmnm/embed/ExKbVrv?height=265&theme-id=dark&default-tab=result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+      See the Pen <a href='https://codepen.io/kevinmnm/pen/ExKbVrv'>ExKbVrv</a> by kevin
+      (<a href='https://codepen.io/kevinmnm'>@kevinmnm</a>) on <a href='https://codepen.io'>CodePen</a>.
+    </iframe>`
     }
     
 ];
