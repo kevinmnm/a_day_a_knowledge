@@ -577,8 +577,21 @@ let AKAD = [
       description: '$ and _ are some conventional identifier among developers.',
       referenceLink1: 'https://www.thoughtco.com/and-in-javascript-2037515',
       referenceLink2: 'https://jaredmcateer.com/2017/09/significance-of-the-underscore-parameter-in-arrow-functions/',
-      codepenEmbed: `<iframe height="265" style="width: 100%;" scrolling="no" title="ExKbVrv" src="https://codepen.io/kevinmnm/embed/ExKbVrv?height=265&theme-id=dark&default-tab=result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+      codepenEmbed: `<iframe height="700" style="width: 100%;" scrolling="no" title="ExKbVrv" src="https://codepen.io/kevinmnm/embed/ExKbVrv?height=265&theme-id=dark&default-tab=result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
       See the Pen <a href='https://codepen.io/kevinmnm/pen/ExKbVrv'>ExKbVrv</a> by kevin
+      (<a href='https://codepen.io/kevinmnm'>@kevinmnm</a>) on <a href='https://codepen.io'>CodePen</a>.
+    </iframe>`
+    },
+    {
+      uniqueIdMatch: 'z816',
+      date: '08/16/2020',
+      content: 'Other',
+      topic: 'Data Attribute',
+      description: 'Using data attribute can help manage elements with unique values.',
+      referenceLink1: 'https://www.w3schools.com/tags/att_global_data.asp',
+      referenceLink2: 'https://www.w3schools.com/jsref/met_element_getattribute.asp',
+      codepenEmbed: `<iframe height="500" style="width: 100%;" scrolling="no" title="mdPqVRN" src="https://codepen.io/kevinmnm/embed/mdPqVRN?height=265&theme-id=dark&default-tab=result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+      See the Pen <a href='https://codepen.io/kevinmnm/pen/mdPqVRN'>mdPqVRN</a> by kevin
       (<a href='https://codepen.io/kevinmnm'>@kevinmnm</a>) on <a href='https://codepen.io'>CodePen</a>.
     </iframe>`
     }
