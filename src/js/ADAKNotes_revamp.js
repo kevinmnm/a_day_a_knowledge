@@ -594,6 +594,19 @@ let AKAD = [
       See the Pen <a href='https://codepen.io/kevinmnm/pen/mdPqVRN'>mdPqVRN</a> by kevin
       (<a href='https://codepen.io/kevinmnm'>@kevinmnm</a>) on <a href='https://codepen.io'>CodePen</a>.
     </iframe>`
+    },
+    {
+      uniqueIdMatch: 'z817',
+      date: '08/17/2020',
+      content: 'Vue',
+      topic: 'Vuex Syntax To Remember',
+      description: 'Some aspects in Vuex is worth to just memorize rather than Googling each time.',
+      referenceLink1: 'https://www.youtube.com/watch?v=_2_C9j-8CtM&ab_channel=VueMastery',
+      referenceLink2: 'https://vuex.vuejs.org/guide/',
+      codepenEmbed: `<iframe height="700" style="width: 100%;" scrolling="no" title="Vuex Syntax" src="https://codepen.io/kevinmnm/embed/RwajamL?height=265&theme-id=dark&default-tab=result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+      See the Pen <a href='https://codepen.io/kevinmnm/pen/RwajamL'>Vuex Syntax</a> by kevin
+      (<a href='https://codepen.io/kevinmnm'>@kevinmnm</a>) on <a href='https://codepen.io'>CodePen</a>.
+    </iframe>`
     }
     
 ];
