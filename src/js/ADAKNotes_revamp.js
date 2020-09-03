@@ -607,6 +607,19 @@ let AKAD = [
       See the Pen <a href='https://codepen.io/kevinmnm/pen/RwajamL'>Vuex Syntax</a> by kevin
       (<a href='https://codepen.io/kevinmnm'>@kevinmnm</a>) on <a href='https://codepen.io'>CodePen</a>.
     </iframe>`
+    },
+    {
+      uniqueIdMatch: 'z818',
+      date: '08/18/2020',
+      content: 'Vue',
+      topic: 'Vuex CLI File Arrangement',
+      description: 'Vue CLI file organization idea.',
+      referenceLink1: '',
+      referenceLink2: '',
+      codepenEmbed: `<iframe height="700" style="width: 100%;" scrolling="no" title="Vue CLI Files Organizing" src="https://codepen.io/kevinmnm/embed/XWdzMdz?height=265&theme-id=dark&default-tab=result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+      See the Pen <a href='https://codepen.io/kevinmnm/pen/XWdzMdz'>Vue CLI Files Organizing</a> by kevin
+      (<a href='https://codepen.io/kevinmnm'>@kevinmnm</a>) on <a href='https://codepen.io'>CodePen</a>.
+    </iframe>`
     }
     
 ];
