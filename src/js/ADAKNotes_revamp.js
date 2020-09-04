@@ -640,8 +640,8 @@ let AKAD = [
       content: 'Vue',
       topic: 'Vuex Store Getters',
       description: 'Important information to remember on state.',
-      referenceLink1: '',
-      referenceLink2: '',
+      referenceLink1: 'https://vuex.vuejs.org/guide/getters.html#getters',
+      referenceLink2: 'https://www.youtube.com/watch?v=OtLRQdjmFvs',
       codepenEmbed: `<iframe height="650" style="width: 100%;" scrolling="no" title="Vuex Store Getters" src="https://codepen.io/kevinmnm/embed/ExKbGjw?height=265&theme-id=dark&default-tab=result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
       See the Pen <a href='https://codepen.io/kevinmnm/pen/ExKbGjw'>Vuex Store Getters</a> by kevin
       (<a href='https://codepen.io/kevinmnm'>@kevinmnm</a>) on <a href='https://codepen.io'>CodePen</a>.
