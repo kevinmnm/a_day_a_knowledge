@@ -648,14 +648,17 @@ let AKAD = [
     </iframe>`
     },
     {
-      uniqueIdMatch: '',
-      date: '',
-      content: '',
-      topic: '',
-      description: '',
+      uniqueIdMatch: 'z821',
+      date: '08/21/2020',
+      content: 'JS',
+      topic: 'window.opener',
+      description: 'Something that I thought it was kind of interesting...',
       referenceLink1: '',
       referenceLink2: '',
-      codepenEmbed: ``
+      codepenEmbed: `<iframe height="500" style="width: 100%;" scrolling="no" title="window.opener" src="https://codepen.io/kevinmnm/embed/JjXOzYK?height=265&theme-id=dark&default-tab=result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+      See the Pen <a href='https://codepen.io/kevinmnm/pen/JjXOzYK'>window.opener</a> by kevin
+      (<a href='https://codepen.io/kevinmnm'>@kevinmnm</a>) on <a href='https://codepen.io'>CodePen</a>.
+    </iframe>`
     },
     {
       uniqueIdMatch: '',
