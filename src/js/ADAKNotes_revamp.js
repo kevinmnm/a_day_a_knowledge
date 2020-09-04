@@ -635,14 +635,17 @@ let AKAD = [
     </iframe>`
     },
     {
-      uniqueIdMatch: '',
-      date: '',
-      content: '',
-      topic: '',
-      description: '',
+      uniqueIdMatch: 'z820',
+      date: '08/20/2020',
+      content: 'Vue',
+      topic: 'Vuex Store Getters',
+      description: 'Important information to remember on state.',
       referenceLink1: '',
       referenceLink2: '',
-      codepenEmbed: ``
+      codepenEmbed: `<iframe height="650" style="width: 100%;" scrolling="no" title="Vuex Store Getters" src="https://codepen.io/kevinmnm/embed/ExKbGjw?height=265&theme-id=dark&default-tab=result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+      See the Pen <a href='https://codepen.io/kevinmnm/pen/ExKbGjw'>Vuex Store Getters</a> by kevin
+      (<a href='https://codepen.io/kevinmnm'>@kevinmnm</a>) on <a href='https://codepen.io'>CodePen</a>.
+    </iframe>`
     },
     {
       uniqueIdMatch: '',
