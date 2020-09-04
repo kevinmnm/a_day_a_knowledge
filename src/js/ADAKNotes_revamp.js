@@ -620,6 +620,46 @@ let AKAD = [
       See the Pen <a href='https://codepen.io/kevinmnm/pen/XWdzMdz'>Vue CLI Files Organizing</a> by kevin
       (<a href='https://codepen.io/kevinmnm'>@kevinmnm</a>) on <a href='https://codepen.io'>CodePen</a>.
     </iframe>`
+    },
+    {
+      uniqueIdMatch: '',
+      date: '',
+      content: '',
+      topic: '',
+      description: '',
+      referenceLink1: '',
+      referenceLink2: '',
+      codepenEmbed: ``
+    },
+    {
+      uniqueIdMatch: '',
+      date: '',
+      content: '',
+      topic: '',
+      description: '',
+      referenceLink1: '',
+      referenceLink2: '',
+      codepenEmbed: ``
+    },
+    {
+      uniqueIdMatch: '',
+      date: '',
+      content: '',
+      topic: '',
+      description: '',
+      referenceLink1: '',
+      referenceLink2: '',
+      codepenEmbed: ``
+    },
+    {
+      uniqueIdMatch: '',
+      date: '',
+      content: '',
+      topic: '',
+      description: '',
+      referenceLink1: '',
+      referenceLink2: '',
+      codepenEmbed: ``
     }
     
 ];
