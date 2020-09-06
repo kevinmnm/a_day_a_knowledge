@@ -585,7 +585,7 @@ let AKAD = [
     {
       uniqueIdMatch: 'z816',
       date: '08/16/2020',
-      content: 'Other',
+      content: 'JS',
       topic: 'Data Attribute',
       description: 'Using data attribute can help manage elements with unique values.',
       referenceLink1: 'https://www.w3schools.com/tags/att_global_data.asp',
