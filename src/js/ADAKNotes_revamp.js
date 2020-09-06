@@ -664,12 +664,25 @@ let AKAD = [
       uniqueIdMatch: 'z822',
       date: '08/22/2020',
       content: 'JS',
-      topic: 'Deconstructuring Assignment',
-      description: 'Learning basics before scrutinizing ES6 Deconstructuring.',
+      topic: 'Destructuring Array',
+      description: 'Learning basics before scrutinizing ES6 Destructuring for objects.',
       referenceLink1: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment',
       referenceLink2: 'https://www.youtube.com/watch?v=-vR3a11Wzt0&ab_channel=freeCodeCamp.org',
       codepenEmbed: `<iframe height="800" style="width: 100%;" scrolling="no" title="Deconstructuring Assignment" src="https://codepen.io/kevinmnm/embed/mdPqZmX?height=265&theme-id=dark&default-tab=result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
       See the Pen <a href='https://codepen.io/kevinmnm/pen/mdPqZmX'>Deconstructuring Assignment</a> by kevin
+      (<a href='https://codepen.io/kevinmnm'>@kevinmnm</a>) on <a href='https://codepen.io'>CodePen</a>.
+    </iframe>`
+    },
+    {
+      uniqueIdMatch: 'z823',
+      date: '08/23/2020',
+      content: 'JS',
+      topic: 'Destructuring Object',
+      description: 'JavaScript ES6 Destructuring method for object.',
+      referenceLink1: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment',
+      referenceLink2: 'https://hacks.mozilla.org/2015/05/es6-in-depth-destructuring/',
+      codepenEmbed: `<iframe height="750" style="width: 100%;" scrolling="no" title="Destructuring Object" src="https://codepen.io/kevinmnm/embed/GRZyQEZ?height=265&theme-id=dark&default-tab=result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+      See the Pen <a href='https://codepen.io/kevinmnm/pen/GRZyQEZ'>Destructuring Object</a> by kevin
       (<a href='https://codepen.io/kevinmnm'>@kevinmnm</a>) on <a href='https://codepen.io'>CodePen</a>.
     </iframe>`
     }
