@@ -711,6 +711,19 @@ let AKAD = [
       See the Pen <a href='https://codepen.io/kevinmnm/pen/MWyQYEj'>Rendering Component (Class)</a> by kevin
       (<a href='https://codepen.io/kevinmnm'>@kevinmnm</a>) on <a href='https://codepen.io'>CodePen</a>.
     </iframe>`
+    },
+    {
+      uniqueIdMatch: 'z826',
+      date: '08/26/2020',
+      content: 'React',
+      topic: 'setState Syntax',
+      description: 'Syntax used for setState in React because "this" won\'t be available by default.',
+      referenceLink1: 'https://reactjs.org/docs/hooks-state.html',
+      referenceLink2: 'https://reactjs.org/docs/state-and-lifecycle.html',
+      codepenEmbed: `<iframe height="650" style="width: 100%;" scrolling="no" title="React Function Declaration" src="https://codepen.io/kevinmnm/embed/yLOvyWb?height=265&theme-id=dark&default-tab=html,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+      See the Pen <a href='https://codepen.io/kevinmnm/pen/yLOvyWb'>React Function Declaration</a> by kevin
+      (<a href='https://codepen.io/kevinmnm'>@kevinmnm</a>) on <a href='https://codepen.io'>CodePen</a>.
+    </iframe>`
     }
     
 ];
