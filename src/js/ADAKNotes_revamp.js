@@ -707,8 +707,8 @@ let AKAD = [
       description: 'This should be a default method when declaring component in React as this is the only way to apply functions to make the component stateless.',
       referenceLink1: 'https://reactjs.org/docs/state-and-lifecycle.html',
       referenceLink2: 'https://create-react-app.dev/docs/importing-a-component/',
-      codepenEmbed: `<iframe height="650" style="width: 100%;" scrolling="no" title="React Basic Syntax" src="https://codepen.io/kevinmnm/embed/GRZyGjp?height=265&theme-id=dark&default-tab=result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-      See the Pen <a href='https://codepen.io/kevinmnm/pen/GRZyGjp'>React Basic Syntax</a> by kevin
+      codepenEmbed: `<iframe height="750" style="width: 100%;" scrolling="no" title="Rendering Component (Class)" src="https://codepen.io/kevinmnm/embed/MWyQYEj?height=265&theme-id=dark&default-tab=result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+      See the Pen <a href='https://codepen.io/kevinmnm/pen/MWyQYEj'>Rendering Component (Class)</a> by kevin
       (<a href='https://codepen.io/kevinmnm'>@kevinmnm</a>) on <a href='https://codepen.io'>CodePen</a>.
     </iframe>`
     }
