@@ -737,6 +737,19 @@ let AKAD = [
       See the Pen <a href='https://codepen.io/kevinmnm/pen/LYNdJoQ'>Primitive vs Reference Types</a> by kevin
       (<a href='https://codepen.io/kevinmnm'>@kevinmnm</a>) on <a href='https://codepen.io'>CodePen</a>.
     </iframe>`
+    },
+    {
+      uniqueIdMatch: 'z828',
+      date: '08/28/2020',
+      content: 'React',
+      topic: 'React useState Hook (Basic)',
+      description: 'Important syntax to remember when declaring component with function.',
+      referenceLink1: 'https://reactjs.org/docs/hooks-state.html',
+      referenceLink2: 'https://www.udemy.com/course/react-the-complete-guide-incl-redux/learn/lecture/13556164#content',
+      codepenEmbed: `<iframe height="750" style="width: 100%;" scrolling="no" title="React useState Hook" src="https://codepen.io/kevinmnm/embed/bGpvJgQ?height=265&theme-id=dark&default-tab=result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+      See the Pen <a href='https://codepen.io/kevinmnm/pen/bGpvJgQ'>React useState Hook</a> by kevin
+      (<a href='https://codepen.io/kevinmnm'>@kevinmnm</a>) on <a href='https://codepen.io'>CodePen</a>.
+    </iframe>`
     }
     
 ];
