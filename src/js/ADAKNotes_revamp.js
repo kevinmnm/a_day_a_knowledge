@@ -724,6 +724,19 @@ let AKAD = [
       See the Pen <a href='https://codepen.io/kevinmnm/pen/yLOvyWb'>React Function Declaration</a> by kevin
       (<a href='https://codepen.io/kevinmnm'>@kevinmnm</a>) on <a href='https://codepen.io'>CodePen</a>.
     </iframe>`
+    },
+    {
+      uniqueIdMatch: 'z827',
+      date: '08/27/2020',
+      content: 'JS',
+      topic: 'Primitive vs Reference Types',
+      description: 'Always keep in mind of primitive and reference types in JS.',
+      referenceLink1: '',
+      referenceLink2: '',
+      codepenEmbed: `<iframe height="600" style="width: 100%;" scrolling="no" title="Primitive vs Reference Types" src="https://codepen.io/kevinmnm/embed/LYNdJoQ?height=265&theme-id=dark&default-tab=result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+      See the Pen <a href='https://codepen.io/kevinmnm/pen/LYNdJoQ'>Primitive vs Reference Types</a> by kevin
+      (<a href='https://codepen.io/kevinmnm'>@kevinmnm</a>) on <a href='https://codepen.io'>CodePen</a>.
+    </iframe>`
     }
     
 ];
