@@ -789,6 +789,19 @@ let AKAD = [
       See the Pen <a href='https://codepen.io/kevinmnm/pen/vYGjZEB'>React Passing Function as Props</a> by kevin
       (<a href='https://codepen.io/kevinmnm'>@kevinmnm</a>) on <a href='https://codepen.io'>CodePen</a>.
     </iframe>`
+    },
+    {
+      uniqueIdMatch: 'z91',
+      date: '09/01/2020',
+      content: 'React',
+      topic: 'Two Ways Data Binding',
+      description: 'React two-way data binding is simpler than Vue\'s emit method.',
+      referenceLink1: '',
+      referenceLink2: '',
+      codepenEmbed: `<iframe height="750" style="width: 100%;" scrolling="no" title="React 2-way Binding" src="https://codepen.io/kevinmnm/embed/MWyGoGP?height=265&theme-id=dark&default-tab=result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+      See the Pen <a href='https://codepen.io/kevinmnm/pen/MWyGoGP'>React 2-way Binding</a> by kevin
+      (<a href='https://codepen.io/kevinmnm'>@kevinmnm</a>) on <a href='https://codepen.io'>CodePen</a>.
+    </iframe>`
     }
     
 ];
