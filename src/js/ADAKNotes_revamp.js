@@ -776,6 +776,19 @@ let AKAD = [
       See the Pen <a href='https://codepen.io/kevinmnm/pen/abNGJew'>React Change Specific State Value</a> by kevin
       (<a href='https://codepen.io/kevinmnm'>@kevinmnm</a>) on <a href='https://codepen.io'>CodePen</a>.
     </iframe>`
+    },
+    {
+      uniqueIdMatch: 'z831',
+      date: '08/31/2020',
+      content: 'React',
+      topic: 'Passing Function as Props',
+      description: 'Passing function as a props down to child component quick note.',
+      referenceLink1: '',
+      referenceLink2: '',
+      codepenEmbed: `<iframe height="600" style="width: 100%;" scrolling="no" title="React Passing Function as Props" src="https://codepen.io/kevinmnm/embed/vYGjZEB?height=265&theme-id=dark&default-tab=result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+      See the Pen <a href='https://codepen.io/kevinmnm/pen/vYGjZEB'>React Passing Function as Props</a> by kevin
+      (<a href='https://codepen.io/kevinmnm'>@kevinmnm</a>) on <a href='https://codepen.io'>CodePen</a>.
+    </iframe>`
     }
     
 ];
