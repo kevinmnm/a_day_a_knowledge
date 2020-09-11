@@ -763,6 +763,19 @@ let AKAD = [
       See the Pen <a href='https://codepen.io/kevinmnm/pen/KKzRajG'>React Props</a> by kevin
       (<a href='https://codepen.io/kevinmnm'>@kevinmnm</a>) on <a href='https://codepen.io'>CodePen</a>.
     </iframe>`
+    },
+    {
+      uniqueIdMatch: 'z830',
+      date: '08/30/2020',
+      content: 'React',
+      topic: 'Archiving Previous State',
+      description: 'A way I figured out to preserve previous state and update specific value of state.',
+      referenceLink1: 'https://reactjs.org/docs/state-and-lifecycle.html',
+      referenceLink2: 'https://reactjs.org/docs/faq-state.html',
+      codepenEmbed: `<iframe height="700" style="width: 100%;" scrolling="no" title="React Change Specific State Value" src="https://codepen.io/kevinmnm/embed/abNGJew?height=265&theme-id=dark&default-tab=result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+      See the Pen <a href='https://codepen.io/kevinmnm/pen/abNGJew'>React Change Specific State Value</a> by kevin
+      (<a href='https://codepen.io/kevinmnm'>@kevinmnm</a>) on <a href='https://codepen.io'>CodePen</a>.
+    </iframe>`
     }
     
 ];
