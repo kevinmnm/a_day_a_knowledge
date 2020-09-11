@@ -750,6 +750,19 @@ let AKAD = [
       See the Pen <a href='https://codepen.io/kevinmnm/pen/bGpvJgQ'>React useState Hook</a> by kevin
       (<a href='https://codepen.io/kevinmnm'>@kevinmnm</a>) on <a href='https://codepen.io'>CodePen</a>.
     </iframe>`
+    },
+    {
+      uniqueIdMatch: 'z829',
+      date: '08/29/2020',
+      content: 'React',
+      topic: 'React Props',
+      description: 'Quick syntax overview',
+      referenceLink1: 'https://reactjs.org/docs/components-and-props.html',
+      referenceLink2: 'https://reactjs.org/docs/render-props.html',
+      codepenEmbed: `<iframe height="750" style="width: 100%;" scrolling="no" title="React Props" src="https://codepen.io/kevinmnm/embed/KKzRajG?height=265&theme-id=dark&default-tab=result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+      See the Pen <a href='https://codepen.io/kevinmnm/pen/KKzRajG'>React Props</a> by kevin
+      (<a href='https://codepen.io/kevinmnm'>@kevinmnm</a>) on <a href='https://codepen.io'>CodePen</a>.
+    </iframe>`
     }
     
 ];
