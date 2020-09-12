@@ -815,6 +815,19 @@ let AKAD = [
       See the Pen <a href='https://codepen.io/kevinmnm/pen/VwaxrLo'>React setState</a> by kevin
       (<a href='https://codepen.io/kevinmnm'>@kevinmnm</a>) on <a href='https://codepen.io'>CodePen</a>.
     </iframe>`
+    },
+    {
+      uniqueIdMatch: 'z93',
+      date: '09/03/2020',
+      content: 'React',
+      topic: 'Deep & Shallow Copy (TLDR)',
+      description: 'Quick note to copy variables and avoid referencing.',
+      referenceLink1: 'https://medium.com/javascript-in-plain-english/how-to-deep-copy-objects-and-arrays-in-javascript-7c911359b089',
+      referenceLink2: 'https://stackoverflow.com/questions/39241046/deepcopy-in-react#:~:text=5%20Answers&text=You%20can%20use%20JSON.,you%20want%20to%20deeply%20copy.',
+      codepenEmbed: `<iframe height="650" style="width: 100%;" scrolling="no" title="React Copy (METHODS)" src="https://codepen.io/kevinmnm/embed/GRZdeQq?height=265&theme-id=dark&default-tab=result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+      See the Pen <a href='https://codepen.io/kevinmnm/pen/GRZdeQq'>React Copy (METHODS)</a> by kevin
+      (<a href='https://codepen.io/kevinmnm'>@kevinmnm</a>) on <a href='https://codepen.io'>CodePen</a>.
+    </iframe>`
     }
     
 ];
