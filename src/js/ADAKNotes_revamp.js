@@ -716,8 +716,8 @@ let AKAD = [
       uniqueIdMatch: 'z826',
       date: '08/26/2020',
       content: 'React',
-      topic: 'setState Syntax',
-      description: 'Syntax used for setState in React because "this" won\'t be available by default.',
+      topic: 'setState Syntax (WRONG APPROACH)',
+      description: 'ALL OF BELOW EXAMPLES ARE INCORRECT APPROACH TO SET STATE!',
       referenceLink1: 'https://reactjs.org/docs/hooks-state.html',
       referenceLink2: 'https://reactjs.org/docs/state-and-lifecycle.html',
       codepenEmbed: `<iframe height="650" style="width: 100%;" scrolling="no" title="React Function Declaration" src="https://codepen.io/kevinmnm/embed/yLOvyWb?height=265&theme-id=dark&default-tab=result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
