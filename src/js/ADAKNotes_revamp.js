@@ -828,6 +828,19 @@ let AKAD = [
       See the Pen <a href='https://codepen.io/kevinmnm/pen/GRZdeQq'>React Copy (METHODS)</a> by kevin
       (<a href='https://codepen.io/kevinmnm'>@kevinmnm</a>) on <a href='https://codepen.io'>CodePen</a>.
     </iframe>`
+    },
+    {
+      uniqueIdMatch: 'z94',
+      date: '09/04/2020',
+      content: 'React',
+      topic: 'React Lifecycle Quick Overview',
+      description: 'React Lifecycles are only available in class-based components.',
+      referenceLink1: 'https://www.udemy.com/course/react-the-complete-guide-incl-redux/learn/lecture/13556264#overview',
+      referenceLink2: 'https://reactjs.org/docs/state-and-lifecycle.html',
+      codepenEmbed: `<iframe height="600" style="width: 100%;" scrolling="no" title="React Lifecycle (Creation)" src="https://codepen.io/kevinmnm/embed/JjXZLwq?height=265&theme-id=dark&default-tab=result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+      See the Pen <a href='https://codepen.io/kevinmnm/pen/JjXZLwq'>React Lifecycle (Creation)</a> by kevin
+      (<a href='https://codepen.io/kevinmnm'>@kevinmnm</a>) on <a href='https://codepen.io'>CodePen</a>.
+    </iframe>`
     }
     
 ];
