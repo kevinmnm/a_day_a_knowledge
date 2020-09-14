@@ -880,6 +880,19 @@ let AKAD = [
       See the Pen <a href='https://codepen.io/kevinmnm/pen/ZEWRRdy'>React useEffect() Syntax</a> by kevin
       (<a href='https://codepen.io/kevinmnm'>@kevinmnm</a>) on <a href='https://codepen.io'>CodePen</a>.
     </iframe>`
+    },
+    {
+      uniqueIdMatch: 'z98',
+      date: '09/08/2020',
+      content: 'React',
+      topic: 'useEffect() In-Depth',
+      description: 'useEffect() can be used conditionally.',
+      referenceLink1: 'https://www.udemy.com/course/react-the-complete-guide-incl-redux/learn/lecture/13556284#content',
+      referenceLink2: 'https://reactjs.org/docs/hooks-effect.html',
+      codepenEmbed: `<iframe height="750" style="width: 100%;" scrolling="no" title="React useEffect() In-Depth" src="https://codepen.io/kevinmnm/embed/QWNxBQg?height=265&theme-id=dark&default-tab=result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+      See the Pen <a href='https://codepen.io/kevinmnm/pen/QWNxBQg'>React useEffect() In-Depth</a> by kevin
+      (<a href='https://codepen.io/kevinmnm'>@kevinmnm</a>) on <a href='https://codepen.io'>CodePen</a>.
+    </iframe>`
     }
     
 ];
