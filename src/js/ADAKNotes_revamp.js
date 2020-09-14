@@ -867,6 +867,19 @@ let AKAD = [
       See the Pen <a href='https://codepen.io/kevinmnm/pen/KKzeRgx'>KKzeRgx</a> by kevin
       (<a href='https://codepen.io/kevinmnm'>@kevinmnm</a>) on <a href='https://codepen.io'>CodePen</a>.
     </iframe>`
+    },
+    {
+      uniqueIdMatch: 'z97',
+      date: '09/07/2020',
+      content: 'React',
+      topic: 'useEffect() Basic',
+      description: 'useEffect() is a lifecycle hook for functional components in React. It\'s bascially a combination of componentDidMount() and componentDidUpdate() in class based component.s',
+      referenceLink1: 'https://www.udemy.com/course/react-the-complete-guide-incl-redux/learn/lecture/13556284#content',
+      referenceLink2: 'https://reactjs.org/docs/hooks-effect.html',
+      codepenEmbed: `<iframe height="650" style="width: 100%;" scrolling="no" title="React useEffect() Syntax" src="https://codepen.io/kevinmnm/embed/ZEWRRdy?height=265&theme-id=dark&default-tab=result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+      See the Pen <a href='https://codepen.io/kevinmnm/pen/ZEWRRdy'>React useEffect() Syntax</a> by kevin
+      (<a href='https://codepen.io/kevinmnm'>@kevinmnm</a>) on <a href='https://codepen.io'>CodePen</a>.
+    </iframe>`
     }
     
 ];
