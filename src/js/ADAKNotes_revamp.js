@@ -819,7 +819,7 @@ let AKAD = [
     {
       uniqueIdMatch: 'z93',
       date: '09/03/2020',
-      content: 'React',
+      content: 'JS',
       topic: 'Deep & Shallow Copy (TLDR)',
       description: 'Quick note to copy variables and avoid referencing.',
       referenceLink1: 'https://medium.com/javascript-in-plain-english/how-to-deep-copy-objects-and-arrays-in-javascript-7c911359b089',
