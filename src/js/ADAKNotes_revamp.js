@@ -834,7 +834,7 @@ let AKAD = [
       date: '09/04/2020',
       content: 'React',
       topic: 'React Lifecycle (Creation)',
-      description: 'React Lifecycles are only available in class-based components.',
+      description: 'React Lifecycles are only available in class-based components. Use "useEffect()" instead in functional-based components.',
       referenceLink1: 'https://www.udemy.com/course/react-the-complete-guide-incl-redux/learn/lecture/13556264#overview',
       referenceLink2: 'https://reactjs.org/docs/state-and-lifecycle.html',
       codepenEmbed: `<iframe height="600" style="width: 100%;" scrolling="no" title="React Lifecycle (Creation)" src="https://codepen.io/kevinmnm/embed/JjXZLwq?height=265&theme-id=dark&default-tab=result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
