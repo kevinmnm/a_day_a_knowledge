@@ -833,7 +833,7 @@ let AKAD = [
       uniqueIdMatch: 'z94',
       date: '09/04/2020',
       content: 'React',
-      topic: 'React Lifecycle Quick Overview',
+      topic: 'React Lifecycle (Creation)',
       description: 'React Lifecycles are only available in class-based components.',
       referenceLink1: 'https://www.udemy.com/course/react-the-complete-guide-incl-redux/learn/lecture/13556264#overview',
       referenceLink2: 'https://reactjs.org/docs/state-and-lifecycle.html',
@@ -852,6 +852,19 @@ let AKAD = [
       referenceLink2: 'https://reactjs.org/docs/react-component.html#componentdidmount',
       codepenEmbed: `<iframe height="500" style="width: 100%;" scrolling="no" title="React componentDidMount()" src="https://codepen.io/kevinmnm/embed/MWyXVbO?height=265&theme-id=dark&default-tab=result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
       See the Pen <a href='https://codepen.io/kevinmnm/pen/MWyXVbO'>React componentDidMount()</a> by kevin
+      (<a href='https://codepen.io/kevinmnm'>@kevinmnm</a>) on <a href='https://codepen.io'>CodePen</a>.
+    </iframe>`
+    },
+    {
+      uniqueIdMatch: 'z96',
+      date: '09/06/2020',
+      content: 'React',
+      topic: 'React Lifecycle (Update)',
+      description: 'Quck overview of React lifecycle upon props or state update.',
+      referenceLink1: 'https://www.udemy.com/course/react-the-complete-guide-incl-redux/learn/lecture/13585862#overview',
+      referenceLink2: 'https://reactjs.org/docs/state-and-lifecycle.html',
+      codepenEmbed: `<iframe height="750" style="width: 100%;" scrolling="no" title="KKzeRgx" src="https://codepen.io/kevinmnm/embed/KKzeRgx?height=265&theme-id=dark&default-tab=result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+      See the Pen <a href='https://codepen.io/kevinmnm/pen/KKzeRgx'>KKzeRgx</a> by kevin
       (<a href='https://codepen.io/kevinmnm'>@kevinmnm</a>) on <a href='https://codepen.io'>CodePen</a>.
     </iframe>`
     }
