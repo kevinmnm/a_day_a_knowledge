@@ -945,6 +945,19 @@ let AKAD = [
       See the Pen <a href='https://codepen.io/kevinmnm/pen/jOqpGGg'>React contextType() &amp; useContext()</a> by kevin
       (<a href='https://codepen.io/kevinmnm'>@kevinmnm</a>) on <a href='https://codepen.io'>CodePen</a>.
     </iframe>`
+    },
+    {
+      uniqueIdMatch: 'z913',
+      date: '09/13/2020',
+      content: 'React',
+      topic: '$emit Equivalent!',
+      description: 'Vue has built-in method $emit. Same approach can be different in React.',
+      referenceLink1: 'https://dev.to/vadims4/passing-down-functions-in-react-4618',
+      referenceLink2: 'https://medium.com/@RupaniChirag/parent-child-communication-in-vue-angular-and-react-all-in-typescript-9a47c75cbf74',
+      codepenEmbed: `<iframe height="700" style="width: 100%;" scrolling="no" title="React Equvalent $emit" src="https://codepen.io/kevinmnm/embed/vYGapYO?height=265&theme-id=dark&default-tab=result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+      See the Pen <a href='https://codepen.io/kevinmnm/pen/vYGapYO'>React Equvalent $emit</a> by kevin
+      (<a href='https://codepen.io/kevinmnm'>@kevinmnm</a>) on <a href='https://codepen.io'>CodePen</a>.
+    </iframe>`
     }
     
 ];
