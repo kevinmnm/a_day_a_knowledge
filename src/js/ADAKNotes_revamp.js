@@ -919,6 +919,19 @@ let AKAD = [
       See the Pen <a href='https://codepen.io/kevinmnm/pen/bGpjWNm'>React Ref in Functional-Component</a> by kevin
       (<a href='https://codepen.io/kevinmnm'>@kevinmnm</a>) on <a href='https://codepen.io'>CodePen</a>.
     </iframe>`
+    },
+    {
+      uniqueIdMatch: 'z911',
+      date: '09/11/2020',
+      content: 'React',
+      topic: 'createContext',
+      description: 'Similar concept as Vuex. React state is used to circumvent props passing down to "nested" child components.',
+      referenceLink1: 'https://www.udemy.com/course/react-the-complete-guide-incl-redux/learn/lecture/13556344#content',
+      referenceLink2: 'https://reactjs.org/docs/context.html#reactcreatecontext',
+      codepenEmbed: `<iframe height="800" style="width: 100%;" scrolling="no" title="React Context" src="https://codepen.io/kevinmnm/embed/VwaBzyj?height=265&theme-id=dark&default-tab=result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+      See the Pen <a href='https://codepen.io/kevinmnm/pen/VwaBzyj'>React Context</a> by kevin
+      (<a href='https://codepen.io/kevinmnm'>@kevinmnm</a>) on <a href='https://codepen.io'>CodePen</a>.
+    </iframe>`
     }
     
 ];
