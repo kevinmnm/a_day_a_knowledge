@@ -958,6 +958,19 @@ let AKAD = [
       See the Pen <a href='https://codepen.io/kevinmnm/pen/vYGapYO'>React Equvalent $emit</a> by kevin
       (<a href='https://codepen.io/kevinmnm'>@kevinmnm</a>) on <a href='https://codepen.io'>CodePen</a>.
     </iframe>`
+    },
+    {
+      uniqueIdMatch: 'z914',
+      date: '09/14/2020',
+      content: 'JS',
+      topic: 'fetch() Basics',
+      description: 'fetch() is easier and clearner to write than AJAX.',
+      referenceLink1: 'https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch',
+      referenceLink2: 'https://stackoverflow.com/questions/38332701/fetch-vs-ajaxcall',
+      codepenEmbed: `<iframe height="800" style="width: 100%;" scrolling="no" title="fetch() Basics" src="https://codepen.io/kevinmnm/embed/KKzxKbq?height=265&theme-id=dark&default-tab=result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+      See the Pen <a href='https://codepen.io/kevinmnm/pen/KKzxKbq'>fetch() Basics</a> by kevin
+      (<a href='https://codepen.io/kevinmnm'>@kevinmnm</a>) on <a href='https://codepen.io'>CodePen</a>.
+    </iframe>`
     }
     
 ];
