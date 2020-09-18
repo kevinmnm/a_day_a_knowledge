@@ -1023,6 +1023,19 @@ let AKAD = [
       See the Pen <a href='https://codepen.io/kevinmnm/pen/abNRpEL'>Redux-React Setup Functional</a> by kevin
       (<a href='https://codepen.io/kevinmnm'>@kevinmnm</a>) on <a href='https://codepen.io'>CodePen</a>.
     </iframe>`
+    },
+    {
+      uniqueIdMatch: 'z919',
+      date: '09/19/2020',
+      content: 'React',
+      topic: 'Redux-React Setup Functional',
+      description: 'In class component, connect() needs to be used upon export.',
+      referenceLink1: 'https://www.udemy.com/course/react-the-complete-guide-incl-redux/learn/lecture/8226862#content',
+      referenceLink2: 'https://react-redux.js.org/api/connect#connect',
+      codepenEmbed: `<iframe height="1000" style="width: 100%;" scrolling="no" title="Redux-React Setup Class" src="https://codepen.io/kevinmnm/embed/bGpmgzd?height=265&theme-id=dark&default-tab=result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+      See the Pen <a href='https://codepen.io/kevinmnm/pen/bGpmgzd'>Redux-React Setup Class</a> by kevin
+      (<a href='https://codepen.io/kevinmnm'>@kevinmnm</a>) on <a href='https://codepen.io'>CodePen</a>.
+    </iframe>`
     }
     
 ];
