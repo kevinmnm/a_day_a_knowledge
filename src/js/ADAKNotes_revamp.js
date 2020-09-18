@@ -1036,6 +1036,19 @@ let AKAD = [
       See the Pen <a href='https://codepen.io/kevinmnm/pen/bGpmgzd'>Redux-React Setup Class</a> by kevin
       (<a href='https://codepen.io/kevinmnm'>@kevinmnm</a>) on <a href='https://codepen.io'>CodePen</a>.
     </iframe>`
+    },
+    {
+      uniqueIdMatch: 'z920',
+      date: '09/20/2020',
+      content: 'React',
+      topic: 'Dispatch Input Value',
+      description: 'Quick overview of dispatching input value using Redux for class component.',
+      referenceLink1: '',
+      referenceLink2: '',
+      codepenEmbed: `<iframe height="800" style="width: 100%;" scrolling="no" title="Dispatch Input Value" src="https://codepen.io/kevinmnm/embed/oNxaWez?height=265&theme-id=dark&default-tab=result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+      See the Pen <a href='https://codepen.io/kevinmnm/pen/oNxaWez'>Dispatch Input Value</a> by kevin
+      (<a href='https://codepen.io/kevinmnm'>@kevinmnm</a>) on <a href='https://codepen.io'>CodePen</a>.
+    </iframe>`
     }
     
 ];
