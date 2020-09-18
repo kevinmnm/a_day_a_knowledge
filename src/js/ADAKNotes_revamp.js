@@ -997,6 +997,19 @@ let AKAD = [
       See the Pen <a href='https://codepen.io/kevinmnm/pen/xxVayEw'>React Lazy Loading</a> by kevin
       (<a href='https://codepen.io/kevinmnm'>@kevinmnm</a>) on <a href='https://codepen.io'>CodePen</a>.
     </iframe>`
+    },
+    {
+      uniqueIdMatch: 'z917',
+      date: '09/17/2020',
+      content: 'React',
+      topic: 'React-Redux Setup',
+      description: 'React-Redux initial setup..',
+      referenceLink1: 'https://www.udemy.com/course/react-the-complete-guide-incl-redux/learn/lecture/8226862#content',
+      referenceLink2: 'https://www.youtube.com/watch?v=CVpUuw9XSjY&ab_channel=DevEd',
+      codepenEmbed: `<iframe height="1000" style="width: 100%;" scrolling="no" title="React-Redux Setup" src="https://codepen.io/kevinmnm/embed/BaKqQgG?height=265&theme-id=dark&default-tab=result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+      See the Pen <a href='https://codepen.io/kevinmnm/pen/BaKqQgG'>React-Redux Setup</a> by kevin
+      (<a href='https://codepen.io/kevinmnm'>@kevinmnm</a>) on <a href='https://codepen.io'>CodePen</a>.
+    </iframe>`
     }
     
 ];
