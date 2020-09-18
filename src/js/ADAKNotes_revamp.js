@@ -1010,6 +1010,19 @@ let AKAD = [
       See the Pen <a href='https://codepen.io/kevinmnm/pen/BaKqQgG'>React-Redux Setup</a> by kevin
       (<a href='https://codepen.io/kevinmnm'>@kevinmnm</a>) on <a href='https://codepen.io'>CodePen</a>.
     </iframe>`
+    },
+    {
+      uniqueIdMatch: 'z918',
+      date: '09/18/2020',
+      content: 'React',
+      topic: 'Redux-React Setup Functional',
+      description: 'React-redux setup basics for function component.',
+      referenceLink1: 'https://www.youtube.com/watch?v=CVpUuw9XSjY&ab_channel=DevEd',
+      referenceLink2: 'https://react-redux.js.org/api/hooks',
+      codepenEmbed: `<iframe height="800" style="width: 100%;" scrolling="no" title="Redux-React Setup Functional" src="https://codepen.io/kevinmnm/embed/abNRpEL?height=544&theme-id=dark&default-tab=result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+      See the Pen <a href='https://codepen.io/kevinmnm/pen/abNRpEL'>Redux-React Setup Functional</a> by kevin
+      (<a href='https://codepen.io/kevinmnm'>@kevinmnm</a>) on <a href='https://codepen.io'>CodePen</a>.
+    </iframe>`
     }
     
 ];
