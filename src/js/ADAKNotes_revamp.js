@@ -1062,6 +1062,19 @@ let AKAD = [
       See the Pen <a href='https://codepen.io/kevinmnm/pen/wvGQMGa'>void Operator Encounter</a> by kevin
       (<a href='https://codepen.io/kevinmnm'>@kevinmnm</a>) on <a href='https://codepen.io'>CodePen</a>.
     </iframe>`
+    },
+    {
+      uniqueIdMatch: 'z922',
+      date: '09/22/2020',
+      content: 'JS',
+      topic: 'void For Animation Toggle!',
+      description: 'Magic of void operator to render consistent animation.',
+      referenceLink1: 'https://css-tricks.com/restart-css-animation/',
+      referenceLink2: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/void',
+      codepenEmbed: `<iframe height="1000" style="width: 100%;" scrolling="no" title="void For Animation!" src="https://codepen.io/kevinmnm/embed/qBZQbPL?height=265&theme-id=dark&default-tab=result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+      See the Pen <a href='https://codepen.io/kevinmnm/pen/qBZQbPL'>void For Animation!</a> by kevin
+      (<a href='https://codepen.io/kevinmnm'>@kevinmnm</a>) on <a href='https://codepen.io'>CodePen</a>.
+    </iframe>`
     }
     
 ];
