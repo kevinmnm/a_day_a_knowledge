@@ -1075,7 +1075,37 @@ let AKAD = [
       See the Pen <a href='https://codepen.io/kevinmnm/pen/qBZQbPL'>void For Animation!</a> by kevin
       (<a href='https://codepen.io/kevinmnm'>@kevinmnm</a>) on <a href='https://codepen.io'>CodePen</a>.
     </iframe>`
-    }
+    },
+    {
+        uniqueIdMatch: 'z923',
+        date: '09/23/2020',
+        content: 'React',
+        topic: 'Development Setup',
+        description: 'Quick documentation reference. Visit links to view in detail.',
+        referenceLink1: 'https://create-react-app.dev/docs/deployment/#serving-apps-with-client-side-routing',
+        referenceLink2: 'https://stackoverflow.com/questions/27928372/react-router-urls-dont-work-when-refreshing-or-writing-manually',
+        codepenEmbed: `No codepen.io example available for this content. <br><br><img src='img/react-development-guide.png' alt='screenshot'></img>`
+    },
+    {
+        uniqueIdMatch: '',
+        date: '',
+        content: '',
+        topic: '',
+        description: '',
+        referenceLink1: '',
+        referenceLink2: '',
+        codepenEmbed: `No codepen.io example available for this content. <br><br><img src='img/key_modifiers.png' alt='screenshot'></img>`
+    },
+    {
+        uniqueIdMatch: '',
+        date: '',
+        content: '',
+        topic: '',
+        description: '',
+        referenceLink1: '',
+        referenceLink2: '',
+        codepenEmbed: `No codepen.io example available for this content. <br><br><img src='img/key_modifiers.png' alt='screenshot'></img>`
+    },
     
 ];
 
