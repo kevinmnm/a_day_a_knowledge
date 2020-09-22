@@ -1087,13 +1087,13 @@ let AKAD = [
         codepenEmbed: `No codepen.io example available for this content. <br><br><img src='img/react-development-guide.png' alt='screenshot'></img>`
     },
     {
-        uniqueIdMatch: '',
-        date: '',
-        content: '',
-        topic: '',
-        description: '',
-        referenceLink1: '',
-        referenceLink2: '',
+        uniqueIdMatch: 'z924',
+        date: '09/24/2020',
+        content: 'JS',
+        topic: 'includes() & indexOf()',
+        description: 'Quick note on simple JS built-in methods.',
+        referenceLink1: 'https://www.w3schools.com/jsref/jsref_includes.asp',
+        referenceLink2: 'https://www.w3schools.com/jsref/jsref_indexof.asp',
         codepenEmbed: `No codepen.io example available for this content. <br><br><img src='img/key_modifiers.png' alt='screenshot'></img>`
     },
     {
