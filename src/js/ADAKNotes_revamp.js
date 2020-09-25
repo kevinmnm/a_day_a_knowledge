@@ -1114,10 +1114,13 @@ let AKAD = [
         date: '09/26/2020',
         content: 'Other',
         topic: 'Node.js Basics',
-        description: 'Some Node.js basics to keep in mind.',
+        description: 'Some Node.js basics to keep in mind. Always refer to official documentation.',
         referenceLink1: 'https://nodejs.org/en/docs/',
         referenceLink2: 'https://nodejs.org/dist/latest-v14.x/docs/api/https.html#https_https_get_url_options_callback',
-        codepenEmbed: ``
+        codepenEmbed: `<iframe height="1000" style="width: 100%;" scrolling="no" title="Node.js Basics" src="https://codepen.io/kevinmnm/embed/YzqgpJK?height=265&theme-id=dark&default-tab=result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+        See the Pen <a href='https://codepen.io/kevinmnm/pen/YzqgpJK'>Node.js Basics</a> by kevin
+        (<a href='https://codepen.io/kevinmnm'>@kevinmnm</a>) on <a href='https://codepen.io'>CodePen</a>.
+      </iframe>`
     },
     
 ];
