@@ -1109,6 +1109,16 @@ let AKAD = [
         (<a href='https://codepen.io/kevinmnm'>@kevinmnm</a>) on <a href='https://codepen.io'>CodePen</a>.
       </iframe>`
     },
+    {
+        uniqueIdMatch: 'z296',
+        date: '09/26/2020',
+        content: 'Other',
+        topic: 'Node.js Basics',
+        description: 'Some Node.js basics.',
+        referenceLink1: '',
+        referenceLink2: '',
+        codepenEmbed: ``
+    },
     
 ];
 
