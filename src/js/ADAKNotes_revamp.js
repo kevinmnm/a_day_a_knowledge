@@ -1097,7 +1097,7 @@ let AKAD = [
         codepenEmbed: `No codepen.io example available for this content. <br><br><img src='img/key_modifiers.png' alt='screenshot'></img>`
     },
     {
-        uniqueIdMatch: 'z295',
+        uniqueIdMatch: 'z925',
         date: '09/25/2020',
         content: 'CSS',
         topic: 'SCSS Hover Syntax',
@@ -1110,7 +1110,7 @@ let AKAD = [
       </iframe>`
     },
     {
-        uniqueIdMatch: 'z296',
+        uniqueIdMatch: 'z926',
         date: '09/26/2020',
         content: 'Other',
         topic: 'Node.js Basics',
@@ -1123,15 +1123,28 @@ let AKAD = [
       </iframe>`
     },
     {
-        uniqueIdMatch: 'z297',
+        uniqueIdMatch: 'z927',
         date: '09/27/2020',
-        content: 'JS',
+        content: 'Other',
         topic: 'Arrow Function Declaration Behavior',
         description: 'Something to keep in mind when coding with vanilla JS.',
         referenceLink1: '',
         referenceLink2: '',
         codepenEmbed: `<iframe height="1000" style="width: 100%;" scrolling="no" title="JS Arrow Function Behaviors to Kepp in Mind" src="https://codepen.io/kevinmnm/embed/OJNqWzO?height=265&theme-id=dark&default-tab=result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
         See the Pen <a href='https://codepen.io/kevinmnm/pen/OJNqWzO'>JS Arrow Function Behaviors to Kepp in Mind</a> by kevin
+        (<a href='https://codepen.io/kevinmnm'>@kevinmnm</a>) on <a href='https://codepen.io'>CodePen</a>.
+      </iframe>`
+    },
+    {
+        uniqueIdMatch: 'z928',
+        date: '09/28/2020',
+        content: 'Other',
+        topic: 'process.argv',
+        description: 'process.argv get argument from terminal.',
+        referenceLink1: 'https://nodejs.org/docs/latest/api/process.html#process_process_argv',
+        referenceLink2: 'https://nodejs.org/docs/latest/api/process.html#process_process_argv0',
+        codepenEmbed: `<iframe height="500" style="width: 100%;" scrolling="no" title="Node.js process.argv" src="https://codepen.io/kevinmnm/embed/ZEWPLZg?height=265&theme-id=dark&default-tab=result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+        See the Pen <a href='https://codepen.io/kevinmnm/pen/ZEWPLZg'>Node.js process.argv</a> by kevin
         (<a href='https://codepen.io/kevinmnm'>@kevinmnm</a>) on <a href='https://codepen.io'>CodePen</a>.
       </iframe>`
     },
