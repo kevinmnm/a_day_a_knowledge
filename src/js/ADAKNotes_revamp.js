@@ -1114,9 +1114,9 @@ let AKAD = [
         date: '09/26/2020',
         content: 'Other',
         topic: 'Node.js Basics',
-        description: 'Some Node.js basics.',
-        referenceLink1: '',
-        referenceLink2: '',
+        description: 'Some Node.js basics to keep in mind.',
+        referenceLink1: 'https://nodejs.org/en/docs/',
+        referenceLink2: 'https://nodejs.org/dist/latest-v14.x/docs/api/https.html#https_https_get_url_options_callback',
         codepenEmbed: ``
     },
     
