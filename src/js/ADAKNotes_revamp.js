@@ -1122,6 +1122,19 @@ let AKAD = [
         (<a href='https://codepen.io/kevinmnm'>@kevinmnm</a>) on <a href='https://codepen.io'>CodePen</a>.
       </iframe>`
     },
+    {
+        uniqueIdMatch: 'z297',
+        date: '09/27/2020',
+        content: 'JS',
+        topic: 'Arrow Function Declaration Behavior',
+        description: 'Something to keep in mind when coding with vanilla JS.',
+        referenceLink1: '',
+        referenceLink2: '',
+        codepenEmbed: `<iframe height="1000" style="width: 100%;" scrolling="no" title="JS Arrow Function Behaviors to Kepp in Mind" src="https://codepen.io/kevinmnm/embed/OJNqWzO?height=265&theme-id=dark&default-tab=result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+        See the Pen <a href='https://codepen.io/kevinmnm/pen/OJNqWzO'>JS Arrow Function Behaviors to Kepp in Mind</a> by kevin
+        (<a href='https://codepen.io/kevinmnm'>@kevinmnm</a>) on <a href='https://codepen.io'>CodePen</a>.
+      </iframe>`
+    },
     
 ];
 
