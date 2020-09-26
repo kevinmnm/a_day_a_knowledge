@@ -1148,6 +1148,19 @@ let AKAD = [
         (<a href='https://codepen.io/kevinmnm'>@kevinmnm</a>) on <a href='https://codepen.io'>CodePen</a>.
       </iframe>`
     },
+    {
+        uniqueIdMatch: 'z929',
+        date: '09/29/2020',
+        content: 'Other',
+        topic: 'Create Server with Node.js',
+        description: 'Creating server is the bascis of Node.js utilization.',
+        referenceLink1: '',
+        referenceLink2: '',
+        codepenEmbed: `<iframe height="1000" style="width: 100%;" scrolling="no" title="Node.js Create Server" src="https://codepen.io/kevinmnm/embed/vYGPZBN?height=265&theme-id=dark&default-tab=result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+        See the Pen <a href='https://codepen.io/kevinmnm/pen/vYGPZBN'>Node.js Create Server</a> by kevin
+        (<a href='https://codepen.io/kevinmnm'>@kevinmnm</a>) on <a href='https://codepen.io'>CodePen</a>.
+      </iframe>`
+    }
     
 ];
 
