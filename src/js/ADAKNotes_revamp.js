@@ -1173,6 +1173,19 @@ let AKAD = [
         See the Pen <a href='https://codepen.io/kevinmnm/pen/BaKEoyQ'>Node.js Custom Route (URL)</a> by kevin
         (<a href='https://codepen.io/kevinmnm'>@kevinmnm</a>) on <a href='https://codepen.io'>CodePen</a>.
       </iframe>`
+    },
+    {
+        uniqueIdMatch: 'z101',
+        date: '10/01/2020',
+        content: 'Other',
+        topic: 'module.exports',
+        description: 'Node.js module.exports for code splitting.',
+        referenceLink1: 'https://teamtreehouse.com/library/user-route',
+        referenceLink2: 'https://www.sitepoint.com/understanding-module-exports-exports-node-js/',
+        codepenEmbed: `<iframe height="1000" style="width: 100%;" scrolling="no" title="Node.js exports.module File Structures" src="https://codepen.io/kevinmnm/embed/GRZLpNq?height=265&theme-id=dark&default-tab=result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+        See the Pen <a href='https://codepen.io/kevinmnm/pen/GRZLpNq'>Node.js exports.module File Structures</a> by kevin
+        (<a href='https://codepen.io/kevinmnm'>@kevinmnm</a>) on <a href='https://codepen.io'>CodePen</a>.
+      </iframe>`
     }
     
 ];
