@@ -1186,6 +1186,19 @@ let AKAD = [
         See the Pen <a href='https://codepen.io/kevinmnm/pen/GRZLpNq'>Node.js exports.module File Structures</a> by kevin
         (<a href='https://codepen.io/kevinmnm'>@kevinmnm</a>) on <a href='https://codepen.io'>CodePen</a>.
       </iframe>`
+    },
+    {
+        uniqueIdMatch: 'z102',
+        date: '10/02/2020',
+        content: 'Other',
+        topic: 'AJAX in Node.js',
+        description: 'Basic AJAX implementation example in Node.js',
+        referenceLink1: 'https://www.valentinog.com/blog/http-js/',
+        referenceLink2: 'https://www.valentinog.com/blog/http-js/',
+        codepenEmbed: `<iframe height="800" style="width: 100%;" scrolling="no" title="Node.js AJAX Basics" src="https://codepen.io/kevinmnm/embed/NWNmGMy?height=265&theme-id=dark&default-tab=result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+        See the Pen <a href='https://codepen.io/kevinmnm/pen/NWNmGMy'>Node.js AJAX Basics</a> by kevin
+        (<a href='https://codepen.io/kevinmnm'>@kevinmnm</a>) on <a href='https://codepen.io'>CodePen</a>.
+      </iframe>`
     }
     
 ];
