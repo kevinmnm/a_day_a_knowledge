@@ -1160,6 +1160,19 @@ let AKAD = [
         See the Pen <a href='https://codepen.io/kevinmnm/pen/vYGPZBN'>Node.js Create Server</a> by kevin
         (<a href='https://codepen.io/kevinmnm'>@kevinmnm</a>) on <a href='https://codepen.io'>CodePen</a>.
       </iframe>`
+    },
+    {
+        uniqueIdMatch: 'z930',
+        date: '09/30/2020',
+        content: 'Other',
+        topic: 'Custom Route (URL)',
+        description: 'Node.js routing basics.',
+        referenceLink1: 'https://teamtreehouse.com/library/user-route',
+        referenceLink2: 'https://nodejs.org/dist/latest-v14.x/docs/api/url.html',
+        codepenEmbed: `<iframe height="800" style="width: 100%;" scrolling="no" title="Node.js Custom Route (URL)" src="https://codepen.io/kevinmnm/embed/BaKEoyQ?height=265&theme-id=dark&default-tab=result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+        See the Pen <a href='https://codepen.io/kevinmnm/pen/BaKEoyQ'>Node.js Custom Route (URL)</a> by kevin
+        (<a href='https://codepen.io/kevinmnm'>@kevinmnm</a>) on <a href='https://codepen.io'>CodePen</a>.
+      </iframe>`
     }
     
 ];
