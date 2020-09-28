@@ -1199,6 +1199,19 @@ let AKAD = [
         See the Pen <a href='https://codepen.io/kevinmnm/pen/NWNmGMy'>Node.js AJAX Basics</a> by kevin
         (<a href='https://codepen.io/kevinmnm'>@kevinmnm</a>) on <a href='https://codepen.io'>CodePen</a>.
       </iframe>`
+    },
+    {
+        uniqueIdMatch: 'z103',
+        date: '10/03/2020',
+        content: 'Other',
+        topic: 'Content-Type Quick Tip',
+        description: 'Content-Type can be different per file type.',
+        referenceLink1: '',
+        referenceLink2: '',
+        codepenEmbed: `<iframe height="600" style="width: 100%;" scrolling="no" title="Node.js Content-Type" src="https://codepen.io/kevinmnm/embed/GRZLBgJ?height=265&theme-id=dark&default-tab=result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+        See the Pen <a href='https://codepen.io/kevinmnm/pen/GRZLBgJ'>Node.js Content-Type</a> by kevin
+        (<a href='https://codepen.io/kevinmnm'>@kevinmnm</a>) on <a href='https://codepen.io'>CodePen</a>.
+      </iframe>`
     }
     
 ];
