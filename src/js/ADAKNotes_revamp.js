@@ -1212,6 +1212,19 @@ let AKAD = [
         See the Pen <a href='https://codepen.io/kevinmnm/pen/GRZLBgJ'>Node.js Content-Type</a> by kevin
         (<a href='https://codepen.io/kevinmnm'>@kevinmnm</a>) on <a href='https://codepen.io'>CodePen</a>.
       </iframe>`
+    },
+    {
+        uniqueIdMatch: 'z104',
+        date: '10/04/2020',
+        content: 'Other',
+        topic: 'Nodemon',
+        description: 'Nodemon is a developer tool to automate auto run development server.',
+        referenceLink1: '',
+        referenceLink2: '',
+        codepenEmbed: `<iframe height="500" style="width: 100%;" scrolling="no" title="Nodemon" src="https://codepen.io/kevinmnm/embed/JjXVmjy?height=265&theme-id=dark&default-tab=result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+        See the Pen <a href='https://codepen.io/kevinmnm/pen/JjXVmjy'>Nodemon</a> by kevin
+        (<a href='https://codepen.io/kevinmnm'>@kevinmnm</a>) on <a href='https://codepen.io'>CodePen</a>.
+      </iframe>`
     }
     
 ];
