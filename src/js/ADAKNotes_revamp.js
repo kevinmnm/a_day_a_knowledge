@@ -1225,6 +1225,19 @@ let AKAD = [
         See the Pen <a href='https://codepen.io/kevinmnm/pen/JjXVmjy'>Nodemon</a> by kevin
         (<a href='https://codepen.io/kevinmnm'>@kevinmnm</a>) on <a href='https://codepen.io'>CodePen</a>.
       </iframe>`
+    },
+    {
+        uniqueIdMatch: 'z105',
+        date: '10/05/2020',
+        content: 'Other',
+        topic: 'Express.js Basics',
+        description: 'Basic setup.',
+        referenceLink1: '',
+        referenceLink2: '',
+        codepenEmbed: `<iframe height="1000" style="width: 100%;" scrolling="no" title="Express.js Basic Setup" src="https://codepen.io/kevinmnm/embed/jOqoWOp?height=265&theme-id=dark&default-tab=result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+        See the Pen <a href='https://codepen.io/kevinmnm/pen/jOqoWOp'>Express.js Basic Setup</a> by kevin
+        (<a href='https://codepen.io/kevinmnm'>@kevinmnm</a>) on <a href='https://codepen.io'>CodePen</a>.
+      </iframe>`
     }
     
 ];
