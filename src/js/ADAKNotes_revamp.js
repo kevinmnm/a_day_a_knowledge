@@ -1238,6 +1238,19 @@ let AKAD = [
         See the Pen <a href='https://codepen.io/kevinmnm/pen/jOqoWOp'>Express.js Basic Setup</a> by kevin
         (<a href='https://codepen.io/kevinmnm'>@kevinmnm</a>) on <a href='https://codepen.io'>CodePen</a>.
       </iframe>`
+    },
+    {
+        uniqueIdMatch: 'z106',
+        date: '10/06/2020',
+        content: 'Other',
+        topic: 'Express.js Simple Routing',
+        description: 'Basic routing method.',
+        referenceLink1: '',
+        referenceLink2: '',
+        codepenEmbed: `<iframe height="500" style="width: 100%;" scrolling="no" title="Express.js Simple Routing" src="https://codepen.io/kevinmnm/embed/mdPYEor?height=265&theme-id=dark&default-tab=result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+        See the Pen <a href='https://codepen.io/kevinmnm/pen/mdPYEor'>Express.js Simple Routing</a> by kevin
+        (<a href='https://codepen.io/kevinmnm'>@kevinmnm</a>) on <a href='https://codepen.io'>CodePen</a>.
+      </iframe>`
     }
     
 ];
