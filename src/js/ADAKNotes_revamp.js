@@ -1290,6 +1290,19 @@ let AKAD = [
         See the Pen <a href='https://codepen.io/kevinmnm/pen/BaKeWNm'>Express.js 404 Page</a> by kevin
         (<a href='https://codepen.io/kevinmnm'>@kevinmnm</a>) on <a href='https://codepen.io'>CodePen</a>.
       </iframe>`
+    },
+    {
+        uniqueIdMatch: 'z110',
+        date: '10/10/2020',
+        content: 'Other',
+        topic: 'Route File Code Splitting',
+        description: 'This is just an example, not an absolute rule.',
+        referenceLink1: '',
+        referenceLink2: '',
+        codepenEmbed: `<iframe height="2000" style="width: 100%;" scrolling="no" title="Express.js Routing File Structure Example" src="https://codepen.io/kevinmnm/embed/BaKeROB?height=265&theme-id=dark&default-tab=result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+        See the Pen <a href='https://codepen.io/kevinmnm/pen/BaKeROB'>Express.js Routing File Structure Example</a> by kevin
+        (<a href='https://codepen.io/kevinmnm'>@kevinmnm</a>) on <a href='https://codepen.io'>CodePen</a>.
+      </iframe>`
     }
     
 ];
