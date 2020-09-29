@@ -1277,6 +1277,19 @@ let AKAD = [
         See the Pen <a href='https://codepen.io/kevinmnm/pen/JjXqbev'>Express.js body-parser</a> by kevin
         (<a href='https://codepen.io/kevinmnm'>@kevinmnm</a>) on <a href='https://codepen.io'>CodePen</a>.
       </iframe>`
+    },
+    {
+        uniqueIdMatch: 'z109',
+        date: '10/09/2020',
+        content: 'Other',
+        topic: '404/Missing Page',
+        description: 'A simple an quick way to implement 404/missing page in Express.js.',
+        referenceLink1: '',
+        referenceLink2: '',
+        codepenEmbed: `<iframe height="500" style="width: 100%;" scrolling="no" title="Express.js 404 Page" src="https://codepen.io/kevinmnm/embed/BaKeWNm?height=265&theme-id=dark&default-tab=result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+        See the Pen <a href='https://codepen.io/kevinmnm/pen/BaKeWNm'>Express.js 404 Page</a> by kevin
+        (<a href='https://codepen.io/kevinmnm'>@kevinmnm</a>) on <a href='https://codepen.io'>CodePen</a>.
+      </iframe>`
     }
     
 ];
