@@ -1292,7 +1292,7 @@ let AKAD = [
       </iframe>`
     },
     {
-        uniqueIdMatch: 'z110',
+        uniqueIdMatch: 'z1010',
         date: '10/10/2020',
         content: 'Other',
         topic: 'Route File Code Splitting',
@@ -1303,6 +1303,16 @@ let AKAD = [
         See the Pen <a href='https://codepen.io/kevinmnm/pen/BaKeROB'>Express.js Routing File Structure Example</a> by kevin
         (<a href='https://codepen.io/kevinmnm'>@kevinmnm</a>) on <a href='https://codepen.io'>CodePen</a>.
       </iframe>`
+    },
+    {
+        uniqueIdMatch: 'z1011',
+        date: '10/11/2020',
+        content: 'Other',
+        topic: 'Template Engines',
+        description: 'Template engines are used in Node.js to reduce amount of HTML code. It can dynamically render certain HTML codes conditionally.',
+        referenceLink1: '',
+        referenceLink2: '',
+        codepenEmbed: `No codepen.io example available for this content. <br><br><img src='img/nodejs_template_engines.png' alt='screenshot'></img>`
     }
     
 ];
