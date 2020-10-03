@@ -1313,6 +1313,16 @@ let AKAD = [
         referenceLink1: '',
         referenceLink2: '',
         codepenEmbed: `No codepen.io example available for this content. <br><br><img src='img/nodejs_template_engines.png' alt='screenshot'></img>`
+    },
+    {
+        uniqueIdMatch: 'z1012',
+        date: '10/12/2020',
+        content: 'Other',
+        topic: '',
+        description: '',
+        referenceLink1: '',
+        referenceLink2: '',
+        codepenEmbed: ``
     }
     
 ];
