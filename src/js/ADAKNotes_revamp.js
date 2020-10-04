@@ -1326,6 +1326,19 @@ let AKAD = [
         See the Pen <a href='https://codepen.io/kevinmnm/pen/dyMxgLJ'>MongoDB Basic Setup</a> by kevin
         (<a href='https://codepen.io/kevinmnm'>@kevinmnm</a>) on <a href='https://codepen.io'>CodePen</a>.
       </iframe>`
+    },
+    {
+        uniqueIdMatch: 'z1013',
+        date: '10/13/2020',
+        content: 'Other',
+        topic: 'MongoDB Setup/Tip',
+        description: 'Continuing from last slide.',
+        referenceLink1: '',
+        referenceLink2: '',
+        codepenEmbed: `<iframe height="1000" style="width: 100%;" scrolling="no" title="MongoDB Better Setup" src="https://codepen.io/kevinmnm/embed/MWyNzGp?height=265&theme-id=dark&default-tab=result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+        See the Pen <a href='https://codepen.io/kevinmnm/pen/MWyNzGp'>MongoDB Better Setup</a> by kevin
+        (<a href='https://codepen.io/kevinmnm'>@kevinmnm</a>) on <a href='https://codepen.io'>CodePen</a>.
+      </iframe>`
     }
     
 ];
