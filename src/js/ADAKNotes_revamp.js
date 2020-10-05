@@ -1339,6 +1339,32 @@ let AKAD = [
         See the Pen <a href='https://codepen.io/kevinmnm/pen/MWyNzGp'>MongoDB Better Setup</a> by kevin
         (<a href='https://codepen.io/kevinmnm'>@kevinmnm</a>) on <a href='https://codepen.io'>CodePen</a>.
       </iframe>`
+    },
+    {
+        uniqueIdMatch: 'z1014',
+        date: '10/14/2020',
+        content: 'Vue',
+        topic: 'Vuetify Quick Reference',
+        description: 'Some of the most frequently used concepts in Vuetify.',
+        referenceLink1: '',
+        referenceLink2: '',
+        codepenEmbed: `<iframe height="1500" style="width: 100%;" scrolling="no" title="Vuetify Reference" src="https://codepen.io/kevinmnm/embed/PozYpqq?height=265&theme-id=dark&default-tab=html,result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+        See the Pen <a href='https://codepen.io/kevinmnm/pen/PozYpqq'>Vuetify Reference</a> by kevin
+        (<a href='https://codepen.io/kevinmnm'>@kevinmnm</a>) on <a href='https://codepen.io'>CodePen</a>.
+      </iframe>`
+    },
+    {
+        uniqueIdMatch: 'z1015',
+        date: '10/15/2020',
+        content: 'JS',
+        topic: '!! with || in JavaScript',
+        description: 'I\'m learning new things everyday.',
+        referenceLink1: '',
+        referenceLink2: '',
+        codepenEmbed: `<iframe height="500" style="width: 100%;" scrolling="no" title="!! in JavaScript" src="https://codepen.io/kevinmnm/embed/YzWKQKe?height=265&theme-id=dark&default-tab=result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+        See the Pen <a href='https://codepen.io/kevinmnm/pen/YzWKQKe'>!! in JavaScript</a> by kevin
+        (<a href='https://codepen.io/kevinmnm'>@kevinmnm</a>) on <a href='https://codepen.io'>CodePen</a>.
+      </iframe>`
     }
     
 ];
