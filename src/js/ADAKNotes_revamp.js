@@ -1365,6 +1365,19 @@ let AKAD = [
         See the Pen <a href='https://codepen.io/kevinmnm/pen/YzWKQKe'>!! in JavaScript</a> by kevin
         (<a href='https://codepen.io/kevinmnm'>@kevinmnm</a>) on <a href='https://codepen.io'>CodePen</a>.
       </iframe>`
+    },
+    {
+        uniqueIdMatch: 'z1016',
+        date: '10/16/2020',
+        content: 'Vue',
+        topic: 'Vuetify Grid System',
+        description: 'Quick overview on v-container, v-row, and v-col',
+        referenceLink1: '',
+        referenceLink2: '',
+        codepenEmbed: `<iframe height="1000" style="width: 100%;" scrolling="no" title="Vuetify Grid System" src="https://codepen.io/kevinmnm/embed/NWrKaRM?height=265&theme-id=dark&default-tab=result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+        See the Pen <a href='https://codepen.io/kevinmnm/pen/NWrKaRM'>Vuetify Grid System</a> by kevin
+        (<a href='https://codepen.io/kevinmnm'>@kevinmnm</a>) on <a href='https://codepen.io'>CodePen</a>.
+      </iframe>`
     }
     
 ];
